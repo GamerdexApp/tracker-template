@@ -1,0 +1,15 @@
+{
+  "title": "概要",
+  "subline": "{name}、進行状況のまとめ",
+  "progress": {
+    "title": "全体の進行状況",
+    "label": "{done}/{total}件が最大レベル"
+  },
+  "tiles": {
+    "done": "最大レベルのアイテム",
+    "levels": "到達したレベル",
+    "playthroughs": "プレイスルー"
+  },
+  "of": "全{total}件",
+  "open": "アイテムを開く"
+}

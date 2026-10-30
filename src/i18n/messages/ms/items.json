@@ -1,0 +1,12 @@
+{
+  "title": "Item",
+  "subline": "{done} daripada {total} item di tahap tertinggi",
+  "levelLabel": "Tahap {name}",
+  "levelOf": "Tahap {level} daripada {max}",
+  "hideDone": "Sembunyikan item di tahap tertinggi",
+  "topLevel": "Tahap tertinggi",
+  "empty": {
+    "title": "Tiada apa-apa untuk dipaparkan",
+    "description": "Setiap item berada di tahap tertingginya. Matikan penapis untuk melihatnya semula."
+  }
+}

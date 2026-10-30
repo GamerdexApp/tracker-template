@@ -1,0 +1,12 @@
+{
+  "title": "Items",
+  "subline": "{done} sur {total} éléments au niveau maximal",
+  "levelLabel": "Niveau de {name}",
+  "levelOf": "Niveau {level} sur {max}",
+  "hideDone": "Masquer les éléments au niveau maximal",
+  "topLevel": "Niveau maximal",
+  "empty": {
+    "title": "Rien à afficher",
+    "description": "Tous les éléments sont à leur niveau maximal. Désactivez le filtre pour les revoir."
+  }
+}

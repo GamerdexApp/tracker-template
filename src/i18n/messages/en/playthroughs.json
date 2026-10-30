@@ -1,0 +1,70 @@
+{
+  "title": "My Playthroughs",
+  "subline": "{amount} {count, plural, one {playthrough} other {playthroughs}}",
+  "sublineActive": "{amount} {count, plural, one {playthrough} other {playthroughs}}, {name} is active",
+  "newPlaythrough": "New playthrough",
+  "empty": {
+    "title": "No playthroughs yet",
+    "deletedTitle": "No playthroughs left",
+    "description": "Create a playthrough to start tracking your progress.",
+    "restore": "Restore from a backup"
+  },
+  "filters": {
+    "search": "Search playthroughs",
+    "sortLabel": "Sort by",
+    "sort": {
+      "lastModified": "Last modified",
+      "createdAt": "Date created",
+      "name": "Name"
+    },
+    "showing": "Showing {shown} of {total}",
+    "clear": "Clear search"
+  },
+  "noMatch": {
+    "title": "No playthroughs match \"{query}\"",
+    "description": "Check the spelling or clear the search."
+  },
+  "card": {
+    "active": "Active",
+    "openOverview": "Open overview",
+    "setActive": "Set active",
+    "edit": "Edit",
+    "delete": "Delete",
+    "created": "Created {date}",
+    "lastModified": "Modified {date}",
+    "switched": "{name} is now active",
+    "progress": "{done} of {total} items at top level"
+  },
+  "fields": {
+    "name": "Playthrough name",
+    "namePlaceholder": "My first playthrough",
+    "nameRequired": "Enter a name for the playthrough.",
+    "description": "Description",
+    "descriptionPlaceholder": "Add a description for this playthrough",
+    "cancel": "Cancel"
+  },
+  "create": {
+    "title": "New playthrough",
+    "submit": "Create playthrough",
+    "makeActive": "Make this the active playthrough",
+    "done": "{name} created"
+  },
+  "edit": {
+    "title": "Edit playthrough",
+    "submit": "Save",
+    "done": "{name} saved"
+  },
+  "delete": {
+    "title": "Delete playthrough",
+    "description": "This removes the playthrough from this browser.",
+    "question": "Delete {name}? Its progress is removed.",
+    "activeNext": "{next} becomes the active playthrough.",
+    "activeLast": "No playthrough will be active.",
+    "exportFirst": "Export a backup first",
+    "cancel": "Cancel",
+    "confirm": "Delete playthrough",
+    "done": "{name} deleted",
+    "doneMessage": "You can undo this for ten seconds.",
+    "undo": "Undo"
+  }
+}

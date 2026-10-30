@@ -1,0 +1,9 @@
+{
+  "gate": {
+    "title": "Etkin oynanış yok",
+    "description": "Bu sayfayı görmek için bir oynanış seç ya da yeni bir tane oluştur.",
+    "newPlaythrough": "Yeni oynanış",
+    "choosePlaythrough": "Oynanış seç"
+  },
+  "progressLabel": "{name} ilerlemesi"
+}

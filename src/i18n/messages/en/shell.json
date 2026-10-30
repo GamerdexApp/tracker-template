@@ -1,0 +1,58 @@
+{
+  "skipToContent": "Skip to content",
+  "closeMenu": "Close menu",
+  "openMenu": "Open menu",
+  "menuLabel": "Site menu",
+  "mainNav": "Main",
+  "brandTitle": "Game Name",
+  "brandSubtitle": "Tracker",
+  "switcher": {
+    "sectionLabel": "Playthrough",
+    "loading": "Loading",
+    "none": "No playthrough",
+    "noneDetail": "Create one to start",
+    "switch": "Switch playthrough",
+    "playthroughs": "Playthroughs",
+    "active": "Active",
+    "all": "All playthroughs",
+    "create": "New playthrough"
+  },
+  "footer": {
+    "tagline": "A free progress tracker for Game Name. Your data stays in your browser, or in your own cloud storage if you turn on sync.",
+    "support": "Support",
+    "about": "About",
+    "settings": "Settings",
+    "discord": "Discord",
+    "github": "GitHub",
+    "game": "Official game site",
+    "privacy": "Privacy policy",
+    "terms": "Terms of service",
+    "disclaimerTitle": "Disclaimer",
+    "disclaimer": "This project is not affiliated with, endorsed by, or connected to the publisher or developers of Game Name.",
+    "framework": "Built with the Gamerdex framework, a shared base for free game progress trackers.",
+    "visitGamerdex": "Visit Gamerdex"
+  },
+  "notFound": {
+    "title": "This page does not exist",
+    "body": "The link may be old or mistyped. Your playthroughs are safe and nothing was changed.",
+    "toOverview": "Go to Overview",
+    "toPlaythroughs": "Go to Playthroughs",
+    "toHome": "Back to home",
+    "didYouMean": "Did you mean",
+    "noPlaythrough": "No playthrough is selected, so Overview has nothing to show. Pick one on the Playthroughs page.",
+    "jumpTo": "Or jump to"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "body": "The app hit an error. Your saved data has not been changed.",
+    "digest": "digest {digest}",
+    "tryAgain": "Try again",
+    "download": "Download the raw data",
+    "clear": "Clear data and restart",
+    "confirmTitle": "Clear all saved data?",
+    "confirmBody": "This removes everything the app stored in this browser. A copy of the raw data is downloaded first so it can be repaired later. Playthroughs synced to a cloud account stay there.",
+    "cancel": "Cancel",
+    "confirm": "Download and clear",
+    "noData": "There is no saved data in this browser."
+  }
+}

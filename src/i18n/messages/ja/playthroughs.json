@@ -1,0 +1,70 @@
+{
+  "title": "プレイスルー",
+  "subline": "{count, plural, other {プレイスルー{amount}件}}",
+  "sublineActive": "{count, plural, other {プレイスルー{amount}件}}、{name}が使用中です",
+  "newPlaythrough": "新しいプレイスルー",
+  "empty": {
+    "title": "プレイスルーはまだありません",
+    "deletedTitle": "プレイスルーがなくなりました",
+    "description": "プレイスルーを作成して、進行状況の記録を始めましょう。",
+    "restore": "バックアップから復元"
+  },
+  "filters": {
+    "search": "プレイスルーを検索",
+    "sortLabel": "並べ替え",
+    "sort": {
+      "lastModified": "最終更新日",
+      "createdAt": "作成日",
+      "name": "名前"
+    },
+    "showing": "{total}件中{shown}件を表示",
+    "clear": "検索をクリア"
+  },
+  "noMatch": {
+    "title": "「{query}」に一致するプレイスルーはありません",
+    "description": "つづりを確認するか、検索をクリアしてください。"
+  },
+  "card": {
+    "active": "アクティブ",
+    "openOverview": "概要を開く",
+    "setActive": "アクティブにする",
+    "edit": "編集",
+    "delete": "削除",
+    "created": "作成日 {date}",
+    "lastModified": "更新日 {date}",
+    "switched": "{name}をアクティブにしました",
+    "progress": "{done}/{total}件が最大レベル"
+  },
+  "fields": {
+    "name": "プレイスルー名",
+    "namePlaceholder": "最初のプレイスルー",
+    "nameRequired": "プレイスルーの名前を入力してください。",
+    "description": "説明",
+    "descriptionPlaceholder": "このプレイスルーの説明を追加",
+    "cancel": "キャンセル"
+  },
+  "create": {
+    "title": "新しいプレイスルー",
+    "submit": "プレイスルーを作成",
+    "makeActive": "このプレイスルーを使用中にする",
+    "done": "{name}を作成しました"
+  },
+  "edit": {
+    "title": "プレイスルーを編集",
+    "submit": "保存",
+    "done": "{name}を保存しました"
+  },
+  "delete": {
+    "title": "プレイスルーを削除",
+    "description": "このブラウザからプレイスルーを削除します。",
+    "question": "{name}を削除しますか?進行状況も削除されます。",
+    "activeNext": "{next}が使用中になります。",
+    "activeLast": "使用中のプレイスルーはなくなります。",
+    "exportFirst": "先にバックアップをエクスポート",
+    "cancel": "キャンセル",
+    "confirm": "プレイスルーを削除",
+    "done": "{name}を削除しました",
+    "doneMessage": "10秒間は元に戻せます。",
+    "undo": "元に戻す"
+  }
+}

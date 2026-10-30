@@ -1,0 +1,12 @@
+{
+  "title": "项目",
+  "subline": "{total} 项中有 {done} 项已达最高等级",
+  "levelLabel": "{name}等级",
+  "levelOf": "第 {level} 级，共 {max} 级",
+  "hideDone": "隐藏已达最高等级的项目",
+  "topLevel": "最高等级",
+  "empty": {
+    "title": "没有可显示的内容",
+    "description": "所有项目都已达最高等级。关闭筛选即可再次查看。"
+  }
+}

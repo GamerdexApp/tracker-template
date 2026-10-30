@@ -1,0 +1,10 @@
+{
+  "chip": "Perubahan belum disimpan",
+  "leave": {
+    "title": "{count, plural, other {Anda mempunyai {amount} perubahan belum disimpan}}",
+    "body": "Simpan sebelum anda pergi, atau buangnya.",
+    "save": "Simpan dan pergi",
+    "discard": "Buang dan pergi",
+    "keep": "Teruskan menyunting"
+  }
+}

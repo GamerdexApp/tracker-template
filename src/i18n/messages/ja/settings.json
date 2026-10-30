@@ -1,0 +1,156 @@
+{
+  "title": "設定",
+  "subline": "環境設定、バックアップ、データ",
+  "tabsLabel": "設定セクション",
+  "tabs": {
+    "sync": "クラウド同期",
+    "preferences": "環境設定",
+    "data": "バックアップとデータ",
+    "about": "このアプリについて"
+  },
+  "appearance": {
+    "title": "外観",
+    "description": "アプリの見た目を選びます。",
+    "themeLabel": "テーマ",
+    "themes": {
+      "light": "ライト",
+      "dark": "ダーク",
+      "system": "システム"
+    },
+    "themeNote": "システムは端末の設定に従います。現在は{mode}です。"
+  },
+  "data": {
+    "title": "データ管理",
+    "storageNote": {
+      "title": "このブラウザに保存されています。",
+      "body": "ブラウザのデータを消去するとプレイスルーも削除されます。ときどきバックアップをエクスポートしてください。"
+    },
+    "export": {
+      "title": "エクスポート",
+      "description": "すべてのプレイスルーと設定を1つのファイルとしてダウンロードします。",
+      "button": "すべてのプレイスルーをエクスポート",
+      "done": "バックアップをダウンロードしました"
+    },
+    "import": {
+      "title": "インポート",
+      "fileLabel": "バックアップファイル",
+      "chooseFile": "ファイルを選択",
+      "noFile": "ファイルが選択されていません",
+      "description": "バックアップファイルを選びます。変更前に内容を確認できます。",
+      "review": "インポートを確認",
+      "merged": "バックアップを統合しました",
+      "replaced": "バックアップでデータを置き換えました",
+      "undo": "元に戻す"
+    },
+    "reset": {
+      "title": "すべてのデータをリセット",
+      "warning": "このブラウザのすべてのプレイスルーと設定を削除します。",
+      "button": "すべてのデータをリセット",
+      "confirmTitle": "すべて削除しますか?",
+      "confirmBody": "{names}を削除します。10秒間は元に戻せます。",
+      "cancel": "キャンセル",
+      "confirm": "すべて削除",
+      "done": "すべてのデータを削除しました",
+      "doneMessage": "{amount} {count, plural, other {プレイスルー}}を削除しました。",
+      "doneMessageDisconnected": "{amount} {count, plural, other {プレイスルー}}を削除しました。このブラウザの同期は切断されています。",
+      "syncedCopy": "{provider}の同期済みコピーも削除する",
+      "syncedOn": "同期は継続します。ほかの端末では次の同期でこれらのプレイスルーが失われます。不安な場合は先にバックアップをエクスポートしてください。",
+      "syncedOff": "これを選ばない場合、次の同期でプレイスルーが戻らないように、このブラウザの同期は切断されます。",
+      "undo": "元に戻す"
+    },
+    "playthroughs": {
+      "title": "プレイスルー",
+      "description": "プレイスルーの作成、編集、切り替え、削除ができます。",
+      "manage": "プレイスルーを管理"
+    },
+    "playthroughCount": "{amount} {count, plural, other {プレイスルー}}"
+  },
+  "importDialog": {
+    "title": "インポートを確認",
+    "fileInfo": "{name}、{size}",
+    "bytes": "{count} B",
+    "kilobytes": "{count} KB",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "merge": "この端末に統合",
+    "replace": "この端末を置き換え",
+    "failedTitle": "このファイルはインポートできません。",
+    "errors": {
+      "notJson": "このファイルは有効なJSONではありません。",
+      "playthroughsMissing": "このファイルはこのトラッカーのバックアップではありません。プレイスルーの一覧がありません。"
+    },
+    "checksTitle": "チェックに合格しました。",
+    "checks": "ファイルには{read}件のプレイスルーが記載されており、{kept}件を読み取れます。",
+    "skipped": "{amount} {count, plural, other {件のエントリ}}をスキップしました。",
+    "howToApply": "適用方法",
+    "modeLabel": "インポートモード",
+    "modes": {
+      "merge": "統合",
+      "replace": "置き換え"
+    },
+    "modeNotes": {
+      "merge": "新しいプレイスルーを追加し、両方にあるプレイスルーは新しいほうのコピーを残します。設定と使用中のプレイスルーはそのままです。",
+      "replace": "ファイルの内容だけを使います。ファイルにないプレイスルーは削除されます。"
+    },
+    "whatChanges": "変更内容",
+    "columns": {
+      "playthrough": "プレイスルー",
+      "inFile": "ファイル内",
+      "onDevice": "端末内",
+      "result": "結果"
+    },
+    "notThere": "なし",
+    "results": {
+      "added": "追加",
+      "updated": "ファイルから更新",
+      "kept": "維持",
+      "replaced": "置き換え",
+      "removed": "削除"
+    },
+    "summary": {
+      "added": "{count}件追加",
+      "updated": "{count}件更新",
+      "kept": "{count}件維持",
+      "replaced": "{count}件置き換え",
+      "removed": "{count}件削除"
+    },
+    "noPlaythroughs": "ファイルにプレイスルーがありません。",
+    "undoNote": "インポートは10秒間元に戻せます。"
+  },
+  "about": {
+    "version": "バージョン {version}",
+    "summary": "Game Name の無料の進行状況トラッカーです。複数のプレイスルーにわたって進行状況を記録できます。",
+    "officialGame": "公式ゲームサイト",
+    "disclaimer": "このプロジェクトは、Game Name の発行元や開発元とは提携しておらず、承認や関連もありません。"
+  },
+  "region": {
+    "title": "言語と地域",
+    "description": "この端末でのテキスト、数値、日付の表示方法です。この設定はプレイスルーと一緒に保存、エクスポート、同期されません。",
+    "language": {
+      "label": "言語",
+      "hint": "アプリの言語です。ゲーム内の名称は英語のままです。"
+    },
+    "numberFormat": {
+      "label": "数値の形式",
+      "hint": "例: {example}",
+      "options": {
+        "auto": "自動(言語に合わせる)",
+        "us": "1,234,567.89(米国)",
+        "european": "1.234.567,89(ヨーロッパ)",
+        "french": "1 234 567,89(フランス)",
+        "swiss": "1’234’567.89(スイス)",
+        "indian": "12,34,567.89(インド)"
+      }
+    },
+    "dateFormat": {
+      "label": "日付の形式",
+      "hint": "例: {example}",
+      "options": {
+        "auto": "自動(言語に合わせる)",
+        "mdy": "月/日/年",
+        "dmy": "日/月/年",
+        "ymd": "年-月-日"
+      }
+    }
+  }
+}

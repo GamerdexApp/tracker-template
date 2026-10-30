@@ -1,0 +1,9 @@
+{
+  "gate": {
+    "title": "Kein aktiver Spielstand",
+    "description": "Wähle einen Spielstand oder erstelle einen, um diese Seite zu sehen.",
+    "newPlaythrough": "Neuer Spielstand",
+    "choosePlaythrough": "Spielstand wählen"
+  },
+  "progressLabel": "Fortschritt von {name}"
+}

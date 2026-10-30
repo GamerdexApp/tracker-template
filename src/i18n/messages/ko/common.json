@@ -1,0 +1,9 @@
+{
+  "gate": {
+    "title": "사용 중인 플레이 기록이 없어요",
+    "description": "이 페이지를 보려면 플레이 기록을 고르거나 새로 만드세요.",
+    "newPlaythrough": "새 플레이 기록",
+    "choosePlaythrough": "플레이 기록 선택"
+  },
+  "progressLabel": "{name} 진행도"
+}

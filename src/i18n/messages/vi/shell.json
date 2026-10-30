@@ -1,0 +1,58 @@
+{
+  "skipToContent": "Chuyển đến nội dung",
+  "closeMenu": "Đóng menu",
+  "openMenu": "Mở menu",
+  "menuLabel": "Menu trang",
+  "mainNav": "Chính",
+  "brandTitle": "Game Name",
+  "brandSubtitle": "Tracker",
+  "switcher": {
+    "sectionLabel": "Lượt chơi",
+    "loading": "Đang tải",
+    "none": "Không có lượt chơi",
+    "noneDetail": "Tạo một lượt chơi để bắt đầu",
+    "switch": "Đổi lượt chơi",
+    "playthroughs": "Lượt chơi",
+    "active": "Đang dùng",
+    "all": "Tất cả lượt chơi",
+    "create": "Lượt chơi mới"
+  },
+  "footer": {
+    "tagline": "Công cụ theo dõi tiến độ miễn phí cho Game Name. Dữ liệu của bạn nằm trong trình duyệt, hoặc trong kho lưu trữ đám mây của bạn nếu bạn bật đồng bộ.",
+    "support": "Hỗ trợ",
+    "about": "Giới thiệu",
+    "settings": "Cài đặt",
+    "discord": "Discord",
+    "github": "GitHub",
+    "game": "Trang chính thức của game",
+    "privacy": "Chính sách quyền riêng tư",
+    "terms": "Điều khoản dịch vụ",
+    "disclaimerTitle": "Tuyên bố miễn trừ",
+    "disclaimer": "Dự án này không liên kết với, không được xác nhận bởi và không có quan hệ với nhà phát hành hay nhà phát triển của Game Name.",
+    "framework": "Xây dựng bằng framework Gamerdex, nền tảng chung cho các công cụ theo dõi tiến độ game miễn phí.",
+    "visitGamerdex": "Truy cập Gamerdex"
+  },
+  "notFound": {
+    "title": "Trang này không tồn tại",
+    "body": "Liên kết có thể đã cũ hoặc bị gõ sai. Các lượt chơi của bạn vẫn an toàn và không có gì bị thay đổi.",
+    "toOverview": "Đến Tổng quan",
+    "toPlaythroughs": "Đến trang Lượt chơi",
+    "toHome": "Về trang chủ",
+    "didYouMean": "Có phải bạn muốn",
+    "noPlaythrough": "Chưa chọn lượt chơi nào nên Tổng quan không có gì để hiển thị. Hãy chọn một lượt chơi ở trang Lượt chơi.",
+    "jumpTo": "Hoặc chuyển đến"
+  },
+  "error": {
+    "title": "Đã xảy ra lỗi",
+    "body": "Ứng dụng gặp lỗi. Dữ liệu đã lưu của bạn không bị thay đổi.",
+    "digest": "digest {digest}",
+    "tryAgain": "Thử lại",
+    "download": "Tải dữ liệu thô",
+    "clear": "Xóa dữ liệu và khởi động lại",
+    "confirmTitle": "Xóa toàn bộ dữ liệu đã lưu?",
+    "confirmBody": "Thao tác này xóa mọi thứ ứng dụng đã lưu trong trình duyệt này. Một bản sao dữ liệu gốc sẽ được tải xuống trước để có thể sửa lại sau. Các lượt chơi đã đồng bộ với tài khoản đám mây vẫn được giữ ở đó.",
+    "cancel": "Hủy",
+    "confirm": "Tải về và xóa",
+    "noData": "Không có dữ liệu đã lưu trong trình duyệt này."
+  }
+}

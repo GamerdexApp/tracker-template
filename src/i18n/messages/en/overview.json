@@ -1,0 +1,15 @@
+{
+  "title": "Overview",
+  "subline": "{name}, summary of your progress",
+  "progress": {
+    "title": "Overall progress",
+    "label": "{done} of {total} items at top level"
+  },
+  "tiles": {
+    "done": "Items at top level",
+    "levels": "Levels reached",
+    "playthroughs": "Playthroughs"
+  },
+  "of": "of {total}",
+  "open": "Open items"
+}

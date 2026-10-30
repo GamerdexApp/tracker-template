@@ -1,0 +1,86 @@
+{
+  "header": {
+    "label": "Bagian halaman",
+    "features": "Fitur",
+    "faq": "FAQ",
+    "playthroughs": "Permainan",
+    "settings": "Pengaturan"
+  },
+  "hero": {
+    "title": "Lacak progres game-mu",
+    "description": "Simpan semua permainan di satu tempat: koleksi, peningkatan, dan pencapaian, tersimpan begitu kamu mengubahnya.",
+    "note": "Gratis. Tanpa akun. Semua data tetap di browsermu.",
+    "continue": "Lanjutkan dengan",
+    "continueLine": "Diperbarui {updated}"
+  },
+  "cta": {
+    "create": "Buat permainan pertamamu",
+    "learnMore": "Pelajari lebih lanjut",
+    "overview": "Buka Ikhtisar",
+    "newPlaythrough": "Permainan baru"
+  },
+  "features": {
+    "label": "Semua yang kamu butuhkan",
+    "title": "Semua progresmu di satu tempat",
+    "description": "Setiap level yang kamu lacak tersimpan begitu kamu mengubahnya.",
+    "items": {
+      "item1": {
+        "title": "Banyak permainan",
+        "text": "Buat dan kelola permainan tanpa batas, dan lacak masing-masing secara terpisah."
+      },
+      "item2": {
+        "title": "Pelacakan progres",
+        "text": "Lacak persis apa yang sudah kamu selesaikan, kumpulkan, atau buka di setiap permainan."
+      },
+      "item3": {
+        "title": "Ikhtisar",
+        "text": "Lihat progresmu sekilas dengan statistik ringkasan, timer harian, dan penanda penyelesaian."
+      },
+      "item4": {
+        "title": "Cadangan dan sinkron",
+        "text": "Ekspor progresmu sebagai file JSON, atau sinkronkan antar perangkat dengan penyimpanan cloud milikmu."
+      },
+      "item5": {
+        "title": "Private",
+        "text": "Datamu tetap di browser kecuali kamu mengaktifkan sinkronisasi."
+      },
+      "item6": {
+        "title": "Dark mode",
+        "text": "Comfortable to use day or night. Choose light, dark or follow your device in Settings."
+      }
+    }
+  },
+  "faq": {
+    "label": "Ada pertanyaan?",
+    "title": "Pertanyaan yang sering diajukan",
+    "items": {
+      "item1": {
+        "question": "Apa itu Game Name Tracker?",
+        "answer": "Ini pelacak progres untuk Game Name. Alat ini membantumu mengelola beberapa permainan dan melacak peningkatan, koleksi, dan progres keseluruhan."
+      },
+      "item2": {
+        "question": "Bagaimana data saya disimpan?",
+        "answer": "Semuanya disimpan di browser, jadi progresmu pribadi dan tidak butuh akun. Kamu bisa mengekspor dan mengimpornya sebagai file JSON untuk cadangan."
+      },
+      "item3": {
+        "question": "Bisakah aku melacak beberapa permainan?",
+        "answer": "Bisa. Buat sebanyak yang kamu mau, masing-masing dengan progresnya sendiri, dan ganti di sidebar."
+      },
+      "item4": {
+        "question": "Apakah bisa sinkron antar perangkat?",
+        "answer": "Bisa, kalau kamu mau. Buka Pengaturan dan hubungkan GitHub, Google Drive, Dropbox, atau OneDrive. Datamu disimpan di akunmu sendiri, dan sinkron tetap mati sampai kamu menyalakannya."
+      },
+      "item5": {
+        "question": "Apakah aplikasi ini gratis?",
+        "answer": "Ya. Gratis, tanpa langganan, tanpa iklan, dan tanpa pendaftaran."
+      }
+    }
+  },
+  "final": {
+    "title": "Mulai lacak permainanmu hari ini",
+    "description": "Tanpa akun dan tanpa daftar. Permainan pertamamu hanya butuh satu nama."
+  },
+  "updated": {
+    "justNow": "baru saja"
+  }
+}

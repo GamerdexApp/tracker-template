@@ -1,0 +1,12 @@
+{
+  "title": "Eşyalar",
+  "subline": "{total} eşyanın {done} tanesi en yüksek seviyede",
+  "levelLabel": "{name} seviyesi",
+  "levelOf": "Seviye {level} / {max}",
+  "hideDone": "En yüksek seviyedeki eşyaları gizle",
+  "topLevel": "En yüksek seviye",
+  "empty": {
+    "title": "Gösterilecek bir şey yok",
+    "description": "Her eşya en yüksek seviyede. Tekrar görmek için filtreyi kapat."
+  }
+}

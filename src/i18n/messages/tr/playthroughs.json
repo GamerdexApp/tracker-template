@@ -1,0 +1,70 @@
+{
+  "title": "Oynanışlarım",
+  "subline": "{amount} {count, plural, one {oynanış} other {oynanış}}",
+  "sublineActive": "{amount} {count, plural, one {oynanış} other {oynanış}}, etkin olan: {name}",
+  "newPlaythrough": "Yeni oynanış",
+  "empty": {
+    "title": "Henüz oynanış yok",
+    "deletedTitle": "Hiç oynanış kalmadı",
+    "description": "İlerlemeni takip etmeye başlamak için bir oynanış oluştur.",
+    "restore": "Yedekten geri yükle"
+  },
+  "filters": {
+    "search": "Oynanışlarda ara",
+    "sortLabel": "Sırala",
+    "sort": {
+      "lastModified": "Son değiştirilme",
+      "createdAt": "Oluşturulma tarihi",
+      "name": "Ad"
+    },
+    "showing": "{total} oynanıştan {shown} tanesi gösteriliyor",
+    "clear": "Aramayı temizle"
+  },
+  "noMatch": {
+    "title": "\"{query}\" ile eşleşen oynanış yok",
+    "description": "Yazımı kontrol et veya aramayı temizle."
+  },
+  "card": {
+    "active": "Etkin",
+    "openOverview": "Genel Bakışı aç",
+    "setActive": "Etkin yap",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "created": "Oluşturuldu: {date}",
+    "lastModified": "Değiştirildi: {date}",
+    "switched": "{name} artık etkin",
+    "progress": "{total} eşyanın {done} tanesi en yüksek seviyede"
+  },
+  "fields": {
+    "name": "Oynanış adı",
+    "namePlaceholder": "İlk oynanışım",
+    "nameRequired": "Oynanış için bir ad gir.",
+    "description": "Açıklama",
+    "descriptionPlaceholder": "Bu oynanış için bir açıklama ekle",
+    "cancel": "İptal"
+  },
+  "create": {
+    "title": "Yeni oynanış",
+    "submit": "Oynanış oluştur",
+    "makeActive": "Bu oynanışı etkin yap",
+    "done": "{name} oluşturuldu"
+  },
+  "edit": {
+    "title": "Oynanışı düzenle",
+    "submit": "Kaydet",
+    "done": "{name} kaydedildi"
+  },
+  "delete": {
+    "title": "Oynanışı sil",
+    "description": "Bu işlem oynanışı bu tarayıcıdan kaldırır.",
+    "question": "{name} silinsin mi? İlerlemesi kaldırılır.",
+    "activeNext": "{next} etkin oynanış olur.",
+    "activeLast": "Hiçbir oynanış etkin olmayacak.",
+    "exportFirst": "Önce yedek dışa aktar",
+    "cancel": "İptal",
+    "confirm": "Oynanışı sil",
+    "done": "{name} silindi",
+    "doneMessage": "On saniye boyunca geri alabilirsin.",
+    "undo": "Geri al"
+  }
+}

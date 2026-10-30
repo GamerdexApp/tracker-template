@@ -1,0 +1,15 @@
+{
+  "title": "總覽",
+  "subline": "{name}，你的進度摘要",
+  "progress": {
+    "title": "整體進度",
+    "label": "{total} 項中有 {done} 項已達最高等級"
+  },
+  "tiles": {
+    "done": "已達最高等級的項目",
+    "levels": "已達到的等級",
+    "playthroughs": "存檔"
+  },
+  "of": "共 {total}",
+  "open": "開啟項目"
+}

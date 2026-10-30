@@ -1,0 +1,58 @@
+{
+  "skipToContent": "Ir para o conteúdo",
+  "closeMenu": "Fechar menu",
+  "openMenu": "Abrir menu",
+  "menuLabel": "Menu do site",
+  "mainNav": "Principal",
+  "brandTitle": "Game Name",
+  "brandSubtitle": "Tracker",
+  "switcher": {
+    "sectionLabel": "Partida",
+    "loading": "Carregando",
+    "none": "Nenhuma partida",
+    "noneDetail": "Crie uma para começar",
+    "switch": "Trocar de partida",
+    "playthroughs": "Partidas",
+    "active": "Ativa",
+    "all": "Todas as partidas",
+    "create": "Nova partida"
+  },
+  "footer": {
+    "tagline": "Um tracker de progresso gratuito para Game Name. Seus dados ficam no seu navegador, ou no seu próprio armazenamento na nuvem se você ativar a sincronização.",
+    "support": "Suporte",
+    "about": "Sobre",
+    "settings": "Configurações",
+    "discord": "Discord",
+    "github": "GitHub",
+    "game": "Site oficial do jogo",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de serviço",
+    "disclaimerTitle": "Aviso legal",
+    "disclaimer": "Este projeto não é afiliado, endossado nem conectado à publicadora ou aos desenvolvedores de Game Name.",
+    "framework": "Criado com o framework Gamerdex, uma base compartilhada para acompanhadores gratuitos de progresso em jogos.",
+    "visitGamerdex": "Visitar o Gamerdex"
+  },
+  "notFound": {
+    "title": "Esta página não existe",
+    "body": "O link pode ser antigo ou estar digitado errado. Suas partidas estão seguras e nada foi alterado.",
+    "toOverview": "Ir para a Visão geral",
+    "toPlaythroughs": "Ir para Partidas",
+    "toHome": "Voltar ao início",
+    "didYouMean": "Você quis dizer",
+    "noPlaythrough": "Nenhuma partida está selecionada, então a Visão geral não tem nada para mostrar. Escolha uma na página Partidas.",
+    "jumpTo": "Ou vá para"
+  },
+  "error": {
+    "title": "Algo deu errado",
+    "body": "O app encontrou um erro. Seus dados salvos não foram alterados.",
+    "digest": "resumo {digest}",
+    "tryAgain": "Tentar de novo",
+    "download": "Baixar os dados brutos",
+    "clear": "Limpar dados e reiniciar",
+    "confirmTitle": "Limpar todos os dados salvos?",
+    "confirmBody": "Isso remove tudo o que o app guardou neste navegador. Antes, uma cópia dos dados brutos é baixada para que possam ser reparados depois. As partidas sincronizadas com uma conta na nuvem continuam lá.",
+    "cancel": "Cancelar",
+    "confirm": "Baixar e limpar",
+    "noData": "Não há dados salvos neste navegador."
+  }
+}

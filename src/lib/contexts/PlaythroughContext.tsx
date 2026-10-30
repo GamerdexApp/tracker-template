@@ -1,115 +1,77 @@
 "use client";
 
-import React, { createContext, useContext, useEffect, useRef, useState } from "react";
-import type { AppData, Playthrough } from "@/types/app";
-import type { PlaythroughContextType } from "@/types/contexts";
+import React, { createContext, useContext, useState, useSyncExternalStore } from "react";
+
+import { useIsHydrated } from "@/lib/hooks/useIsHydrated";
+import * as appData from "@/service/appData";
+import { defaultSettings } from "@/service/migrate";
 import { storageService } from "@/service/storage";
+import type { PlaythroughContextType } from "@/types/contexts";
 
 const PlaythroughContext = createContext<PlaythroughContextType | undefined>(undefined);
 
-export function PlaythroughProvider({ children }: { children: React.ReactNode }) {
-	const [appData, setAppData] = useState<AppData>(() => storageService.load());
-	const isLoadedRef = useRef(false);
+export const PlaythroughProvider = ({ children }: { children: React.ReactNode }) => {
+	const data = useSyncExternalStore(
+		storageService.subscribe,
+		storageService.load,
+		storageService.loadOnServer
+	);
+	const isLoaded = useIsHydrated();
+	const [lastSavedAt, setLastSavedAt] = useState<Date | null>(null);
+	const [saveFailed, setSaveFailed] = useState(false);
 
-	// Auto-save to localStorage on every state change (skip initial mount)
-	useEffect(() => {
-		if (isLoadedRef.current) {
-			storageService.save(appData);
-		} else {
-			isLoadedRef.current = true;
-		}
-	}, [appData]);
+	const updateData: PlaythroughContextType["updateData"] = (update) => {
+		const previous = storageService.load();
+		const saved = storageService.save(update(previous));
+
+		setSaveFailed(!saved);
+		if (saved) setLastSavedAt(new Date());
+		return saved ? previous : null;
+	};
 
 	const activePlaythrough =
-		appData.playthroughs.find((p) => p.id === appData.activePlaythroughId) || null;
-
-	const setActivePlaythrough = (id: string | null) => {
-		setAppData((prev) => ({ ...prev, activePlaythroughId: id }));
-	};
-
-	const addPlaythrough = (
-		playthrough: Omit<Playthrough, "id" | "createdAt" | "lastModified">
-	) => {
-		const now = new Date().toISOString();
-		const newPlaythrough: Playthrough = {
-			...playthrough,
-			id: crypto.randomUUID(),
-			createdAt: now,
-			lastModified: now,
-			// CHANGE_ME: Add default game-specific data here
-			// e.g., data: { completedQuests: [], unlockedItems: {} }
-			data: playthrough.data ?? {},
-		};
-
-		setAppData((prev) => {
-			const newPlaythroughs = [...prev.playthroughs, newPlaythrough];
-			const newActiveId =
-				prev.playthroughs.length === 0 ? newPlaythrough.id : prev.activePlaythroughId;
-
-			return { playthroughs: newPlaythroughs, activePlaythroughId: newActiveId };
-		});
-	};
-
-	const updatePlaythrough = (id: string, updates: Partial<Playthrough>) => {
-		setAppData((prev) => ({
-			...prev,
-			playthroughs: prev.playthroughs.map((p) =>
-				p.id === id ? { ...p, ...updates, lastModified: new Date().toISOString() } : p
-			),
-		}));
-	};
-
-	const deletePlaythrough = (id: string) => {
-		setAppData((prev) => {
-			const newPlaythroughs = prev.playthroughs.filter((p) => p.id !== id);
-			const newActiveId =
-				prev.activePlaythroughId === id
-					? newPlaythroughs[0]?.id || null
-					: prev.activePlaythroughId;
-
-			return { playthroughs: newPlaythroughs, activePlaythroughId: newActiveId };
-		});
-	};
-
-	const importData = (jsonString: string) => {
-		const result = storageService.importData(jsonString);
-		if (result.success) {
-			const data = storageService.load();
-			setAppData(data);
-		}
-		return result;
-	};
-
-	const exportData = () => storageService.exportData();
-
-	const clearAllData = () => {
-		setAppData({ playthroughs: [], activePlaythroughId: null });
-		storageService.clear();
-	};
+		data.playthroughs.find((p) => p.id === data.activePlaythroughId) ?? null;
 
 	return (
 		<PlaythroughContext.Provider
 			value={{
-				playthroughs: appData.playthroughs,
+				appData: data,
+				playthroughs: data.playthroughs,
 				activePlaythrough,
-				setActivePlaythrough,
-				addPlaythrough,
-				updatePlaythrough,
-				deletePlaythrough,
-				importData,
-				exportData,
-				clearAllData,
+				isLoaded,
+				lastSavedAt,
+				saveFailed,
+				appSettings: data.settings ?? defaultSettings,
+				updateData,
+				setActivePlaythrough: (id) => {
+					updateData((current) => appData.setActivePlaythrough(current, id));
+				},
+				addPlaythrough: (input, options) => {
+					const id = crypto.randomUUID();
+					const previous = updateData((current) =>
+						appData.addPlaythrough(current, input, { ...options, id })
+					);
+					return previous ? id : null;
+				},
+				updatePlaythrough: (id, updates) => {
+					updateData((current) => appData.updatePlaythrough(current, id, updates));
+				},
+				deletePlaythrough: (id) =>
+					updateData((current) => appData.deletePlaythrough(current, id)),
+				updateSettings: (patch) => {
+					updateData((current) => appData.updateSettings(current, patch));
+				},
 			}}
 		>
 			{children}
 		</PlaythroughContext.Provider>
 	);
-}
+};
 
-export function usePlaythrough() {
+export const usePlaythrough = () => {
 	const context = useContext(PlaythroughContext);
 	if (context === undefined) {
-		throw new Error("usePlaythrough must be used within a PlaythroughProvider");
+		throw new Error("usePlaythrough must be used within a PlaythroughProvider"); // i18n-ignore
 	}
 	return context;
-}
+};

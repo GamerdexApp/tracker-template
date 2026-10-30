@@ -1,0 +1,86 @@
+{
+  "header": {
+    "label": "Bahagian halaman",
+    "features": "Ciri",
+    "faq": "Soalan lazim",
+    "playthroughs": "Permainan",
+    "settings": "Tetapan"
+  },
+  "hero": {
+    "title": "Jejak Kemajuan Permainan Anda",
+    "description": "Simpan setiap permainan di satu tempat: koleksi, naik taraf dan pencapaian, disimpan sebaik sahaja anda mengubahnya.",
+    "note": "Percuma. Tanpa akaun. Semua data kekal dalam pelayar anda.",
+    "continue": "Teruskan dengan",
+    "continueLine": "Dikemas kini {updated}"
+  },
+  "cta": {
+    "create": "Cipta permainan pertama anda",
+    "learnMore": "Ketahui lebih lanjut",
+    "overview": "Pergi ke Gambaran keseluruhan",
+    "newPlaythrough": "Permainan baharu"
+  },
+  "features": {
+    "label": "Semua yang anda perlukan",
+    "title": "Semua kemajuan anda di satu tempat",
+    "description": "Setiap tahap yang anda jejak disimpan sebaik sahaja anda mengubahnya.",
+    "items": {
+      "item1": {
+        "title": "Banyak permainan",
+        "text": "Cipta dan urus permainan tanpa had dan jejak setiap satu secara berasingan."
+      },
+      "item2": {
+        "title": "Penjejakan kemajuan",
+        "text": "Jejak dengan tepat apa yang telah anda selesaikan, kumpulkan atau buka merentas setiap permainan."
+      },
+      "item3": {
+        "title": "Gambaran keseluruhan",
+        "text": "Lihat kemajuan anda sekilas pandang dengan statistik ringkasan, pemasa harian dan penunjuk kesiapan."
+      },
+      "item4": {
+        "title": "Sandaran dan segerak",
+        "text": "Eksport kemajuan anda sebagai fail JSON, atau segerakkannya merentas peranti dengan storan awan anda sendiri."
+      },
+      "item5": {
+        "title": "Private",
+        "text": "Data anda kekal dalam pelayar anda melainkan anda menghidupkan segerak."
+      },
+      "item6": {
+        "title": "Dark mode",
+        "text": "Comfortable to use day or night. Choose light, dark or follow your device in Settings."
+      }
+    }
+  },
+  "faq": {
+    "label": "Ada soalan?",
+    "title": "Soalan lazim",
+    "items": {
+      "item1": {
+        "question": "Apakah Game Name Tracker?",
+        "answer": "Ia ialah penjejak kemajuan untuk Game Name. Ia membantu anda mengurus beberapa permainan dan menjejak naik taraf, koleksi dan kemajuan keseluruhan anda."
+      },
+      "item2": {
+        "question": "Bagaimana data saya disimpan?",
+        "answer": "Semuanya disimpan dalam pelayar anda, jadi kemajuan anda peribadi dan tidak perlukan akaun. Anda boleh mengeksport dan mengimportnya sebagai fail JSON untuk sandaran."
+      },
+      "item3": {
+        "question": "Bolehkah saya menjejak banyak permainan?",
+        "answer": "Boleh. Cipta seberapa banyak permainan yang anda mahu, masing-masing dengan kemajuannya sendiri, dan tukar antaranya di bar sisi."
+      },
+      "item4": {
+        "question": "Adakah ia menyegerak merentas peranti?",
+        "answer": "Ya, jika anda mahu. Buka Tetapan dan sambung GitHub, Google Drive, Dropbox atau OneDrive. Data anda disimpan dalam akaun anda sendiri, dan segerak kekal mati sehingga anda menghidupkannya."
+      },
+      "item5": {
+        "question": "Adakah aplikasi ini percuma?",
+        "answer": "Ya. Ia percuma, tanpa langganan, tanpa iklan dan tanpa pendaftaran."
+      }
+    }
+  },
+  "final": {
+    "title": "Mula jejak permainan anda hari ini",
+    "description": "Tanpa akaun dan tanpa pendaftaran. Permainan pertama anda hanya perlukan satu nama."
+  },
+  "updated": {
+    "justNow": "baru sahaja"
+  }
+}

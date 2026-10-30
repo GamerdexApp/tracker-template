@@ -1,0 +1,12 @@
+{
+  "title": "Objetos",
+  "subline": "{done} de {total} objetos al nivel máximo",
+  "levelLabel": "Nivel de {name}",
+  "levelOf": "Nivel {level} de {max}",
+  "hideDone": "Ocultar objetos al nivel máximo",
+  "topLevel": "Nivel máximo",
+  "empty": {
+    "title": "Nada que mostrar",
+    "description": "Todos los objetos están en su nivel máximo. Desactiva el filtro para verlos de nuevo."
+  }
+}

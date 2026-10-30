@@ -1,0 +1,12 @@
+{
+  "title": "아이템",
+  "subline": "{done}/{total}개 최고 레벨",
+  "levelLabel": "{name} 레벨",
+  "levelOf": "레벨 {level}/{max}",
+  "hideDone": "최고 레벨 아이템 숨기기",
+  "topLevel": "최고 레벨",
+  "empty": {
+    "title": "보여 줄 항목이 없어요",
+    "description": "모든 아이템이 최고 레벨이에요. 필터를 끄면 다시 볼 수 있어요."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "skipToContent": "Lompat ke konten",
+  "closeMenu": "Tutup menu",
+  "openMenu": "Buka menu",
+  "menuLabel": "Menu situs",
+  "mainNav": "Utama",
+  "brandTitle": "Game Name",
+  "brandSubtitle": "Tracker",
+  "switcher": {
+    "sectionLabel": "Permainan",
+    "loading": "Memuat",
+    "none": "Tanpa permainan",
+    "noneDetail": "Buat satu untuk memulai",
+    "switch": "Ganti permainan",
+    "playthroughs": "Permainan",
+    "active": "Aktif",
+    "all": "Semua permainan",
+    "create": "Permainan baru"
+  },
+  "footer": {
+    "tagline": "Pelacak progres gratis untuk Game Name. Datamu tetap di browser, atau di penyimpanan cloud milikmu jika kamu mengaktifkan sinkronisasi.",
+    "support": "Dukungan",
+    "about": "Tentang",
+    "settings": "Pengaturan",
+    "discord": "Discord",
+    "github": "GitHub",
+    "game": "Situs resmi game",
+    "privacy": "Kebijakan privasi",
+    "terms": "Ketentuan layanan",
+    "disclaimerTitle": "Penafian",
+    "disclaimer": "Proyek ini tidak berafiliasi dengan, didukung oleh, atau terhubung dengan penerbit atau pengembang Game Name.",
+    "framework": "Dibuat dengan framework Gamerdex, dasar bersama untuk pelacak progres game gratis.",
+    "visitGamerdex": "Kunjungi Gamerdex"
+  },
+  "notFound": {
+    "title": "Halaman ini tidak ada",
+    "body": "Tautannya mungkin sudah lama atau salah ketik. Permainanmu aman dan tidak ada yang berubah.",
+    "toOverview": "Buka Ikhtisar",
+    "toPlaythroughs": "Ke Permainan",
+    "toHome": "Kembali ke beranda",
+    "didYouMean": "Maksudmu",
+    "noPlaythrough": "Tidak ada permainan yang dipilih, jadi Ikhtisar tidak punya apa-apa untuk ditampilkan. Pilih satu di halaman Permainan.",
+    "jumpTo": "Atau lompat ke"
+  },
+  "error": {
+    "title": "Terjadi kesalahan",
+    "body": "Aplikasi mengalami error. Data tersimpanmu tidak berubah.",
+    "digest": "digest {digest}",
+    "tryAgain": "Coba lagi",
+    "download": "Unduh data mentah",
+    "clear": "Hapus data dan mulai ulang",
+    "confirmTitle": "Hapus semua data tersimpan?",
+    "confirmBody": "Ini menghapus semua yang disimpan aplikasi di browser ini. Salinan data mentah diunduh dulu agar bisa diperbaiki nanti. Permainan yang disinkronkan ke akun cloud tetap ada di sana.",
+    "cancel": "Batal",
+    "confirm": "Unduh dan hapus",
+    "noData": "Tidak ada data tersimpan di browser ini."
+  }
+}

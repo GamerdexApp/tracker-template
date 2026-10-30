@@ -1,0 +1,12 @@
+{
+  "title": "Items",
+  "subline": "{done} of {total} items at top level",
+  "levelLabel": "{name} level",
+  "levelOf": "Level {level} of {max}",
+  "hideDone": "Hide items at top level",
+  "topLevel": "Top level",
+  "empty": {
+    "title": "Nothing to show",
+    "description": "Every item is at its top level. Turn off the filter to see them again."
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "title": "Configurações",
+  "subline": "Preferências, backups e seus dados",
+  "tabsLabel": "Seções das configurações",
+  "tabs": {
+    "sync": "Sincronização na nuvem",
+    "preferences": "Preferências",
+    "data": "Backup e dados",
+    "about": "Sobre"
+  },
+  "appearance": {
+    "title": "Aparência",
+    "description": "Escolha como o app aparece.",
+    "themeLabel": "Tema",
+    "themes": {
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema"
+    },
+    "themeNote": "O tema Sistema segue o seu dispositivo. Agora ele está {mode}."
+  },
+  "data": {
+    "title": "Gerenciamento de dados",
+    "storageNote": {
+      "title": "Salvo neste navegador.",
+      "body": "Limpar os dados do navegador remove suas partidas. Exporte um backup de vez em quando."
+    },
+    "export": {
+      "title": "Exportar",
+      "description": "Baixe todas as partidas e suas configurações em um único arquivo.",
+      "button": "Exportar todas as partidas",
+      "done": "Backup baixado"
+    },
+    "import": {
+      "title": "Importar",
+      "fileLabel": "Arquivo de backup",
+      "chooseFile": "Escolher arquivo",
+      "noFile": "Nenhum arquivo escolhido",
+      "description": "Escolha um arquivo de backup. Você revisa tudo antes de qualquer alteração.",
+      "review": "Revisar importação",
+      "merged": "Backup mesclado",
+      "replaced": "O backup substituiu seus dados",
+      "undo": "Desfazer"
+    },
+    "reset": {
+      "title": "Apagar todos os dados",
+      "warning": "Exclui todas as partidas e configurações neste navegador.",
+      "button": "Apagar todos os dados",
+      "confirmTitle": "Excluir tudo?",
+      "confirmBody": "Isso remove {names}. Você pode desfazer por dez segundos.",
+      "cancel": "Cancelar",
+      "confirm": "Excluir tudo",
+      "done": "Todos os dados excluídos",
+      "doneMessage": "{amount} {count, plural, one {partida removida} other {partidas removidas}}.",
+      "doneMessageDisconnected": "{amount} {count, plural, one {partida removida} other {partidas removidas}}. A sincronização foi desconectada neste navegador.",
+      "syncedCopy": "Excluir também a cópia sincronizada em {provider}",
+      "syncedOn": "A sincronização continua ativa. Seus outros dispositivos perdem essas partidas na próxima sincronização. Se não tiver certeza, exporte um backup antes.",
+      "syncedOff": "Sem isso, a sincronização é desconectada neste navegador para que a próxima sincronização não traga as partidas de volta.",
+      "undo": "Desfazer"
+    },
+    "playthroughs": {
+      "title": "Partidas",
+      "description": "Crie, edite, troque e exclua partidas.",
+      "manage": "Gerenciar partidas"
+    },
+    "playthroughCount": "{amount} {count, plural, one {partida} other {partidas}}"
+  },
+  "importDialog": {
+    "title": "Revisar importação",
+    "fileInfo": "{name}, {size}",
+    "bytes": "{count} B",
+    "kilobytes": "{count} KB",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "merge": "Mesclar neste dispositivo",
+    "replace": "Substituir neste dispositivo",
+    "failedTitle": "Não foi possível importar este arquivo.",
+    "errors": {
+      "notJson": "Este arquivo não é um JSON válido.",
+      "playthroughsMissing": "Este arquivo não é um backup deste tracker. Ele não tem a lista de partidas."
+    },
+    "checksTitle": "Verificações concluídas.",
+    "checks": "O arquivo lista {read} partidas e {kept} podem ser lidas.",
+    "skipped": "{amount} {count, plural, one {item foi ignorado} other {itens foram ignorados}}.",
+    "howToApply": "Como aplicar",
+    "modeLabel": "Modo de importação",
+    "modes": {
+      "merge": "Mesclar",
+      "replace": "Substituir"
+    },
+    "modeNotes": {
+      "merge": "Adiciona as partidas novas e mantém a cópia mais recente de uma partida que existe nos dois. Suas configurações e a partida ativa continuam.",
+      "replace": "Usa só o que está no arquivo. As partidas que não estão no arquivo são removidas."
+    },
+    "whatChanges": "O que muda",
+    "columns": {
+      "playthrough": "Partida",
+      "inFile": "No arquivo",
+      "onDevice": "No dispositivo",
+      "result": "Resultado"
+    },
+    "notThere": "Ausente",
+    "results": {
+      "added": "Adicionada",
+      "updated": "Atualizada pelo arquivo",
+      "kept": "Mantida",
+      "replaced": "Substituída",
+      "removed": "Removida"
+    },
+    "summary": {
+      "added": "{count} adicionadas",
+      "updated": "{count} atualizadas",
+      "kept": "{count} mantidas",
+      "replaced": "{count} substituídas",
+      "removed": "{count} removidas"
+    },
+    "noPlaythroughs": "O arquivo não tem partidas.",
+    "undoNote": "Você pode desfazer a importação por dez segundos."
+  },
+  "about": {
+    "version": "Versão {version}",
+    "summary": "Um tracker de progresso gratuito para Game Name. Acompanhe seu progresso em várias partidas.",
+    "officialGame": "Site oficial do jogo",
+    "disclaimer": "Este projeto não é afiliado, endossado nem conectado à publicadora ou aos desenvolvedores de Game Name."
+  },
+  "region": {
+    "title": "Idioma e região",
+    "description": "Como o app mostra texto, números e datas neste dispositivo. Essas escolhas não são salvas com suas partidas, nem exportadas, nem sincronizadas.",
+    "language": {
+      "label": "Idioma",
+      "hint": "O idioma do app. Os nomes do jogo continuam em inglês."
+    },
+    "numberFormat": {
+      "label": "Formato de número",
+      "hint": "Exemplo: {example}",
+      "options": {
+        "auto": "Automático (segue o idioma)",
+        "us": "1,234,567.89 (EUA)",
+        "european": "1.234.567,89 (europeu)",
+        "french": "1 234 567,89 (francês)",
+        "swiss": "1’234’567.89 (suíço)",
+        "indian": "12,34,567.89 (indiano)"
+      }
+    },
+    "dateFormat": {
+      "label": "Formato de data",
+      "hint": "Exemplo: {example}",
+      "options": {
+        "auto": "Automático (segue o idioma)",
+        "mdy": "Mês/Dia/Ano",
+        "dmy": "Dia/Mês/Ano",
+        "ymd": "Ano-Mês-Dia"
+      }
+    }
+  }
+}

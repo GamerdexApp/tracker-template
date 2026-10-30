@@ -1,0 +1,86 @@
+{
+  "header": {
+    "label": "頁面分類",
+    "features": "功能",
+    "faq": "常見問題",
+    "playthroughs": "存檔",
+    "settings": "設定"
+  },
+  "hero": {
+    "title": "追蹤你的遊戲進度",
+    "description": "把每個存檔放在同一處：收藏、升級與里程碑，一有變更就自動儲存。",
+    "note": "免費。免註冊帳號。所有資料都留在你的瀏覽器。",
+    "continue": "繼續使用",
+    "continueLine": "更新於 {updated}"
+  },
+  "cta": {
+    "create": "建立你的第一個存檔",
+    "learnMore": "了解更多",
+    "overview": "前往總覽",
+    "newPlaythrough": "新增存檔"
+  },
+  "features": {
+    "label": "你需要的一切",
+    "title": "所有進度集中在一處",
+    "description": "你追蹤的每個等級，一有變更就會儲存。",
+    "items": {
+      "item1": {
+        "title": "多個存檔",
+        "text": "建立並管理數量不限的存檔，並分別追蹤每一個。"
+      },
+      "item2": {
+        "title": "進度追蹤",
+        "text": "準確追蹤你在每個存檔中完成、收集或解鎖了什麼。"
+      },
+      "item3": {
+        "title": "總覽",
+        "text": "透過統計摘要、每日計時器與完成度指標，一眼掌握你的進度。"
+      },
+      "item4": {
+        "title": "備份與同步",
+        "text": "將進度匯出成 JSON 檔案，或透過你自己的雲端儲存空間在裝置間同步。"
+      },
+      "item5": {
+        "title": "Private",
+        "text": "除非你開啟同步，否則你的資料只會儲存在瀏覽器中。"
+      },
+      "item6": {
+        "title": "Dark mode",
+        "text": "Comfortable to use day or night. Choose light, dark or follow your device in Settings."
+      }
+    }
+  },
+  "faq": {
+    "label": "有疑問嗎？",
+    "title": "常見問題",
+    "items": {
+      "item1": {
+        "question": "Game Name Tracker 是什麼？",
+        "answer": "這是 Game Name 的進度追蹤器。它幫你管理多個存檔，並追蹤升級、收藏與整體進度。"
+      },
+      "item2": {
+        "question": "它如何儲存我的資料？",
+        "answer": "所有內容都儲存在你的瀏覽器中，所以你的進度是私密的，也不需要帳號。你可以將其匯出與匯入為 JSON 檔案作為備份。"
+      },
+      "item3": {
+        "question": "可以追蹤多個存檔嗎？",
+        "answer": "可以。想建立多少個存檔都行，每個都有自己的進度，並可在側邊欄中切換。"
+      },
+      "item4": {
+        "question": "它能跨裝置同步嗎？",
+        "answer": "可以，只要你想用。開啟設定並連接 GitHub、Google Drive、Dropbox 或 OneDrive。你的資料會儲存在你自己的帳號中，而且在你開啟之前，同步都是關閉的。"
+      },
+      "item5": {
+        "question": "這個應用程式可以免費使用嗎？",
+        "answer": "可以。完全免費，沒有訂閱、沒有廣告，也不需要註冊。"
+      }
+    }
+  },
+  "final": {
+    "title": "今天就開始追蹤你的存檔",
+    "description": "不需要帳號，也不用註冊。建立第一個存檔只需要一個名稱。"
+  },
+  "updated": {
+    "justNow": "剛剛"
+  }
+}

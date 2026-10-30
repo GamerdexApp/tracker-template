@@ -1,0 +1,10 @@
+{
+  "chip": "有未保存的更改",
+  "leave": {
+    "title": "{count, plural, other {你有 {amount} 项未保存的更改}}",
+    "body": "离开前请保存，或放弃它们。",
+    "save": "保存并离开",
+    "discard": "放弃并离开",
+    "keep": "继续编辑"
+  }
+}

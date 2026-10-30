@@ -1,0 +1,156 @@
+{
+  "title": "Definições",
+  "subline": "Preferências, cópias de segurança e dados",
+  "tabsLabel": "Secções das definições",
+  "tabs": {
+    "sync": "Sincronização na nuvem",
+    "preferences": "Preferências",
+    "data": "Cópia de segurança e dados",
+    "about": "Acerca de"
+  },
+  "appearance": {
+    "title": "Aspeto",
+    "description": "Escolhe o aspeto da aplicação.",
+    "themeLabel": "Tema",
+    "themes": {
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Sistema"
+    },
+    "themeNote": "O tema Sistema segue o dispositivo. Neste momento é {mode}."
+  },
+  "data": {
+    "title": "Gestão de dados",
+    "storageNote": {
+      "title": "Guardado neste navegador.",
+      "body": "Limpar os dados do navegador remove as partidas. Convém exportar uma cópia de segurança de vez em quando."
+    },
+    "export": {
+      "title": "Exportar",
+      "description": "Transfere todas as partidas e as definições num único ficheiro.",
+      "button": "Exportar todas as partidas",
+      "done": "Cópia de segurança transferida"
+    },
+    "import": {
+      "title": "Importar",
+      "fileLabel": "Ficheiro de cópia de segurança",
+      "chooseFile": "Escolher ficheiro",
+      "noFile": "Nenhum ficheiro escolhido",
+      "description": "Escolhe um ficheiro de cópia de segurança. Podes revê-lo antes de alterar seja o que for.",
+      "review": "Rever importação",
+      "merged": "Cópia de segurança combinada",
+      "replaced": "A cópia de segurança substituiu os dados",
+      "undo": "Anular"
+    },
+    "reset": {
+      "title": "Repor todos os dados",
+      "warning": "Elimina todas as partidas e definições neste navegador.",
+      "button": "Repor todos os dados",
+      "confirmTitle": "Eliminar tudo?",
+      "confirmBody": "Isto elimina {names}. Podes anular durante dez segundos.",
+      "cancel": "Cancelar",
+      "confirm": "Eliminar tudo",
+      "done": "Todos os dados eliminados",
+      "doneMessage": "{amount} {count, plural, one {partida removida} other {partidas removidas}}.",
+      "doneMessageDisconnected": "{amount} {count, plural, one {partida removida} other {partidas removidas}}. A sincronização ficou desligada neste navegador.",
+      "syncedCopy": "Eliminar também a cópia sincronizada em {provider}",
+      "syncedOn": "A sincronização continua ativa. Os outros dispositivos perdem estas partidas na próxima sincronização. Em caso de dúvida, exporta antes uma cópia de segurança.",
+      "syncedOff": "Sem isto, a sincronização fica desligada neste navegador, para que a próxima sincronização não traga as partidas de volta.",
+      "undo": "Anular"
+    },
+    "playthroughs": {
+      "title": "Partidas",
+      "description": "Criar, editar, mudar e eliminar partidas.",
+      "manage": "Gerir partidas"
+    },
+    "playthroughCount": "{amount} {count, plural, one {partida} other {partidas}}"
+  },
+  "importDialog": {
+    "title": "Rever importação",
+    "fileInfo": "{name}, {size}",
+    "bytes": "{count} B",
+    "kilobytes": "{count} KB",
+    "cancel": "Cancelar",
+    "close": "Fechar",
+    "merge": "Combinar neste dispositivo",
+    "replace": "Substituir neste dispositivo",
+    "failedTitle": "Não é possível importar este ficheiro.",
+    "errors": {
+      "notJson": "Este ficheiro não é um JSON válido.",
+      "playthroughsMissing": "Este ficheiro não é uma cópia de segurança deste tracker. Não tem a lista de partidas."
+    },
+    "checksTitle": "Verificações concluídas.",
+    "checks": "O ficheiro lista {read} partidas e {kept} podem ser lidas.",
+    "skipped": "{count, plural, one {{amount} entrada ignorada.} other {{amount} entradas ignoradas.}}",
+    "howToApply": "Como aplicar",
+    "modeLabel": "Modo de importação",
+    "modes": {
+      "merge": "Combinar",
+      "replace": "Substituir"
+    },
+    "modeNotes": {
+      "merge": "Adiciona as partidas novas e mantém a cópia mais recente de uma partida que existe nos dois lados. As definições e a partida ativa mantêm-se.",
+      "replace": "Usa apenas o que está no ficheiro. As partidas que não estão no ficheiro são removidas."
+    },
+    "whatChanges": "O que muda",
+    "columns": {
+      "playthrough": "Partida",
+      "inFile": "No ficheiro",
+      "onDevice": "No dispositivo",
+      "result": "Resultado"
+    },
+    "notThere": "Não existe",
+    "results": {
+      "added": "Acrescentada",
+      "updated": "Atualizada a partir do ficheiro",
+      "kept": "Mantida",
+      "replaced": "Substituída",
+      "removed": "Removida"
+    },
+    "summary": {
+      "added": "{count} acrescentadas",
+      "updated": "{count} atualizadas",
+      "kept": "{count} mantidas",
+      "replaced": "{count} substituídas",
+      "removed": "{count} removidas"
+    },
+    "noPlaythroughs": "O ficheiro não tem partidas.",
+    "undoNote": "Podes anular a importação durante dez segundos."
+  },
+  "about": {
+    "version": "Versão {version}",
+    "summary": "Um tracker de progresso gratuito para Game Name. Acompanha o progresso em várias partidas.",
+    "officialGame": "Site oficial do jogo",
+    "disclaimer": "Este projeto não é afiliado, apoiado nem associado à editora ou aos programadores de Game Name."
+  },
+  "region": {
+    "title": "Idioma e região",
+    "description": "Como a aplicação mostra texto, números e datas neste dispositivo. Estas escolhas não são guardadas com as partidas, nem exportadas, nem sincronizadas.",
+    "language": {
+      "label": "Idioma",
+      "hint": "O idioma da aplicação. Os nomes do jogo ficam em inglês."
+    },
+    "numberFormat": {
+      "label": "Formato dos números",
+      "hint": "Exemplo: {example}",
+      "options": {
+        "auto": "Automático (segue o idioma)",
+        "us": "1,234,567.89 (EUA)",
+        "european": "1.234.567,89 (europeu)",
+        "french": "1 234 567,89 (francês)",
+        "swiss": "1’234’567.89 (suíço)",
+        "indian": "12,34,567.89 (indiano)"
+      }
+    },
+    "dateFormat": {
+      "label": "Formato da data",
+      "hint": "Exemplo: {example}",
+      "options": {
+        "auto": "Automático (segue o idioma)",
+        "mdy": "Mês/Dia/Ano",
+        "dmy": "Dia/Mês/Ano",
+        "ymd": "Ano-Mês-Dia"
+      }
+    }
+  }
+}

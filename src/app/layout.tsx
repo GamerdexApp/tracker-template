@@ -1,33 +1,53 @@
-import { ThemeModeScript } from "flowbite-react";
+import { I18nProvider } from "@/i18n/I18nProvider";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { IBM_Plex_Mono, IBM_Plex_Sans, Lilita_One } from "next/font/google";
 import { PlaythroughProvider } from "@/lib/contexts/PlaythroughContext";
+import { SyncProvider } from "@/lib/contexts/SyncContext";
 import { UIProvider } from "@/lib/contexts/UIContext";
-import { LayoutWrapper } from "@/comps/layout/LayoutWrapper";
+import { STORAGE_KEY } from "@/service/storage";
+import { SITE_URL } from "@/data/site";
+import { ThemeSync } from "@/comps/layout/ThemeSync";
+import { ToastProvider } from "@/comps/ui/Toast";
 import "./globals.css";
 
-const geistSans = Geist({
-	variable: "--font-geist-sans",
+const plexSans = IBM_Plex_Sans({
+	variable: "--font-plex-sans",
 	subsets: ["latin"],
+	weight: ["400", "500", "600"],
 });
 
-const geistMono = Geist_Mono({
-	variable: "--font-geist-mono",
+const plexMono = IBM_Plex_Mono({
+	variable: "--font-plex-mono",
 	subsets: ["latin"],
+	weight: ["400", "500"],
 });
 
-// CHANGE_ME: Update siteUrl to your production domain (must match src/app/robots.ts and src/app/sitemap.ts)
-const siteUrl = "https://YOUR_APP_NAME.example.com";
+const lilita = Lilita_One({
+	variable: "--font-lilita",
+	subsets: ["latin"],
+	weight: "400",
+});
 
-// CHANGE_ME: Update title, description, and keywords for your app
+// Runs before the first paint so a dark theme never flashes light.
+const applyThemeBeforePaint = `try{var s=JSON.parse(localStorage.getItem("${STORAGE_KEY}")||"{}").settings;var t=s&&s.theme||"system";var d=t==="dark"||(t==="system"&&matchMedia("(prefers-color-scheme: dark)").matches);document.documentElement.classList.toggle("dark",d)}catch(e){}`;
+
+
 export const metadata: Metadata = {
-	metadataBase: new URL(siteUrl),
+	metadataBase: new URL(SITE_URL),
 	title: {
-		default: "YOUR_APP_NAME",
-		template: "%s | YOUR_APP_NAME",
+		default: "Game Name Tracker",
+		template: "%s | Game Name Tracker",
 	},
-	description: "A progress tracker built with tracker-template",
-	keywords: ["YOUR_GAME_NAME", "progress tracker", "game companion"],
+	description:
+		"Track your Game Name progress. Manage several playthroughs and keep your data in your browser.",
+	keywords: [
+		"Game Name",
+		"Game Name tracker",
+		"Game Name companion",
+		"Game Name progress",
+	],
+	authors: [{ name: "GamerDex" }],
+	creator: "GamerDex",
 	alternates: {
 		canonical: "/",
 	},
@@ -35,48 +55,72 @@ export const metadata: Metadata = {
 		index: true,
 		follow: true,
 	},
-	// CHANGE_ME: Add favicon/apple-touch-icon files to public/ and uncomment
-	// icons: {
-	// 	icon: [
-	// 		{ url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-	// 		{ url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-	// 	],
-	// 	apple: "/apple-touch-icon.png",
-	// },
-	// manifest: "/site.webmanifest",
+	manifest: "/site.webmanifest",
+	icons: {
+		icon: [
+			{ url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+			{ url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+		],
+		apple: "/apple-touch-icon.png",
+		other: [
+			{ rel: "android-chrome-192x192", url: "/android-chrome-192x192.png" },
+			{ rel: "android-chrome-512x512", url: "/android-chrome-512x512.png" },
+		],
+	},
 	openGraph: {
 		type: "website",
-		siteName: "YOUR_APP_NAME",
-		title: "YOUR_APP_NAME",
-		description: "A progress tracker built with tracker-template",
-		url: siteUrl,
+		siteName: "Game Name Tracker",
+		title: "Game Name Tracker",
+		description:
+			"Track your Game Name progress. Manage several playthroughs and keep your data in your browser.",
+		url: SITE_URL,
+		images: [
+			{
+				url: "/gamerdex-logo.png",
+				width: 1200,
+				height: 630,
+				alt: "Game Name Tracker dashboard preview",
+			},
+		],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "YOUR_APP_NAME",
-		description: "A progress tracker built with tracker-template",
+		title: "Game Name Tracker",
+		description:
+			"Track your Game Name progress. Manage several playthroughs and keep your data in your browser.",
+		images: ["/gamerdex-logo.png"],
 	},
 };
 
-export default function RootLayout({
+const RootLayout = ({
 	children,
 }: Readonly<{
 	children: React.ReactNode;
-}>) {
+}>) => {
 	return (
-		<html lang="en" suppressHydrationWarning className="h-full">
+		<html
+			lang="en"
+			suppressHydrationWarning
+			className={`${plexSans.variable} ${plexMono.variable} ${lilita.variable} h-full`}
+		>
 			<head>
-				<ThemeModeScript />
+				<script dangerouslySetInnerHTML={{ __html: applyThemeBeforePaint }} />
 			</head>
-			<body
-				className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-gray-50 antialiased dark:bg-gray-900`}
-			>
-				<UIProvider>
-					<PlaythroughProvider>
-						<LayoutWrapper>{children}</LayoutWrapper>
-					</PlaythroughProvider>
-				</UIProvider>
+			<body className="bg-bg min-h-dvh antialiased">
+				<I18nProvider>
+					<UIProvider>
+						<ToastProvider>
+							<PlaythroughProvider>
+								<SyncProvider>
+									<ThemeSync />
+									{children}
+								</SyncProvider>
+							</PlaythroughProvider>
+						</ToastProvider>
+					</UIProvider>
+				</I18nProvider>
 			</body>
 		</html>
 	);
-}
+};
+export default RootLayout;

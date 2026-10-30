@@ -1,0 +1,15 @@
+{
+  "title": "개요",
+  "subline": "{name}, 진행 상황 요약",
+  "progress": {
+    "title": "전체 진행 상황",
+    "label": "{done}/{total}개 최고 레벨"
+  },
+  "tiles": {
+    "done": "최고 레벨 아이템",
+    "levels": "달성한 레벨",
+    "playthroughs": "플레이 기록"
+  },
+  "of": "/ {total}",
+  "open": "아이템 열기"
+}

@@ -1,0 +1,9 @@
+{
+  "gate": {
+    "title": "使用中のプレイスルーがありません",
+    "description": "このページを見るには、プレイスルーを選ぶか新しく作成してください。",
+    "newPlaythrough": "新しいプレイスルー",
+    "choosePlaythrough": "プレイスルーを選ぶ"
+  },
+  "progressLabel": "{name}の進行状況"
+}

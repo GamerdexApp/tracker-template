@@ -1,0 +1,86 @@
+{
+  "header": {
+    "label": "Seitenbereiche",
+    "features": "Funktionen",
+    "faq": "FAQ",
+    "playthroughs": "Spielstände",
+    "settings": "Einstellungen"
+  },
+  "hero": {
+    "title": "Verfolge deinen Spielfortschritt",
+    "description": "Behalte jeden Spielstand an einem Ort: Sammlungen, Upgrades und Meilensteine, gespeichert im Moment der Änderung.",
+    "note": "Kostenlos. Kein Konto. Alle Daten bleiben in deinem Browser.",
+    "continue": "Weiter mit",
+    "continueLine": "Aktualisiert {updated}"
+  },
+  "cta": {
+    "create": "Ersten Spielstand erstellen",
+    "learnMore": "Mehr erfahren",
+    "overview": "Zur Übersicht",
+    "newPlaythrough": "Neuer Spielstand"
+  },
+  "features": {
+    "label": "Alles, was du brauchst",
+    "title": "Dein ganzer Fortschritt an einem Ort",
+    "description": "Jede Stufe, die du verfolgst, wird im Moment der Änderung gespeichert.",
+    "items": {
+      "item1": {
+        "title": "Mehrere Spielstände",
+        "text": "Erstelle und verwalte unbegrenzt viele Spielstände und verfolge jeden getrennt."
+      },
+      "item2": {
+        "title": "Fortschrittsverfolgung",
+        "text": "Verfolge genau, was du in jedem Spielstand abgeschlossen, gesammelt oder freigeschaltet hast."
+      },
+      "item3": {
+        "title": "Übersicht",
+        "text": "Sieh deinen Fortschritt auf einen Blick mit Kennzahlen, täglichen Timern und Abschlussanzeigen."
+      },
+      "item4": {
+        "title": "Backup und Sync",
+        "text": "Exportiere deinen Fortschritt als JSON-Datei oder synchronisiere ihn mit deinem eigenen Cloud-Speicher auf mehrere Geräte."
+      },
+      "item5": {
+        "title": "Private",
+        "text": "Deine Daten bleiben in deinem Browser, solange du den Sync nicht einschaltest."
+      },
+      "item6": {
+        "title": "Dark mode",
+        "text": "Comfortable to use day or night. Choose light, dark or follow your device in Settings."
+      }
+    }
+  },
+  "faq": {
+    "label": "Fragen?",
+    "title": "Häufig gestellte Fragen",
+    "items": {
+      "item1": {
+        "question": "Was ist Game Name Tracker?",
+        "answer": "Ein Fortschrittstracker für Game Name. Er hilft dir, mehrere Spielstände zu verwalten und deine Upgrades, Sammlungen und deinen Gesamtfortschritt zu verfolgen."
+      },
+      "item2": {
+        "question": "Wie speichert er meine Daten?",
+        "answer": "Alles wird in deinem Browser gespeichert, dein Fortschritt bleibt also privat und braucht kein Konto. Du kannst ihn als JSON-Datei exportieren und importieren, zum Beispiel als Backup."
+      },
+      "item3": {
+        "question": "Kann ich mehrere Spielstände verfolgen?",
+        "answer": "Ja. Erstelle so viele Spielstände, wie du willst, jeder mit eigenem Fortschritt, und wechsle in der Seitenleiste zwischen ihnen."
+      },
+      "item4": {
+        "question": "Wird er auf mehreren Geräten synchronisiert?",
+        "answer": "Ja, wenn du es willst. Öffne die Einstellungen und verbinde GitHub, Google Drive, Dropbox oder OneDrive. Deine Daten liegen in deinem eigenen Konto und der Sync bleibt aus, bis du ihn einschaltest."
+      },
+      "item5": {
+        "question": "Ist die App kostenlos?",
+        "answer": "Ja. Sie ist kostenlos, ohne Abo, ohne Werbung und ohne Anmeldung."
+      }
+    }
+  },
+  "final": {
+    "title": "Starte noch heute mit dem Verfolgen deiner Spielstände",
+    "description": "Kein Konto und keine Anmeldung. Für deinen ersten Spielstand brauchst du nur einen Namen."
+  },
+  "updated": {
+    "justNow": "gerade eben"
+  }
+}

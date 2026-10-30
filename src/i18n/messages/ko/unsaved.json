@@ -1,0 +1,10 @@
+{
+  "chip": "저장하지 않은 변경",
+  "leave": {
+    "title": "{count, plural, other {저장하지 않은 변경이 {amount}개 있어요}}",
+    "body": "나가기 전에 저장하거나 버리세요.",
+    "save": "저장하고 나가기",
+    "discard": "버리고 나가기",
+    "keep": "계속 편집"
+  }
+}

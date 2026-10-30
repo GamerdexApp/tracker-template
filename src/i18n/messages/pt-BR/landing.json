@@ -1,0 +1,86 @@
+{
+  "header": {
+    "label": "Seções da página",
+    "features": "Recursos",
+    "faq": "Perguntas frequentes",
+    "playthroughs": "Partidas",
+    "settings": "Configurações"
+  },
+  "hero": {
+    "title": "Acompanhe o progresso do seu jogo",
+    "description": "Mantenha cada partida em um só lugar: coleções, melhorias e marcos, salvos no instante em que você os altera.",
+    "note": "Grátis. Sem conta. Todos os dados ficam no seu navegador.",
+    "continue": "Continuar com",
+    "continueLine": "Atualizada {updated}"
+  },
+  "cta": {
+    "create": "Crie sua primeira partida",
+    "learnMore": "Saiba mais",
+    "overview": "Ir para a Visão geral",
+    "newPlaythrough": "Nova partida"
+  },
+  "features": {
+    "label": "Tudo o que você precisa",
+    "title": "Todo o seu progresso em um só lugar",
+    "description": "Cada nível que você acompanha é salvo no instante em que você o altera.",
+    "items": {
+      "item1": {
+        "title": "Várias partidas",
+        "text": "Crie e gerencie quantas partidas quiser e acompanhe cada uma separadamente."
+      },
+      "item2": {
+        "title": "Acompanhamento do progresso",
+        "text": "Acompanhe exatamente o que você concluiu, coletou ou liberou em cada partida."
+      },
+      "item3": {
+        "title": "Visão geral",
+        "text": "Veja seu progresso de relance, com estatísticas resumidas, cronômetros diários e indicadores de conclusão."
+      },
+      "item4": {
+        "title": "Backup e sincronização",
+        "text": "Exporte seu progresso como um arquivo JSON, ou sincronize entre dispositivos com o seu próprio armazenamento na nuvem."
+      },
+      "item5": {
+        "title": "Private",
+        "text": "Seus dados ficam no seu navegador, a menos que você ative a sincronização."
+      },
+      "item6": {
+        "title": "Dark mode",
+        "text": "Comfortable to use day or night. Choose light, dark or follow your device in Settings."
+      }
+    }
+  },
+  "faq": {
+    "label": "Tem dúvidas?",
+    "title": "Perguntas frequentes",
+    "items": {
+      "item1": {
+        "question": "O que é Game Name Tracker?",
+        "answer": "É um tracker de progresso para Game Name. Ele ajuda você a gerenciar várias partidas e a acompanhar suas melhorias, coleções e progresso geral."
+      },
+      "item2": {
+        "question": "Como ele guarda os meus dados?",
+        "answer": "Tudo é salvo no seu navegador, então seu progresso é privado e não precisa de conta. Você pode exportar e importar como um arquivo JSON para backup."
+      },
+      "item3": {
+        "question": "Posso acompanhar várias partidas?",
+        "answer": "Sim. Crie quantas partidas quiser, cada uma com seu próprio progresso, e alterne entre elas na barra lateral."
+      },
+      "item4": {
+        "question": "Ele sincroniza entre dispositivos?",
+        "answer": "Sim, se você quiser. Abra as Configurações e conecte GitHub, Google Drive, Dropbox ou OneDrive. Seus dados ficam na sua própria conta, e a sincronização continua desativada até você ativá-la."
+      },
+      "item5": {
+        "question": "Este app é grátis?",
+        "answer": "Sim. É grátis, sem assinatura, sem anúncios e sem cadastro."
+      }
+    }
+  },
+  "final": {
+    "title": "Comece a acompanhar suas partidas hoje",
+    "description": "Sem conta e sem cadastro. Sua primeira partida só precisa de um nome."
+  },
+  "updated": {
+    "justNow": "agora mesmo"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "項目",
+  "subline": "{total} 項中有 {done} 項已達最高等級",
+  "levelLabel": "{name}等級",
+  "levelOf": "第 {level} 級，共 {max} 級",
+  "hideDone": "隱藏已達最高等級的項目",
+  "topLevel": "最高等級",
+  "empty": {
+    "title": "沒有可顯示的內容",
+    "description": "所有項目都已達最高等級。關閉篩選即可再次查看。"
+  }
+}

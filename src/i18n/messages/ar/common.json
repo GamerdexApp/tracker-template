@@ -1,0 +1,9 @@
+{
+  "gate": {
+    "title": "لا يوجد مسار لعب نشط",
+    "description": "اختر مسار لعب أو أنشئ واحدًا لعرض هذه الصفحة.",
+    "newPlaythrough": "مسار لعب جديد",
+    "choosePlaythrough": "اختيار مسار لعب"
+  },
+  "progressLabel": "تقدم {name}"
+}

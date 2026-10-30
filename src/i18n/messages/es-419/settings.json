@@ -1,0 +1,156 @@
+{
+  "title": "Ajustes",
+  "subline": "Preferencias, copias de seguridad y tus datos",
+  "tabsLabel": "Secciones de ajustes",
+  "tabs": {
+    "sync": "Sincronización en la nube",
+    "preferences": "Preferencias",
+    "data": "Copia de seguridad y datos",
+    "about": "Acerca de"
+  },
+  "appearance": {
+    "title": "Apariencia",
+    "description": "Elige cómo se ve la app.",
+    "themeLabel": "Tema",
+    "themes": {
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema"
+    },
+    "themeNote": "Sistema sigue tu dispositivo. Ahora es {mode}."
+  },
+  "data": {
+    "title": "Gestión de datos",
+    "storageNote": {
+      "title": "Se guarda en este navegador.",
+      "body": "Si borras los datos del navegador, pierdes tus partidas. Exporta una copia de seguridad de vez en cuando."
+    },
+    "export": {
+      "title": "Exportar",
+      "description": "Descarga todas las partidas y tus ajustes en un solo archivo.",
+      "button": "Exportar todas las partidas",
+      "done": "Copia de seguridad descargada"
+    },
+    "import": {
+      "title": "Importar",
+      "fileLabel": "Archivo de copia de seguridad",
+      "chooseFile": "Elegir archivo",
+      "noFile": "Ningún archivo elegido",
+      "description": "Elige un archivo de copia de seguridad. Lo revisas antes de que cambie algo.",
+      "review": "Revisar importación",
+      "merged": "Copia de seguridad combinada",
+      "replaced": "La copia de seguridad reemplazó tus datos",
+      "undo": "Deshacer"
+    },
+    "reset": {
+      "title": "Restablecer todos los datos",
+      "warning": "Elimina todas las partidas y ajustes de este navegador.",
+      "button": "Restablecer todos los datos",
+      "confirmTitle": "¿Eliminar todo?",
+      "confirmBody": "Esto elimina {names}. Puedes deshacerlo durante diez segundos.",
+      "cancel": "Cancelar",
+      "confirm": "Eliminar todo",
+      "done": "Todos los datos eliminados",
+      "doneMessage": "{amount} {count, plural, one {partida eliminada} other {partidas eliminadas}}.",
+      "doneMessageDisconnected": "{amount} {count, plural, one {partida eliminada} other {partidas eliminadas}}. La sincronización está desconectada en este navegador.",
+      "syncedCopy": "Eliminar también la copia sincronizada en {provider}",
+      "syncedOn": "La sincronización sigue activa. Tus otros dispositivos perderán estas partidas en su próxima sincronización. Si tienes dudas, exporta una copia de seguridad primero.",
+      "syncedOff": "Sin esto, la sincronización se desconecta en este navegador para que la próxima sincronización no pueda recuperar las partidas.",
+      "undo": "Deshacer"
+    },
+    "playthroughs": {
+      "title": "Partidas",
+      "description": "Crea, edita, cambia y elimina partidas.",
+      "manage": "Administrar partidas"
+    },
+    "playthroughCount": "{amount} {count, plural, one {partida} other {partidas}}"
+  },
+  "importDialog": {
+    "title": "Revisar importación",
+    "fileInfo": "{name}, {size}",
+    "bytes": "{count} B",
+    "kilobytes": "{count} KB",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "merge": "Combinar en este dispositivo",
+    "replace": "Reemplazar este dispositivo",
+    "failedTitle": "No se puede importar este archivo.",
+    "errors": {
+      "notJson": "Este archivo no es un JSON válido.",
+      "playthroughsMissing": "Este archivo no es una copia de seguridad de este tracker. No tiene una lista de partidas."
+    },
+    "checksTitle": "Comprobaciones superadas.",
+    "checks": "El archivo lista {read} partidas y se pueden leer {kept}.",
+    "skipped": "{amount} {count, plural, one {entrada omitida} other {entradas omitidas}}.",
+    "howToApply": "Cómo aplicar",
+    "modeLabel": "Modo de importación",
+    "modes": {
+      "merge": "Combinar",
+      "replace": "Reemplazar"
+    },
+    "modeNotes": {
+      "merge": "Agrega las partidas nuevas y conserva la copia más reciente de una partida que existe en ambos lados. Tus ajustes y la partida activa se mantienen.",
+      "replace": "Usa solo lo que hay en el archivo. Las partidas que no están en el archivo se eliminan."
+    },
+    "whatChanges": "Qué cambia",
+    "columns": {
+      "playthrough": "Partida",
+      "inFile": "En el archivo",
+      "onDevice": "En el dispositivo",
+      "result": "Resultado"
+    },
+    "notThere": "No está",
+    "results": {
+      "added": "Añadida",
+      "updated": "Actualizada desde el archivo",
+      "kept": "Conservada",
+      "replaced": "Reemplazada",
+      "removed": "Eliminada"
+    },
+    "summary": {
+      "added": "{count} añadidas",
+      "updated": "{count} actualizadas",
+      "kept": "{count} conservadas",
+      "replaced": "{count} reemplazadas",
+      "removed": "{count} eliminadas"
+    },
+    "noPlaythroughs": "El archivo no tiene partidas.",
+    "undoNote": "Puedes deshacer la importación durante diez segundos."
+  },
+  "about": {
+    "version": "Versión {version}",
+    "summary": "Un seguimiento de progreso gratuito para Game Name. Sigue tu progreso en varias partidas.",
+    "officialGame": "Sitio oficial del juego",
+    "disclaimer": "Este proyecto no está afiliado, respaldado ni conectado con el editor o los desarrolladores de Game Name."
+  },
+  "region": {
+    "title": "Idioma y región",
+    "description": "Cómo muestra la app el texto, los números y las fechas en este dispositivo. Estas opciones no se guardan con tus partidas, no se exportan y no se sincronizan.",
+    "language": {
+      "label": "Idioma",
+      "hint": "El idioma de la app. Los nombres del juego se quedan en inglés."
+    },
+    "numberFormat": {
+      "label": "Formato de números",
+      "hint": "Ejemplo: {example}",
+      "options": {
+        "auto": "Automático (sigue el idioma)",
+        "us": "1,234,567.89 (EE. UU.)",
+        "european": "1.234.567,89 (europeo)",
+        "french": "1 234 567,89 (francés)",
+        "swiss": "1’234’567.89 (suizo)",
+        "indian": "12,34,567.89 (indio)"
+      }
+    },
+    "dateFormat": {
+      "label": "Formato de fecha",
+      "hint": "Ejemplo: {example}",
+      "options": {
+        "auto": "Automático (sigue el idioma)",
+        "mdy": "Mes/Día/Año",
+        "dmy": "Día/Mes/Año",
+        "ymd": "Año-Mes-Día"
+      }
+    }
+  }
+}

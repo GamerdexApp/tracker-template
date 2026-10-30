@@ -1,0 +1,15 @@
+{
+  "title": "Genel Bakış",
+  "subline": "{name}, ilerlemenin özeti",
+  "progress": {
+    "title": "Genel ilerleme",
+    "label": "{total} eşyanın {done} tanesi en yüksek seviyede"
+  },
+  "tiles": {
+    "done": "En yüksek seviyedeki eşyalar",
+    "levels": "Ulaşılan seviyeler",
+    "playthroughs": "Oynanışlar"
+  },
+  "of": "/ {total}",
+  "open": "Eşyaları aç"
+}

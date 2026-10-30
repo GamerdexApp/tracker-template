@@ -1,0 +1,9 @@
+{
+  "gate": {
+    "title": "No active playthrough",
+    "description": "Choose a playthrough or create one to see this page.",
+    "newPlaythrough": "New playthrough",
+    "choosePlaythrough": "Choose a playthrough"
+  },
+  "progressLabel": "{name} progress"
+}

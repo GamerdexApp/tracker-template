@@ -1,0 +1,10 @@
+{
+  "chip": "Modifiche non salvate",
+  "leave": {
+    "title": "{count, plural, one {Hai 1 modifica non salvata} other {Hai {amount} modifiche non salvate}}",
+    "body": "Salvale prima di uscire, oppure scartale.",
+    "save": "Salva ed esci",
+    "discard": "Scarta ed esci",
+    "keep": "Continua a modificare"
+  }
+}

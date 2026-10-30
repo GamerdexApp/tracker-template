@@ -1,0 +1,9 @@
+{
+  "gate": {
+    "title": "Nenhuma partida ativa",
+    "description": "Escolha uma partida ou crie uma para ver esta página.",
+    "newPlaythrough": "Nova partida",
+    "choosePlaythrough": "Escolher uma partida"
+  },
+  "progressLabel": "Progresso de {name}"
+}

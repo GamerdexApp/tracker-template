@@ -1,0 +1,70 @@
+{
+  "title": "Mes parties",
+  "subline": "{amount} {count, plural, one {partie} other {parties}}",
+  "sublineActive": "{amount} {count, plural, one {partie} other {parties}}, {name} est active",
+  "newPlaythrough": "Nouvelle partie",
+  "empty": {
+    "title": "Aucune partie pour l'instant",
+    "deletedTitle": "Il ne reste aucune partie",
+    "description": "Créez une partie pour commencer à suivre votre progression.",
+    "restore": "Restaurer depuis une sauvegarde"
+  },
+  "filters": {
+    "search": "Rechercher des parties",
+    "sortLabel": "Trier par",
+    "sort": {
+      "lastModified": "Dernière modification",
+      "createdAt": "Date de création",
+      "name": "Nom"
+    },
+    "showing": "{shown} affichés sur {total}",
+    "clear": "Effacer la recherche"
+  },
+  "noMatch": {
+    "title": "Aucune partie ne correspond à \"{query}\"",
+    "description": "Vérifiez l'orthographe ou effacez la recherche."
+  },
+  "card": {
+    "active": "Actif",
+    "openOverview": "Ouvrir l'aperçu",
+    "setActive": "Rendre actif",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "created": "Créé le {date}",
+    "lastModified": "Modifié le {date}",
+    "switched": "{name} est maintenant actif",
+    "progress": "{done} sur {total} éléments au niveau maximal"
+  },
+  "fields": {
+    "name": "Nom de la partie",
+    "namePlaceholder": "Ma première partie",
+    "nameRequired": "Saisissez un nom pour la partie.",
+    "description": "Description",
+    "descriptionPlaceholder": "Ajoutez une description pour cette partie",
+    "cancel": "Annuler"
+  },
+  "create": {
+    "title": "Nouvelle partie",
+    "submit": "Créer la partie",
+    "makeActive": "Faire de celle-ci la partie active",
+    "done": "{name} créé"
+  },
+  "edit": {
+    "title": "Modifier la partie",
+    "submit": "Enregistrer",
+    "done": "{name} enregistré"
+  },
+  "delete": {
+    "title": "Supprimer la partie",
+    "description": "Cela retire la partie de ce navigateur.",
+    "question": "Supprimer {name} ? Sa progression est supprimée.",
+    "activeNext": "{next} devient la partie active.",
+    "activeLast": "Aucune partie ne sera active.",
+    "exportFirst": "Exportez d'abord une sauvegarde",
+    "cancel": "Annuler",
+    "confirm": "Supprimer la partie",
+    "done": "{name} supprimé",
+    "doneMessage": "Vous pouvez annuler pendant dix secondes.",
+    "undo": "Annuler"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "title": "Paramètres",
+  "subline": "Préférences, sauvegardes et vos données",
+  "tabsLabel": "Sections des paramètres",
+  "tabs": {
+    "sync": "Synchro cloud",
+    "preferences": "Préférences",
+    "data": "Sauvegarde et données",
+    "about": "À propos"
+  },
+  "appearance": {
+    "title": "Apparence",
+    "description": "Choisissez l'apparence de l'appli.",
+    "themeLabel": "Thème",
+    "themes": {
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Système"
+    },
+    "themeNote": "Le thème Système suit votre appareil. Actuellement : {mode}."
+  },
+  "data": {
+    "title": "Gestion des données",
+    "storageNote": {
+      "title": "Stocké dans ce navigateur.",
+      "body": "Effacer les données du navigateur supprime vos parties. Exportez une sauvegarde de temps en temps."
+    },
+    "export": {
+      "title": "Exporter",
+      "description": "Téléchargez toutes les parties et vos paramètres dans un seul fichier.",
+      "button": "Exporter toutes les parties",
+      "done": "Sauvegarde téléchargée"
+    },
+    "import": {
+      "title": "Importer",
+      "fileLabel": "Fichier de sauvegarde",
+      "chooseFile": "Choisir un fichier",
+      "noFile": "Aucun fichier choisi",
+      "description": "Choisissez un fichier de sauvegarde. Vous le vérifiez avant tout changement.",
+      "review": "Vérifier l'import",
+      "merged": "Sauvegarde fusionnée",
+      "replaced": "La sauvegarde a remplacé vos données",
+      "undo": "Annuler"
+    },
+    "reset": {
+      "title": "Réinitialiser toutes les données",
+      "warning": "Supprime toutes les parties et tous les paramètres de ce navigateur.",
+      "button": "Réinitialiser toutes les données",
+      "confirmTitle": "Tout supprimer ?",
+      "confirmBody": "Cela supprime {names}. Vous pouvez annuler pendant dix secondes.",
+      "cancel": "Annuler",
+      "confirm": "Tout supprimer",
+      "done": "Toutes les données sont supprimées",
+      "doneMessage": "{amount} {count, plural, one {partie supprimée} other {parties supprimées}}.",
+      "doneMessageDisconnected": "{amount} {count, plural, one {partie supprimée} other {parties supprimées}}. La synchronisation est déconnectée sur ce navigateur.",
+      "syncedCopy": "Supprimer aussi la copie synchronisée sur {provider}",
+      "syncedOn": "La synchronisation reste active. Vos autres appareils perdront ces parties à leur prochaine synchronisation. Exportez d'abord une sauvegarde en cas de doute.",
+      "syncedOff": "Sans cela, la synchronisation est déconnectée sur ce navigateur, pour que la prochaine synchronisation ne puisse pas ramener les parties.",
+      "undo": "Annuler"
+    },
+    "playthroughs": {
+      "title": "Parties",
+      "description": "Créez, modifiez, changez et supprimez des parties.",
+      "manage": "Gérer les parties"
+    },
+    "playthroughCount": "{amount} {count, plural, one {partie} other {parties}}"
+  },
+  "importDialog": {
+    "title": "Vérifier l'import",
+    "fileInfo": "{name}, {size}",
+    "bytes": "{count} o",
+    "kilobytes": "{count} Ko",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "merge": "Fusionner dans cet appareil",
+    "replace": "Remplacer cet appareil",
+    "failedTitle": "Ce fichier ne peut pas être importé.",
+    "errors": {
+      "notJson": "Ce fichier n'est pas un JSON valide.",
+      "playthroughsMissing": "Ce fichier n'est pas une sauvegarde de ce tracker. Il ne contient pas de liste de parties."
+    },
+    "checksTitle": "Vérifications réussies.",
+    "checks": "Le fichier contient {read} parties et {kept} sont lisibles.",
+    "skipped": "{amount} {count, plural, one {entrée ignorée} other {entrées ignorées}}.",
+    "howToApply": "Comment appliquer",
+    "modeLabel": "Mode d'import",
+    "modes": {
+      "merge": "Fusionner",
+      "replace": "Remplacer"
+    },
+    "modeNotes": {
+      "merge": "Ajoute les parties nouvelles et garde la copie la plus récente d'une partie présente des deux côtés. Vos paramètres et la partie active restent.",
+      "replace": "Utilise seulement ce qui est dans le fichier. Les parties absentes du fichier sont supprimées."
+    },
+    "whatChanges": "Ce qui change",
+    "columns": {
+      "playthrough": "Partie",
+      "inFile": "Dans le fichier",
+      "onDevice": "Sur l'appareil",
+      "result": "Résultat"
+    },
+    "notThere": "Absent",
+    "results": {
+      "added": "Ajouté",
+      "updated": "Mis à jour depuis le fichier",
+      "kept": "Conservé",
+      "replaced": "Remplacé",
+      "removed": "Supprimé"
+    },
+    "summary": {
+      "added": "{count} ajouté(s)",
+      "updated": "{count} mis à jour",
+      "kept": "{count} conservé(s)",
+      "replaced": "{count} remplacé(s)",
+      "removed": "{count} supprimé(s)"
+    },
+    "noPlaythroughs": "Le fichier ne contient aucune partie.",
+    "undoNote": "Vous pouvez annuler l'import pendant dix secondes."
+  },
+  "about": {
+    "version": "Version {version}",
+    "summary": "Un suivi de progression gratuit pour Game Name. Suivez votre progression sur plusieurs parties.",
+    "officialGame": "Site officiel du jeu",
+    "disclaimer": "Ce projet n'est ni affilié, ni approuvé, ni lié à l'éditeur ou aux développeurs de Game Name."
+  },
+  "region": {
+    "title": "Langue et région",
+    "description": "La façon dont l'application affiche le texte, les nombres et les dates sur cet appareil. Ces choix ne sont pas enregistrés avec vos parties, ni exportés, ni synchronisés.",
+    "language": {
+      "label": "Langue",
+      "hint": "La langue de l'appli. Les noms issus du jeu restent en anglais."
+    },
+    "numberFormat": {
+      "label": "Format des nombres",
+      "hint": "Exemple : {example}",
+      "options": {
+        "auto": "Automatique (suit la langue)",
+        "us": "1,234,567.89 (États-Unis)",
+        "european": "1.234.567,89 (européen)",
+        "french": "1 234 567,89 (français)",
+        "swiss": "1’234’567.89 (suisse)",
+        "indian": "12,34,567.89 (indien)"
+      }
+    },
+    "dateFormat": {
+      "label": "Format des dates",
+      "hint": "Exemple : {example}",
+      "options": {
+        "auto": "Automatique (suit la langue)",
+        "mdy": "Mois/Jour/Année",
+        "dmy": "Jour/Mois/Année",
+        "ymd": "Année-Mois-Jour"
+      }
+    }
+  }
+}

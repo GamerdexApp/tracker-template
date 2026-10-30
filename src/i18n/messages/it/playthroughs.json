@@ -1,0 +1,70 @@
+{
+  "title": "Le mie partite",
+  "subline": "{amount} {count, plural, one {partita} other {partite}}",
+  "sublineActive": "{amount} {count, plural, one {partita} other {partite}}, {name} è attiva",
+  "newPlaythrough": "Nuova partita",
+  "empty": {
+    "title": "Ancora nessuna partita",
+    "deletedTitle": "Nessuna partita rimasta",
+    "description": "Crea una partita per iniziare a tracciare i tuoi progressi.",
+    "restore": "Ripristina da un backup"
+  },
+  "filters": {
+    "search": "Cerca partite",
+    "sortLabel": "Ordina per",
+    "sort": {
+      "lastModified": "Ultima modifica",
+      "createdAt": "Data di creazione",
+      "name": "Nome"
+    },
+    "showing": "Mostrati {shown} di {total}",
+    "clear": "Cancella ricerca"
+  },
+  "noMatch": {
+    "title": "Nessuna partita corrisponde a \"{query}\"",
+    "description": "Controlla l'ortografia o cancella la ricerca."
+  },
+  "card": {
+    "active": "Attivo",
+    "openOverview": "Apri panoramica",
+    "setActive": "Imposta come attivo",
+    "edit": "Modifica",
+    "delete": "Elimina",
+    "created": "Creato il {date}",
+    "lastModified": "Modificato il {date}",
+    "switched": "{name} è ora attivo",
+    "progress": "{done} di {total} elementi al livello massimo"
+  },
+  "fields": {
+    "name": "Nome della partita",
+    "namePlaceholder": "La mia prima partita",
+    "nameRequired": "Inserisci un nome per la partita.",
+    "description": "Descrizione",
+    "descriptionPlaceholder": "Aggiungi una descrizione per questa partita",
+    "cancel": "Annulla"
+  },
+  "create": {
+    "title": "Nuova partita",
+    "submit": "Crea partita",
+    "makeActive": "Rendi questa la partita attiva",
+    "done": "{name} creato"
+  },
+  "edit": {
+    "title": "Modifica partita",
+    "submit": "Salva",
+    "done": "{name} salvato"
+  },
+  "delete": {
+    "title": "Elimina partita",
+    "description": "Questo rimuove la partita da questo browser.",
+    "question": "Eliminare {name}? I suoi progressi vengono rimossi.",
+    "activeNext": "{next} diventa la partita attiva.",
+    "activeLast": "Nessuna partita sarà attiva.",
+    "exportFirst": "Esporta prima un backup",
+    "cancel": "Annulla",
+    "confirm": "Elimina partita",
+    "done": "{name} eliminato",
+    "doneMessage": "Puoi annullare per dieci secondi.",
+    "undo": "Annulla"
+  }
+}

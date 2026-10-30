@@ -1,0 +1,10 @@
+{
+  "chip": "未儲存的變更",
+  "leave": {
+    "title": "{count, plural, other {你有 {amount} 項未儲存的變更}}",
+    "body": "離開前請先儲存，或將它們捨棄。",
+    "save": "儲存並離開",
+    "discard": "捨棄並離開",
+    "keep": "繼續編輯"
+  }
+}
