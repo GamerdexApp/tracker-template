@@ -1,0 +1,15 @@
+{
+  "title": "Resumen",
+  "subline": "{name}, resumen de tu progreso",
+  "progress": {
+    "title": "Progreso general",
+    "label": "{done} de {total} elementos al máximo"
+  },
+  "tiles": {
+    "done": "Elementos al máximo",
+    "levels": "Niveles alcanzados",
+    "playthroughs": "Partidas"
+  },
+  "of": "de {total}",
+  "open": "Elementos abiertos"
+}

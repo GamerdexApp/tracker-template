@@ -1,0 +1,86 @@
+{
+  "header": {
+    "label": "Các mục của trang",
+    "features": "Tính năng",
+    "faq": "Câu hỏi thường gặp",
+    "playthroughs": "Lượt chơi",
+    "settings": "Cài đặt"
+  },
+  "hero": {
+    "title": "Theo dõi tiến độ game của bạn",
+    "description": "Giữ mọi lượt chơi ở một nơi: bộ sưu tập, nâng cấp và cột mốc, được lưu ngay khi bạn thay đổi.",
+    "note": "Miễn phí. Không cần tài khoản. Mọi dữ liệu nằm trong trình duyệt của bạn.",
+    "continue": "Tiếp tục với",
+    "continueLine": "Cập nhật {updated}"
+  },
+  "cta": {
+    "create": "Tạo lượt chơi đầu tiên",
+    "learnMore": "Tìm hiểu thêm",
+    "overview": "Đến Tổng quan",
+    "newPlaythrough": "Lượt chơi mới"
+  },
+  "features": {
+    "label": "Mọi thứ bạn cần",
+    "title": "Toàn bộ tiến độ của bạn ở một nơi",
+    "description": "Mỗi cấp bạn theo dõi được lưu ngay khi bạn thay đổi.",
+    "items": {
+      "item1": {
+        "title": "Nhiều lượt chơi",
+        "text": "Tạo và quản lý không giới hạn lượt chơi, theo dõi từng lượt riêng."
+      },
+      "item2": {
+        "title": "Theo dõi tiến độ",
+        "text": "Theo dõi chính xác những gì bạn đã hoàn thành, thu thập hoặc mở khóa trong mọi lượt chơi."
+      },
+      "item3": {
+        "title": "Tổng quan",
+        "text": "Xem tiến độ trong nháy mắt với số liệu tóm tắt, bộ đếm hằng ngày và chỉ báo hoàn thành."
+      },
+      "item4": {
+        "title": "Sao lưu và đồng bộ",
+        "text": "Xuất tiến độ thành tệp JSON, hoặc đồng bộ giữa các thiết bị bằng kho lưu trữ đám mây của riêng bạn."
+      },
+      "item5": {
+        "title": "Private",
+        "text": "Dữ liệu của bạn nằm trong trình duyệt trừ khi bạn bật đồng bộ."
+      },
+      "item6": {
+        "title": "Dark mode",
+        "text": "Comfortable to use day or night. Choose light, dark or follow your device in Settings."
+      }
+    }
+  },
+  "faq": {
+    "label": "Có thắc mắc?",
+    "title": "Câu hỏi thường gặp",
+    "items": {
+      "item1": {
+        "question": "Game Name Tracker là gì?",
+        "answer": "Đây là công cụ theo dõi tiến độ cho Game Name. Nó giúp bạn quản lý nhiều lượt chơi và theo dõi nâng cấp, bộ sưu tập cùng tiến độ chung."
+      },
+      "item2": {
+        "question": "Dữ liệu của tôi được lưu thế nào?",
+        "answer": "Mọi thứ được lưu trong trình duyệt của bạn nên tiến độ được giữ riêng tư và không cần tài khoản. Bạn có thể xuất và nhập dưới dạng tệp JSON để sao lưu."
+      },
+      "item3": {
+        "question": "Tôi có thể theo dõi nhiều lượt chơi không?",
+        "answer": "Có. Hãy tạo bao nhiêu lượt chơi tùy ý, mỗi lượt có tiến độ riêng, và chuyển qua lại trong thanh bên."
+      },
+      "item4": {
+        "question": "Có đồng bộ giữa các thiết bị không?",
+        "answer": "Có, nếu bạn muốn. Mở Cài đặt và kết nối GitHub, Google Drive, Dropbox hoặc OneDrive. Dữ liệu của bạn được lưu trong tài khoản của chính bạn, và đồng bộ luôn tắt cho đến khi bạn bật."
+      },
+      "item5": {
+        "question": "Ứng dụng này có miễn phí không?",
+        "answer": "Có. Hoàn toàn miễn phí, không đăng ký trả phí, không quảng cáo và không cần đăng ký tài khoản."
+      }
+    }
+  },
+  "final": {
+    "title": "Bắt đầu theo dõi các lượt chơi của bạn ngay hôm nay",
+    "description": "Không cần tài khoản, không cần đăng ký. Lượt chơi đầu tiên chỉ cần một cái tên."
+  },
+  "updated": {
+    "justNow": "vừa xong"
+  }
+}

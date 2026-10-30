@@ -1,0 +1,70 @@
+{
+  "title": "Permainan Saya",
+  "subline": "{amount} {count, plural, other {permainan}}",
+  "sublineActive": "{amount} {count, plural, other {permainan}}, {name} aktif",
+  "newPlaythrough": "Permainan baharu",
+  "empty": {
+    "title": "Belum ada permainan",
+    "deletedTitle": "Tiada permainan lagi",
+    "description": "Cipta permainan untuk mula menjejak kemajuan anda.",
+    "restore": "Pulihkan daripada sandaran"
+  },
+  "filters": {
+    "search": "Cari permainan",
+    "sortLabel": "Isih mengikut",
+    "sort": {
+      "lastModified": "Terakhir diubah suai",
+      "createdAt": "Tarikh dicipta",
+      "name": "Nama"
+    },
+    "showing": "Menunjukkan {shown} daripada {total}",
+    "clear": "Kosongkan carian"
+  },
+  "noMatch": {
+    "title": "Tiada permainan sepadan dengan \"{query}\"",
+    "description": "Semak ejaan atau kosongkan carian."
+  },
+  "card": {
+    "active": "Aktif",
+    "openOverview": "Buka gambaran keseluruhan",
+    "setActive": "Jadikan aktif",
+    "edit": "Sunting",
+    "delete": "Padam",
+    "created": "Dicipta {date}",
+    "lastModified": "Diubah suai {date}",
+    "switched": "{name} kini aktif",
+    "progress": "{done} daripada {total} item di tahap tertinggi"
+  },
+  "fields": {
+    "name": "Nama permainan",
+    "namePlaceholder": "Permainan pertama saya",
+    "nameRequired": "Masukkan nama untuk permainan.",
+    "description": "Keterangan",
+    "descriptionPlaceholder": "Tambah penerangan untuk permainan ini",
+    "cancel": "Batal"
+  },
+  "create": {
+    "title": "Permainan baharu",
+    "submit": "Cipta permainan",
+    "makeActive": "Jadikan ini permainan aktif",
+    "done": "{name} dicipta"
+  },
+  "edit": {
+    "title": "Sunting permainan",
+    "submit": "Simpan",
+    "done": "{name} disimpan"
+  },
+  "delete": {
+    "title": "Padam permainan",
+    "description": "Ini membuang permainan daripada pelayar ini.",
+    "question": "Padam {name}? Kemajuannya dibuang.",
+    "activeNext": "{next} menjadi permainan aktif.",
+    "activeLast": "Tiada permainan akan aktif.",
+    "exportFirst": "Eksport sandaran dahulu",
+    "cancel": "Batal",
+    "confirm": "Padam permainan",
+    "done": "{name} dipadam",
+    "doneMessage": "Anda boleh membuat asal dalam masa sepuluh saat.",
+    "undo": "Buat asal"
+  }
+}

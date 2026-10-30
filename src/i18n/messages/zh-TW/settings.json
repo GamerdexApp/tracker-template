@@ -1,0 +1,156 @@
+{
+  "title": "設定",
+  "subline": "偏好設定、備份與你的資料",
+  "tabsLabel": "設定分類",
+  "tabs": {
+    "sync": "雲端同步",
+    "preferences": "偏好設定",
+    "data": "備份與資料",
+    "about": "關於"
+  },
+  "appearance": {
+    "title": "外觀",
+    "description": "選擇應用程式的外觀。",
+    "themeLabel": "主題",
+    "themes": {
+      "light": "淺色",
+      "dark": "深色",
+      "system": "系統"
+    },
+    "themeNote": "系統會跟隨你的裝置，目前為{mode}。"
+  },
+  "data": {
+    "title": "資料管理",
+    "storageNote": {
+      "title": "儲存在此瀏覽器。",
+      "body": "清除瀏覽器資料會移除你的存檔。請不時匯出備份。"
+    },
+    "export": {
+      "title": "匯出",
+      "description": "將所有存檔與設定下載成一個檔案。",
+      "button": "匯出所有存檔",
+      "done": "備份已下載"
+    },
+    "import": {
+      "title": "匯入",
+      "fileLabel": "備份檔案",
+      "chooseFile": "選擇檔案",
+      "noFile": "尚未選擇檔案",
+      "description": "選擇備份檔案。在變更任何內容之前，你可以先檢視。",
+      "review": "檢視匯入內容",
+      "merged": "備份已合併",
+      "replaced": "備份已取代你的資料",
+      "undo": "復原"
+    },
+    "reset": {
+      "title": "重設所有資料",
+      "warning": "刪除此瀏覽器中的所有存檔與設定。",
+      "button": "重設所有資料",
+      "confirmTitle": "要刪除所有內容嗎？",
+      "confirmBody": "這會移除 {names}。你有十秒鐘可以復原。",
+      "cancel": "取消",
+      "confirm": "全部刪除",
+      "done": "所有資料已刪除",
+      "doneMessage": "{count, plural, other {已移除 {amount} 個存檔。}}",
+      "doneMessageDisconnected": "{count, plural, other {已移除 {amount} 個存檔。}}此瀏覽器的同步已中斷連線。",
+      "syncedCopy": "同時刪除 {provider} 上的同步副本",
+      "syncedOn": "同步維持開啟。你的其他裝置會在下次同步時失去這些存檔。如果不確定，請先匯出備份。",
+      "syncedOff": "若不勾選，此瀏覽器的同步會中斷連線，下次同步就不會把存檔帶回來。",
+      "undo": "復原"
+    },
+    "playthroughs": {
+      "title": "存檔",
+      "description": "建立、編輯、切換與刪除存檔。",
+      "manage": "管理存檔"
+    },
+    "playthroughCount": "{count, plural, other {{amount} 個存檔}}"
+  },
+  "importDialog": {
+    "title": "檢視匯入內容",
+    "fileInfo": "{name}，{size}",
+    "bytes": "{count} B",
+    "kilobytes": "{count} KB",
+    "cancel": "取消",
+    "close": "關閉",
+    "merge": "合併到此裝置",
+    "replace": "取代此裝置",
+    "failedTitle": "無法匯入此檔案。",
+    "errors": {
+      "notJson": "此檔案不是有效的 JSON。",
+      "playthroughsMissing": "此檔案不是來自本追蹤器的備份，裡面沒有存檔清單。"
+    },
+    "checksTitle": "檢查通過。",
+    "checks": "檔案列出了 {read} 個存檔，其中 {kept} 個可以讀取。",
+    "skipped": "{count, plural, other {已略過 {amount} 筆項目。}}",
+    "howToApply": "套用方式",
+    "modeLabel": "匯入模式",
+    "modes": {
+      "merge": "合併",
+      "replace": "取代"
+    },
+    "modeNotes": {
+      "merge": "加入新的存檔；如果某個存檔兩邊都有，則保留較新的副本。你的設定與使用中的存檔維持不變。",
+      "replace": "只使用檔案中的內容。不在檔案中的存檔會被移除。"
+    },
+    "whatChanges": "會有哪些變更",
+    "columns": {
+      "playthrough": "存檔",
+      "inFile": "檔案中",
+      "onDevice": "裝置上",
+      "result": "結果"
+    },
+    "notThere": "不存在",
+    "results": {
+      "added": "已新增",
+      "updated": "已依檔案更新",
+      "kept": "已保留",
+      "replaced": "已取代",
+      "removed": "已移除"
+    },
+    "summary": {
+      "added": "新增 {count} 個",
+      "updated": "更新 {count} 個",
+      "kept": "保留 {count} 個",
+      "replaced": "取代 {count} 個",
+      "removed": "移除 {count} 個"
+    },
+    "noPlaythroughs": "檔案中沒有存檔。",
+    "undoNote": "匯入後你有十秒鐘可以復原。"
+  },
+  "about": {
+    "version": "版本 {version}",
+    "summary": "Game Name 的免費進度追蹤器。在多個存檔之間追蹤你的進度。",
+    "officialGame": "遊戲官方網站",
+    "disclaimer": "本專案與 Game Name 的發行商或開發者沒有隸屬、認可或關聯關係。"
+  },
+  "region": {
+    "title": "語言與地區",
+    "description": "應用程式在此裝置上如何顯示文字、數字與日期。這些選項不會隨你的存檔儲存，不會匯出，也不會同步。",
+    "language": {
+      "label": "語言",
+      "hint": "應用程式的語言。遊戲中的名稱維持英文。"
+    },
+    "numberFormat": {
+      "label": "數字格式",
+      "hint": "範例：{example}",
+      "options": {
+        "auto": "自動（跟隨語言）",
+        "us": "1,234,567.89（美國）",
+        "european": "1.234.567,89（歐洲）",
+        "french": "1 234 567,89（法國）",
+        "swiss": "1’234’567.89（瑞士）",
+        "indian": "12,34,567.89（印度）"
+      }
+    },
+    "dateFormat": {
+      "label": "日期格式",
+      "hint": "範例：{example}",
+      "options": {
+        "auto": "自動（跟隨語言）",
+        "mdy": "月/日/年",
+        "dmy": "日/月/年",
+        "ymd": "年-月-日"
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "skipToContent": "Langkau ke kandungan",
+  "closeMenu": "Tutup menu",
+  "openMenu": "Buka menu",
+  "menuLabel": "Menu laman",
+  "mainNav": "Utama",
+  "brandTitle": "Game Name",
+  "brandSubtitle": "Tracker",
+  "switcher": {
+    "sectionLabel": "Permainan",
+    "loading": "Memuatkan",
+    "none": "Tiada permainan",
+    "noneDetail": "Cipta satu untuk bermula",
+    "switch": "Tukar permainan",
+    "playthroughs": "Permainan",
+    "active": "Aktif",
+    "all": "Semua permainan",
+    "create": "Permainan baharu"
+  },
+  "footer": {
+    "tagline": "Penjejak kemajuan percuma untuk Game Name. Data anda kekal dalam pelayar anda, atau dalam storan awan anda sendiri jika anda menghidupkan segerak.",
+    "support": "Sokongan",
+    "about": "Perihal",
+    "settings": "Tetapan",
+    "discord": "Discord",
+    "github": "GitHub",
+    "game": "Laman rasmi permainan",
+    "privacy": "Dasar privasi",
+    "terms": "Terma perkhidmatan",
+    "disclaimerTitle": "Penafian",
+    "disclaimer": "Projek ini tidak berkaitan dengan, disokong oleh, atau dihubungkan dengan penerbit atau pembangun Game Name.",
+    "framework": "Dibina dengan rangka kerja Gamerdex, asas bersama untuk penjejak kemajuan permainan percuma.",
+    "visitGamerdex": "Lawati Gamerdex"
+  },
+  "notFound": {
+    "title": "Halaman ini tidak wujud",
+    "body": "Pautan mungkin lama atau tersalah taip. Permainan anda selamat dan tiada apa-apa berubah.",
+    "toOverview": "Pergi ke Gambaran keseluruhan",
+    "toPlaythroughs": "Pergi ke Permainan",
+    "toHome": "Kembali ke laman utama",
+    "didYouMean": "Adakah maksud anda",
+    "noPlaythrough": "Tiada permainan dipilih, jadi Gambaran keseluruhan tiada apa-apa untuk dipaparkan. Pilih satu di halaman Permainan.",
+    "jumpTo": "Atau lompat ke"
+  },
+  "error": {
+    "title": "Ada yang tidak kena",
+    "body": "Aplikasi menemui ralat. Data tersimpan anda tidak berubah.",
+    "digest": "digest {digest}",
+    "tryAgain": "Cuba lagi",
+    "download": "Muat turun data mentah",
+    "clear": "Kosongkan data dan mula semula",
+    "confirmTitle": "Kosongkan semua data tersimpan?",
+    "confirmBody": "Ini membuang semua yang disimpan aplikasi dalam pelayar ini. Salinan data mentah dimuat turun dahulu supaya boleh dibaiki kemudian. Permainan yang disegerakkan ke akaun awan kekal di sana.",
+    "cancel": "Batal",
+    "confirm": "Muat turun dan kosongkan",
+    "noData": "Tiada data tersimpan dalam pelayar ini."
+  }
+}

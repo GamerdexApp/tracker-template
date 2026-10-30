@@ -1,0 +1,10 @@
+{
+  "chip": "Alterações por guardar",
+  "leave": {
+    "title": "{count, plural, one {Tens 1 alteração por guardar} other {Tens {amount} alterações por guardar}}",
+    "body": "Guarda-as antes de sair ou descarta-as.",
+    "save": "Guardar e sair",
+    "discard": "Descartar e sair",
+    "keep": "Continuar a editar"
+  }
+}

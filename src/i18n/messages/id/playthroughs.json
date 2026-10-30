@@ -1,0 +1,70 @@
+{
+  "title": "Permainan Saya",
+  "subline": "{amount} {count, plural, other {permainan}}",
+  "sublineActive": "{amount} {count, plural, other {permainan}}, {name} aktif",
+  "newPlaythrough": "Permainan baru",
+  "empty": {
+    "title": "Belum ada permainan",
+    "deletedTitle": "Tidak ada permainan tersisa",
+    "description": "Buat permainan untuk mulai melacak progresmu.",
+    "restore": "Pulihkan dari cadangan"
+  },
+  "filters": {
+    "search": "Cari permainan",
+    "sortLabel": "Urutkan menurut",
+    "sort": {
+      "lastModified": "Terakhir diubah",
+      "createdAt": "Tanggal dibuat",
+      "name": "Nama"
+    },
+    "showing": "Menampilkan {shown} dari {total}",
+    "clear": "Hapus pencarian"
+  },
+  "noMatch": {
+    "title": "Tidak ada permainan yang cocok dengan \"{query}\"",
+    "description": "Periksa ejaan atau hapus pencarian."
+  },
+  "card": {
+    "active": "Aktif",
+    "openOverview": "Buka ikhtisar",
+    "setActive": "Jadikan aktif",
+    "edit": "Ubah",
+    "delete": "Hapus",
+    "created": "Dibuat {date}",
+    "lastModified": "Diubah {date}",
+    "switched": "{name} sekarang aktif",
+    "progress": "{done} dari {total} item di level tertinggi"
+  },
+  "fields": {
+    "name": "Nama permainan",
+    "namePlaceholder": "Permainan pertamaku",
+    "nameRequired": "Masukkan nama untuk permainan ini.",
+    "description": "Deskripsi",
+    "descriptionPlaceholder": "Tambahkan deskripsi untuk permainan ini",
+    "cancel": "Batal"
+  },
+  "create": {
+    "title": "Permainan baru",
+    "submit": "Buat permainan",
+    "makeActive": "Jadikan ini permainan aktif",
+    "done": "{name} dibuat"
+  },
+  "edit": {
+    "title": "Ubah permainan",
+    "submit": "Simpan",
+    "done": "{name} disimpan"
+  },
+  "delete": {
+    "title": "Hapus permainan",
+    "description": "Ini menghapus permainan dari browser ini.",
+    "question": "Hapus {name}? Progresnya ikut dihapus.",
+    "activeNext": "{next} menjadi permainan aktif.",
+    "activeLast": "Tidak akan ada permainan yang aktif.",
+    "exportFirst": "Ekspor cadangan dulu",
+    "cancel": "Batal",
+    "confirm": "Hapus permainan",
+    "done": "{name} dihapus",
+    "doneMessage": "Kamu bisa mengurungkannya selama sepuluh detik.",
+    "undo": "Urungkan"
+  }
+}

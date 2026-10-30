@@ -1,0 +1,15 @@
+{
+  "title": "Tổng quan",
+  "subline": "{name}, tóm tắt tiến độ của bạn",
+  "progress": {
+    "title": "Tiến độ chung",
+    "label": "{done} trên {total} vật phẩm ở cấp cao nhất"
+  },
+  "tiles": {
+    "done": "Vật phẩm ở cấp cao nhất",
+    "levels": "Cấp đã đạt",
+    "playthroughs": "Lượt chơi"
+  },
+  "of": "trên {total}",
+  "open": "Mở vật phẩm"
+}

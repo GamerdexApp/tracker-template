@@ -1,0 +1,15 @@
+{
+  "title": "总览",
+  "subline": "{name}，你的进度摘要",
+  "progress": {
+    "title": "整体进度",
+    "label": "{total} 项中有 {done} 项已达最高等级"
+  },
+  "tiles": {
+    "done": "已达最高等级的项目",
+    "levels": "已达到的等级",
+    "playthroughs": "存档"
+  },
+  "of": "共 {total}",
+  "open": "打开项目"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Items",
+  "subline": "{done} dari {total} item di level tertinggi",
+  "levelLabel": "Level {name}",
+  "levelOf": "Level {level} dari {max}",
+  "hideDone": "Sembunyikan item di level tertinggi",
+  "topLevel": "Level tertinggi",
+  "empty": {
+    "title": "Tidak ada yang ditampilkan",
+    "description": "Semua item ada di level tertingginya. Matikan filter untuk melihatnya lagi."
+  }
+}

@@ -1,16 +1,161 @@
 @import "tailwindcss";
-@import "flowbite-react/plugin/tailwindcss";
-@source "../../.flowbite-react/class-list.json";
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-@theme {
-  --color-primary: #5a9367;
-  --color-secondary: #6daedc;
-  --color-accent: #8b572a;
-  --color-highlight: #f39c12;
+/* The baseline light theme. Change these tokens to give a tracker its own colours. */
+:root {
+  --bg: #f4f7fb;
+  --surface: #ffffff;
+  --line: #d6dfeb;
+  --track: #e3eaf3;
+  --ink: #0f1a2b;
+  --muted: #4d5b70;
+  --primary: #0b6e86;
+  --on-primary: #ffffff;
+  --tint: #e2f3f8;
+  --link: #0a5a70;
+  --danger: #b3261e;
+  --warn: #8a5a00;
+  --accent: #00a8cc;
+  --locked: #5b6678;
+  --scrim: rgba(7, 9, 15, 0.55);
+  --sb-bg: #111828;
+  --sb-text: #eef3fa;
+  --sb-muted: #a8b5c9;
+  --sb-line: #25314a;
+  --sb-active-bg: #00d4ff;
+  --sb-active-text: #07090f;
+  --sb-ring: #00d4ff;
+  --kept: #1f6b2e;
+  --changed: #8a5300;
+  --added: #1b5fa8;
+  --fixed: #4b4fa3;
+  --ring: var(--primary);
 }
 
-.Toastify__toast {
-  padding: 0 !important;
+/* The baseline dark theme. */
+.dark {
+  --bg: #07090f;
+  --surface: #111828;
+  --line: #25314a;
+  --track: #1b2438;
+  --ink: #eef3fa;
+  --muted: #a8b5c9;
+  --primary: #00d4ff;
+  --on-primary: #04141a;
+  --tint: #0f2a36;
+  --link: #5fdcff;
+  --danger: #ff9b93;
+  --warn: #f0b429;
+  --accent: #00d4ff;
+  --locked: #8a96aa;
+  --scrim: rgba(0, 0, 0, 0.62);
+  --sb-bg: #05070c;
+  --sb-text: #eef3fa;
+  --sb-muted: #93a1b8;
+  --sb-line: #1b2438;
+  --sb-active-bg: #00d4ff;
+  --sb-active-text: #04141a;
+  --sb-ring: #00d4ff;
+  --kept: #7fd08a;
+  --changed: #f0b429;
+  --added: #8db8ff;
+  --fixed: #b0b3f5;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-line: var(--line);
+  --color-track: var(--track);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-tint: var(--tint);
+  --color-link: var(--link);
+  --color-danger: var(--danger);
+  --color-warn: var(--warn);
+  --color-accent: var(--accent);
+  --color-locked: var(--locked);
+  --color-scrim: var(--scrim);
+  --color-sb-bg: var(--sb-bg);
+  --color-sb-text: var(--sb-text);
+  --color-sb-muted: var(--sb-muted);
+  --color-sb-line: var(--sb-line);
+  --color-sb-active-bg: var(--sb-active-bg);
+  --color-sb-active-text: var(--sb-active-text);
+  --color-sb-ring: var(--sb-ring);
+  --color-kept: var(--kept);
+  --color-changed: var(--changed);
+  --color-added: var(--added);
+  --color-fixed: var(--fixed);
+
+  --font-sans: var(--font-plex-sans), system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+  --font-brand: var(--font-lilita), var(--font-plex-sans), sans-serif;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 14px;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+
+  /* A scrolling box clips an outline that sits outside its control, so these boxes draw the ring inside. */
+  [data-focus-inset] :focus-visible {
+    outline-offset: -2px;
+  }
+
+  /* Tailwind 4 resets buttons to the default cursor. Every control a user can click needs a pointer. */
+  a[href],
+  button:not(:disabled),
+  summary,
+  select:not(:disabled),
+  label[for],
+  [role="button"]:not([aria-disabled="true"]),
+  [role="tab"],
+  [role="switch"],
+  [role="menuitem"],
+  input:is([type="checkbox"], [type="radio"], [type="file"]):not(:disabled) {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+
+  .text-start th {
+    text-align: start;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+html:has(dialog[open]) {
+  overflow: hidden;
 }

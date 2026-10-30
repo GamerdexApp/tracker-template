@@ -1,0 +1,10 @@
+{
+  "chip": "Modifications non enregistrées",
+  "leave": {
+    "title": "{count, plural, one {Vous avez 1 modification non enregistrée} other {Vous avez {amount} modifications non enregistrées}}",
+    "body": "Enregistrez-les avant de partir, ou abandonnez-les.",
+    "save": "Enregistrer et partir",
+    "discard": "Abandonner et partir",
+    "keep": "Continuer l'édition"
+  }
+}

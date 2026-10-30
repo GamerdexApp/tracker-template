@@ -1,0 +1,70 @@
+{
+  "title": "Meine Spielstände",
+  "subline": "{amount} {count, plural, one {Spielstand} other {Spielstände}}",
+  "sublineActive": "{amount} {count, plural, one {Spielstand} other {Spielstände}}, {name} ist aktiv",
+  "newPlaythrough": "Neuer Spielstand",
+  "empty": {
+    "title": "Noch keine Spielstände",
+    "deletedTitle": "Keine Spielstände mehr",
+    "description": "Erstelle einen Spielstand, um deinen Fortschritt zu verfolgen.",
+    "restore": "Aus Backup wiederherstellen"
+  },
+  "filters": {
+    "search": "Spielstände suchen",
+    "sortLabel": "Sortieren nach",
+    "sort": {
+      "lastModified": "Zuletzt geändert",
+      "createdAt": "Erstellungsdatum",
+      "name": "Name"
+    },
+    "showing": "{shown} von {total} angezeigt",
+    "clear": "Suche löschen"
+  },
+  "noMatch": {
+    "title": "Keine Spielstände passen zu \"{query}\"",
+    "description": "Prüfe die Schreibweise oder lösche die Suche."
+  },
+  "card": {
+    "active": "Aktiv",
+    "openOverview": "Übersicht öffnen",
+    "setActive": "Aktiv setzen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "created": "Erstellt {date}",
+    "lastModified": "Geändert {date}",
+    "switched": "{name} ist jetzt aktiv",
+    "progress": "{done} von {total} Items auf der höchsten Stufe"
+  },
+  "fields": {
+    "name": "Name des Spielstands",
+    "namePlaceholder": "Mein erster Spielstand",
+    "nameRequired": "Gib einen Namen für den Spielstand ein.",
+    "description": "Beschreibung",
+    "descriptionPlaceholder": "Beschreibung für diesen Spielstand hinzufügen",
+    "cancel": "Abbrechen"
+  },
+  "create": {
+    "title": "Neuer Spielstand",
+    "submit": "Spielstand erstellen",
+    "makeActive": "Diesen Spielstand aktiv setzen",
+    "done": "{name} erstellt"
+  },
+  "edit": {
+    "title": "Spielstand bearbeiten",
+    "submit": "Speichern",
+    "done": "{name} gespeichert"
+  },
+  "delete": {
+    "title": "Spielstand löschen",
+    "description": "Das entfernt den Spielstand aus diesem Browser.",
+    "question": "{name} löschen? Der Fortschritt wird entfernt.",
+    "activeNext": "{next} wird der aktive Spielstand.",
+    "activeLast": "Kein Spielstand ist aktiv.",
+    "exportFirst": "Exportiere zuerst ein Backup",
+    "cancel": "Abbrechen",
+    "confirm": "Spielstand löschen",
+    "done": "{name} gelöscht",
+    "doneMessage": "Du kannst das zehn Sekunden lang rückgängig machen.",
+    "undo": "Rückgängig"
+  }
+}

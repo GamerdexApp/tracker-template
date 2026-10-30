@@ -1,0 +1,10 @@
+{
+  "chip": "Ungespeicherte Änderungen",
+  "leave": {
+    "title": "{count, plural, one {Du hast 1 ungespeicherte Änderung} other {Du hast {amount} ungespeicherte Änderungen}}",
+    "body": "Speichere sie vor dem Verlassen oder verwirf sie.",
+    "save": "Speichern und verlassen",
+    "discard": "Verwerfen und verlassen",
+    "keep": "Weiter bearbeiten"
+  }
+}

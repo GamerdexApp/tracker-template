@@ -1,0 +1,58 @@
+{
+  "skipToContent": "Zum Inhalt springen",
+  "closeMenu": "Menü schließen",
+  "openMenu": "Menü öffnen",
+  "menuLabel": "Seitenmenü",
+  "mainNav": "Hauptmenü",
+  "brandTitle": "Game Name",
+  "brandSubtitle": "Tracker",
+  "switcher": {
+    "sectionLabel": "Spielstand",
+    "loading": "Lädt",
+    "none": "Kein Spielstand",
+    "noneDetail": "Erstelle eins, um zu starten",
+    "switch": "Spielstand wechseln",
+    "playthroughs": "Spielstände",
+    "active": "Aktiv",
+    "all": "Alle Spielstände",
+    "create": "Neuer Spielstand"
+  },
+  "footer": {
+    "tagline": "Ein kostenloser Fortschrittstracker für Game Name. Deine Daten bleiben in deinem Browser oder, wenn du den Sync einschaltest, in deinem eigenen Cloud-Speicher.",
+    "support": "Support",
+    "about": "Info",
+    "settings": "Einstellungen",
+    "discord": "Discord",
+    "github": "GitHub",
+    "game": "Offizielle Spieleseite",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "disclaimerTitle": "Haftungsausschluss",
+    "disclaimer": "Dieses Projekt steht in keiner Verbindung zum Publisher oder zu den Entwicklern von Game Name und wird von ihnen weder unterstützt noch gefördert.",
+    "framework": "Gebaut mit dem Gamerdex-Framework, einer gemeinsamen Basis für kostenlose Spiel-Fortschrittstracker.",
+    "visitGamerdex": "Gamerdex besuchen"
+  },
+  "notFound": {
+    "title": "Diese Seite gibt es nicht",
+    "body": "Der Link ist vielleicht veraltet oder falsch getippt. Deine Spielstände sind sicher, es wurde nichts geändert.",
+    "toOverview": "Zur Übersicht",
+    "toPlaythroughs": "Zu den Spielständen",
+    "toHome": "Zurück zur Startseite",
+    "didYouMean": "Meintest du",
+    "noPlaythrough": "Es ist kein Spielstand gewählt, deshalb hat die Übersicht nichts zu zeigen. Wähle einen auf der Seite Spielstände.",
+    "jumpTo": "Oder springe zu"
+  },
+  "error": {
+    "title": "Etwas ist schiefgelaufen",
+    "body": "Die App ist auf einen Fehler gestoßen. Deine gespeicherten Daten wurden nicht geändert.",
+    "digest": "Digest {digest}",
+    "tryAgain": "Erneut versuchen",
+    "download": "Rohdaten herunterladen",
+    "clear": "Daten löschen und neu starten",
+    "confirmTitle": "Alle gespeicherten Daten löschen?",
+    "confirmBody": "Das entfernt alles, was die App in diesem Browser gespeichert hat. Vorher wird eine Kopie der Rohdaten heruntergeladen, damit sie später repariert werden können. Spielstände, die mit einem Cloud-Konto synchronisiert sind, bleiben dort erhalten.",
+    "cancel": "Abbrechen",
+    "confirm": "Herunterladen und löschen",
+    "noData": "In diesem Browser sind keine Daten gespeichert."
+  }
+}

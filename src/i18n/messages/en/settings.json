@@ -1,0 +1,156 @@
+{
+  "title": "Settings",
+  "subline": "Preferences, backups and your data",
+  "tabsLabel": "Settings sections",
+  "tabs": {
+    "sync": "Cloud sync",
+    "preferences": "Preferences",
+    "data": "Backup and data",
+    "about": "About"
+  },
+  "appearance": {
+    "title": "Appearance",
+    "description": "Choose how the app looks.",
+    "themeLabel": "Theme",
+    "themes": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "themeNote": "System follows your device. It is {mode} now."
+  },
+  "data": {
+    "title": "Data management",
+    "storageNote": {
+      "title": "Stored in this browser.",
+      "body": "Clearing the browser data removes your playthroughs. Export a backup now and then."
+    },
+    "export": {
+      "title": "Export",
+      "description": "Download every playthrough and your settings as one file.",
+      "button": "Export all playthroughs",
+      "done": "Backup downloaded"
+    },
+    "import": {
+      "title": "Import",
+      "fileLabel": "Backup file",
+      "chooseFile": "Choose file",
+      "noFile": "No file chosen",
+      "description": "Choose a backup file. You review it before anything changes.",
+      "review": "Review import",
+      "merged": "Backup merged",
+      "replaced": "Backup replaced your data",
+      "undo": "Undo"
+    },
+    "reset": {
+      "title": "Reset all data",
+      "warning": "Deletes every playthrough and setting in this browser.",
+      "button": "Reset all data",
+      "confirmTitle": "Delete everything?",
+      "confirmBody": "This removes {names}. You can undo it for ten seconds.",
+      "cancel": "Cancel",
+      "confirm": "Delete everything",
+      "done": "All data deleted",
+      "doneMessage": "{amount} {count, plural, one {playthrough} other {playthroughs}} removed.",
+      "doneMessageDisconnected": "{amount} {count, plural, one {playthrough} other {playthroughs}} removed. Sync is disconnected on this browser.",
+      "syncedCopy": "Also delete the synced copy in {provider}",
+      "syncedOn": "Sync stays on. Your other devices lose these playthroughs at their next sync. Export a backup first if you are not sure.",
+      "syncedOff": "Without this, sync is disconnected on this browser so the next sync cannot bring the playthroughs back.",
+      "undo": "Undo"
+    },
+    "playthroughs": {
+      "title": "Playthroughs",
+      "description": "Create, edit, switch and delete playthroughs.",
+      "manage": "Manage playthroughs"
+    },
+    "playthroughCount": "{amount} {count, plural, one {playthrough} other {playthroughs}}"
+  },
+  "importDialog": {
+    "title": "Review import",
+    "fileInfo": "{name}, {size}",
+    "bytes": "{count} B",
+    "kilobytes": "{count} KB",
+    "cancel": "Cancel",
+    "close": "Close",
+    "merge": "Merge into this device",
+    "replace": "Replace this device",
+    "failedTitle": "This file cannot be imported.",
+    "errors": {
+      "notJson": "This file is not valid JSON.",
+      "playthroughsMissing": "This file is not a backup from this tracker. It has no playthroughs list."
+    },
+    "checksTitle": "Checks passed.",
+    "checks": "The file lists {read} playthroughs and {kept} can be read.",
+    "skipped": "{amount} {count, plural, one {entry was} other {entries were}} skipped.",
+    "howToApply": "How to apply",
+    "modeLabel": "Import mode",
+    "modes": {
+      "merge": "Merge",
+      "replace": "Replace"
+    },
+    "modeNotes": {
+      "merge": "Adds playthroughs that are new and keeps the later copy of a playthrough that exists in both. Your settings and active playthrough stay.",
+      "replace": "Uses only what is in the file. Playthroughs that are not in the file are removed."
+    },
+    "whatChanges": "What changes",
+    "columns": {
+      "playthrough": "Playthrough",
+      "inFile": "In file",
+      "onDevice": "On device",
+      "result": "Result"
+    },
+    "notThere": "Not there",
+    "results": {
+      "added": "Added",
+      "updated": "Updated from file",
+      "kept": "Kept",
+      "replaced": "Replaced",
+      "removed": "Removed"
+    },
+    "summary": {
+      "added": "{count} added",
+      "updated": "{count} updated",
+      "kept": "{count} kept",
+      "replaced": "{count} replaced",
+      "removed": "{count} removed"
+    },
+    "noPlaythroughs": "The file has no playthroughs.",
+    "undoNote": "You can undo the import for ten seconds."
+  },
+  "about": {
+    "version": "Version {version}",
+    "summary": "A free progress tracker for Game Name. Track your progress across several playthroughs.",
+    "officialGame": "Official game site",
+    "disclaimer": "This project is not affiliated with, endorsed by, or connected to the publisher or developers of Game Name."
+  },
+  "region": {
+    "title": "Language and region",
+    "description": "How the app shows text, numbers and dates on this device. These choices are not saved with your playthroughs, not exported and not synced.",
+    "language": {
+      "label": "Language",
+      "hint": "The language of the app. Names from the game stay in English."
+    },
+    "numberFormat": {
+      "label": "Number format",
+      "hint": "Example: {example}",
+      "options": {
+        "auto": "Automatic (follows the language)",
+        "us": "1,234,567.89 (US)",
+        "european": "1.234.567,89 (European)",
+        "french": "1 234 567,89 (French)",
+        "swiss": "1’234’567.89 (Swiss)",
+        "indian": "12,34,567.89 (Indian)"
+      }
+    },
+    "dateFormat": {
+      "label": "Date format",
+      "hint": "Example: {example}",
+      "options": {
+        "auto": "Automatic (follows the language)",
+        "mdy": "Month/Day/Year",
+        "dmy": "Day/Month/Year",
+        "ymd": "Year-Month-Day"
+      }
+    }
+  }
+}

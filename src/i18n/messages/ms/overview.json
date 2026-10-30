@@ -1,0 +1,15 @@
+{
+  "title": "Gambaran keseluruhan",
+  "subline": "{name}, ringkasan kemajuan anda",
+  "progress": {
+    "title": "Kemajuan keseluruhan",
+    "label": "{done} daripada {total} item di tahap tertinggi"
+  },
+  "tiles": {
+    "done": "Item di tahap tertinggi",
+    "levels": "Tahap dicapai",
+    "playthroughs": "Permainan"
+  },
+  "of": "daripada {total}",
+  "open": "Buka item"
+}

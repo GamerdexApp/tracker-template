@@ -1,0 +1,12 @@
+{
+  "title": "Items",
+  "subline": "{done} von {total} Items auf der höchsten Stufe",
+  "levelLabel": "Stufe von {name}",
+  "levelOf": "Stufe {level} von {max}",
+  "hideDone": "Items auf der höchsten Stufe ausblenden",
+  "topLevel": "Höchste Stufe",
+  "empty": {
+    "title": "Nichts zu zeigen",
+    "description": "Jedes Item ist auf seiner höchsten Stufe. Schalte den Filter aus, um sie wieder zu sehen."
+  }
+}

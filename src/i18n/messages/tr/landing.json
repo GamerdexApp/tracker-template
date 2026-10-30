@@ -1,0 +1,86 @@
+{
+  "header": {
+    "label": "Sayfa bölümleri",
+    "features": "Özellikler",
+    "faq": "SSS",
+    "playthroughs": "Oynanışlar",
+    "settings": "Ayarlar"
+  },
+  "hero": {
+    "title": "Oyun İlerlemeni Takip Et",
+    "description": "Tüm oynanışlarını tek yerde tut: koleksiyonlar, geliştirmeler ve kilometre taşları, değiştirdiğin anda kaydedilir.",
+    "note": "Ücretsiz. Hesap yok. Tüm veriler tarayıcında kalır.",
+    "continue": "Devam et:",
+    "continueLine": "Güncellendi: {updated}"
+  },
+  "cta": {
+    "create": "İlk oynanışını oluştur",
+    "learnMore": "Daha fazla bilgi",
+    "overview": "Genel Bakışa git",
+    "newPlaythrough": "Yeni oynanış"
+  },
+  "features": {
+    "label": "İhtiyacın olan her şey",
+    "title": "Tüm ilerlemen tek yerde",
+    "description": "Takip ettiğin her seviye, değiştirdiğin anda kaydedilir.",
+    "items": {
+      "item1": {
+        "title": "Birden fazla oynanış",
+        "text": "Sınırsız oynanış oluştur ve yönet, her birini ayrı ayrı takip et."
+      },
+      "item2": {
+        "title": "İlerleme takibi",
+        "text": "Her oynanışta nelerin tamamlandığını, toplandığını veya açıldığını tam olarak takip et."
+      },
+      "item3": {
+        "title": "Genel Bakış",
+        "text": "İlerlemeni özet istatistikler, günlük sayaçlar ve tamamlanma göstergeleriyle tek bakışta gör."
+      },
+      "item4": {
+        "title": "Yedek ve senkron",
+        "text": "İlerlemeni JSON dosyası olarak dışa aktar veya kendi bulut depolamanla cihazlar arasında senkronla."
+      },
+      "item5": {
+        "title": "Private",
+        "text": "Senkronizasyonu açmadıkça verilerin tarayıcında kalır."
+      },
+      "item6": {
+        "title": "Dark mode",
+        "text": "Comfortable to use day or night. Choose light, dark or follow your device in Settings."
+      }
+    }
+  },
+  "faq": {
+    "label": "Sorun mu var?",
+    "title": "Sık sorulan sorular",
+    "items": {
+      "item1": {
+        "question": "Game Name Tracker nedir?",
+        "answer": "Game Name için bir ilerleme takipçisidir. Birden fazla oynanışı yönetmene, geliştirmelerini, koleksiyonlarını ve genel ilerlemeni takip etmene yardım eder."
+      },
+      "item2": {
+        "question": "Verilerimi nasıl saklıyor?",
+        "answer": "Her şey tarayıcında kaydedilir, bu yüzden ilerlemen gizli kalır ve hesap gerekmez. Yedek için JSON dosyası olarak dışa ve içe aktarabilirsin."
+      },
+      "item3": {
+        "question": "Birden fazla oynanışı takip edebilir miyim?",
+        "answer": "Evet. İstediğin kadar oynanış oluştur, her birinin kendi ilerlemesi olur. Aralarında kenar çubuğundan geçiş yapabilirsin."
+      },
+      "item4": {
+        "question": "Cihazlar arasında senkronlanıyor mu?",
+        "answer": "Evet, istersen. Ayarları aç ve GitHub, Google Drive, Dropbox veya OneDrive'ı bağla. Verilerin kendi hesabında saklanır ve sen açana kadar senkron kapalı kalır."
+      },
+      "item5": {
+        "question": "Bu uygulama ücretsiz mi?",
+        "answer": "Evet. Ücretsizdir, abonelik, reklam ve kayıt yoktur."
+      }
+    }
+  },
+  "final": {
+    "title": "Oynanışlarını bugün takip etmeye başla",
+    "description": "Hesap ve kayıt yok. İlk oynanışın için tek bir ad yeterli."
+  },
+  "updated": {
+    "justNow": "az önce"
+  }
+}

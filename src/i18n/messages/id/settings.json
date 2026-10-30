@@ -1,0 +1,156 @@
+{
+  "title": "Pengaturan",
+  "subline": "Preferensi, cadangan, dan datamu",
+  "tabsLabel": "Bagian pengaturan",
+  "tabs": {
+    "sync": "Sinkron cloud",
+    "preferences": "Preferensi",
+    "data": "Cadangan dan data",
+    "about": "Tentang"
+  },
+  "appearance": {
+    "title": "Tampilan",
+    "description": "Pilih tampilan aplikasi.",
+    "themeLabel": "Tema",
+    "themes": {
+      "light": "Terang",
+      "dark": "Gelap",
+      "system": "Sistem"
+    },
+    "themeNote": "Sistem mengikuti perangkatmu. Sekarang: {mode}."
+  },
+  "data": {
+    "title": "Pengelolaan data",
+    "storageNote": {
+      "title": "Disimpan di browser ini.",
+      "body": "Menghapus data browser akan menghapus permainanmu. Ekspor cadangan sesekali."
+    },
+    "export": {
+      "title": "Ekspor",
+      "description": "Unduh semua permainan dan pengaturanmu dalam satu file.",
+      "button": "Ekspor semua permainan",
+      "done": "Cadangan diunduh"
+    },
+    "import": {
+      "title": "Impor",
+      "fileLabel": "File cadangan",
+      "chooseFile": "Pilih file",
+      "noFile": "Belum ada file dipilih",
+      "description": "Pilih file cadangan. Kamu meninjaunya sebelum ada yang berubah.",
+      "review": "Tinjau impor",
+      "merged": "Cadangan digabung",
+      "replaced": "Cadangan menggantikan datamu",
+      "undo": "Urungkan"
+    },
+    "reset": {
+      "title": "Reset semua data",
+      "warning": "Menghapus semua permainan dan pengaturan di browser ini.",
+      "button": "Reset semua data",
+      "confirmTitle": "Hapus semuanya?",
+      "confirmBody": "Ini menghapus {names}. Kamu bisa mengurungkannya selama sepuluh detik.",
+      "cancel": "Batal",
+      "confirm": "Hapus semuanya",
+      "done": "Semua data dihapus",
+      "doneMessage": "{amount} {count, plural, other {permainan dihapus}}.",
+      "doneMessageDisconnected": "{amount} {count, plural, other {permainan dihapus}}. Sinkronisasi diputuskan di browser ini.",
+      "syncedCopy": "Hapus juga salinan tersinkron di {provider}",
+      "syncedOn": "Sinkronisasi tetap aktif. Perangkat lainmu kehilangan permainan ini saat sinkronisasi berikutnya. Ekspor cadangan dulu jika kamu ragu.",
+      "syncedOff": "Tanpa ini, sinkronisasi diputuskan di browser ini sehingga sinkronisasi berikutnya tidak bisa mengembalikan permainan.",
+      "undo": "Urungkan"
+    },
+    "playthroughs": {
+      "title": "Permainan",
+      "description": "Buat, ubah, ganti, dan hapus permainan.",
+      "manage": "Kelola permainan"
+    },
+    "playthroughCount": "{amount} {count, plural, other {permainan}}"
+  },
+  "importDialog": {
+    "title": "Tinjau impor",
+    "fileInfo": "{name}, {size}",
+    "bytes": "{count} B",
+    "kilobytes": "{count} KB",
+    "cancel": "Batal",
+    "close": "Tutup",
+    "merge": "Gabung ke perangkat ini",
+    "replace": "Ganti perangkat ini",
+    "failedTitle": "File ini tidak bisa diimpor.",
+    "errors": {
+      "notJson": "File ini bukan JSON yang valid.",
+      "playthroughsMissing": "File ini bukan cadangan dari pelacak ini. File ini tidak punya daftar permainan."
+    },
+    "checksTitle": "Pemeriksaan lolos.",
+    "checks": "File ini memuat {read} permainan dan {kept} bisa dibaca.",
+    "skipped": "{amount} {count, plural, other {entri}} dilewati.",
+    "howToApply": "Cara menerapkan",
+    "modeLabel": "Mode impor",
+    "modes": {
+      "merge": "Gabung",
+      "replace": "Ganti"
+    },
+    "modeNotes": {
+      "merge": "Menambahkan permainan yang baru dan menyimpan salinan terbaru dari permainan yang ada di kedua sisi. Pengaturan dan permainan aktifmu tetap.",
+      "replace": "Hanya memakai isi file. Permainan yang tidak ada di file dihapus."
+    },
+    "whatChanges": "Yang berubah",
+    "columns": {
+      "playthrough": "Permainan",
+      "inFile": "Di file",
+      "onDevice": "Di perangkat",
+      "result": "Hasil"
+    },
+    "notThere": "Tidak ada",
+    "results": {
+      "added": "Ditambahkan",
+      "updated": "Diperbarui dari file",
+      "kept": "Dipertahankan",
+      "replaced": "Diganti",
+      "removed": "Dihapus"
+    },
+    "summary": {
+      "added": "{count} ditambahkan",
+      "updated": "{count} diperbarui",
+      "kept": "{count} dipertahankan",
+      "replaced": "{count} diganti",
+      "removed": "{count} dihapus"
+    },
+    "noPlaythroughs": "File ini tidak punya permainan.",
+    "undoNote": "Kamu bisa mengurungkan impor selama sepuluh detik."
+  },
+  "about": {
+    "version": "Versi {version}",
+    "summary": "Pelacak progres gratis untuk Game Name. Lacak progresmu di beberapa permainan.",
+    "officialGame": "Situs resmi game",
+    "disclaimer": "Proyek ini tidak berafiliasi dengan, didukung oleh, atau terhubung dengan penerbit atau pengembang Game Name."
+  },
+  "region": {
+    "title": "Bahasa dan wilayah",
+    "description": "Cara aplikasi menampilkan teks, angka, dan tanggal di perangkat ini. Pilihan ini tidak disimpan bersama permainanmu, tidak diekspor, dan tidak disinkronkan.",
+    "language": {
+      "label": "Bahasa",
+      "hint": "Bahasa aplikasi. Nama dari game tetap dalam bahasa Inggris."
+    },
+    "numberFormat": {
+      "label": "Format angka",
+      "hint": "Contoh: {example}",
+      "options": {
+        "auto": "Otomatis (mengikuti bahasa)",
+        "us": "1,234,567.89 (AS)",
+        "european": "1.234.567,89 (Eropa)",
+        "french": "1 234 567,89 (Prancis)",
+        "swiss": "1’234’567.89 (Swiss)",
+        "indian": "12,34,567.89 (India)"
+      }
+    },
+    "dateFormat": {
+      "label": "Format tanggal",
+      "hint": "Contoh: {example}",
+      "options": {
+        "auto": "Otomatis (mengikuti bahasa)",
+        "mdy": "Bulan/Hari/Tahun",
+        "dmy": "Hari/Bulan/Tahun",
+        "ymd": "Tahun-Bulan-Hari"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "chip": "Thay đổi chưa lưu",
+  "leave": {
+    "title": "{count, plural, other {Bạn có {amount} thay đổi chưa lưu}}",
+    "body": "Hãy lưu trước khi rời đi, hoặc bỏ chúng.",
+    "save": "Lưu và rời đi",
+    "discard": "Bỏ và rời đi",
+    "keep": "Tiếp tục sửa"
+  }
+}

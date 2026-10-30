@@ -1,0 +1,86 @@
+{
+  "header": {
+    "label": "页面分区",
+    "features": "功能",
+    "faq": "常见问题",
+    "playthroughs": "存档",
+    "settings": "设置"
+  },
+  "hero": {
+    "title": "追踪你的游戏进度",
+    "description": "把每个存档放在一处：收藏、升级和里程碑，一有改动就自动保存。",
+    "note": "免费。无需账号。所有数据都保存在你的浏览器中。",
+    "continue": "继续使用",
+    "continueLine": "更新于 {updated}"
+  },
+  "cta": {
+    "create": "创建你的第一个存档",
+    "learnMore": "了解更多",
+    "overview": "前往总览",
+    "newPlaythrough": "新建存档"
+  },
+  "features": {
+    "label": "你需要的一切",
+    "title": "所有进度集中在一处",
+    "description": "你追踪的每个等级，一有改动就会保存。",
+    "items": {
+      "item1": {
+        "title": "多个存档",
+        "text": "创建和管理数量不限的存档，并分别追踪每一个。"
+      },
+      "item2": {
+        "title": "进度追踪",
+        "text": "准确追踪你在每个存档中完成、收集或解锁了什么。"
+      },
+      "item3": {
+        "title": "总览",
+        "text": "通过汇总数据、每日计时器和完成指示，一眼看清你的进度。"
+      },
+      "item4": {
+        "title": "备份和同步",
+        "text": "将进度导出为 JSON 文件，或通过你自己的云存储在多台设备间同步。"
+      },
+      "item5": {
+        "title": "Private",
+        "text": "除非你开启同步，否则你的数据只保存在浏览器中。"
+      },
+      "item6": {
+        "title": "Dark mode",
+        "text": "Comfortable to use day or night. Choose light, dark or follow your device in Settings."
+      }
+    }
+  },
+  "faq": {
+    "label": "有疑问？",
+    "title": "常见问题",
+    "items": {
+      "item1": {
+        "question": "Game Name Tracker 是什么？",
+        "answer": "这是 Game Name 的进度追踪器。它帮你管理多个存档，并追踪升级、收藏和整体进度。"
+      },
+      "item2": {
+        "question": "它如何保存我的数据？",
+        "answer": "所有内容都保存在你的浏览器中，所以你的进度是私密的，也不需要账号。你可以将其导出和导入为 JSON 文件作为备份。"
+      },
+      "item3": {
+        "question": "可以追踪多个存档吗？",
+        "answer": "可以。想创建多少个存档都行，每个都有自己的进度，并可在侧边栏中切换。"
+      },
+      "item4": {
+        "question": "它能在多台设备间同步吗？",
+        "answer": "可以，只要你想用。打开设置并连接 GitHub、Google Drive、Dropbox 或 OneDrive。你的数据保存在你自己的账号中，同步在你开启之前保持关闭。"
+      },
+      "item5": {
+        "question": "这款应用可以免费使用吗？",
+        "answer": "可以。它是免费的，没有订阅，没有广告，也无需注册。"
+      }
+    }
+  },
+  "final": {
+    "title": "今天就开始追踪你的存档",
+    "description": "无需账号，无需注册。创建第一个存档只需要一个名称。"
+  },
+  "updated": {
+    "justNow": "刚刚"
+  }
+}

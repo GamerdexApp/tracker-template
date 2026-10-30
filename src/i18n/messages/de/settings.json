@@ -1,0 +1,156 @@
+{
+  "title": "Einstellungen",
+  "subline": "Optionen, Backups und deine Daten",
+  "tabsLabel": "Einstellungsbereiche",
+  "tabs": {
+    "sync": "Cloud-Sync",
+    "preferences": "Optionen",
+    "data": "Backup und Daten",
+    "about": "Info"
+  },
+  "appearance": {
+    "title": "Darstellung",
+    "description": "Wähle, wie die App aussieht.",
+    "themeLabel": "Design",
+    "themes": {
+      "light": "Hell",
+      "dark": "Dunkel",
+      "system": "System"
+    },
+    "themeNote": "System folgt deinem Gerät. Gerade ist es {mode}."
+  },
+  "data": {
+    "title": "Datenverwaltung",
+    "storageNote": {
+      "title": "In diesem Browser gespeichert.",
+      "body": "Wenn du die Browserdaten löschst, sind deine Spielstände weg. Exportiere ab und zu ein Backup."
+    },
+    "export": {
+      "title": "Export",
+      "description": "Lade alle Spielstände und deine Einstellungen als eine Datei herunter.",
+      "button": "Alle Spielstände exportieren",
+      "done": "Backup heruntergeladen"
+    },
+    "import": {
+      "title": "Import",
+      "fileLabel": "Backup-Datei",
+      "chooseFile": "Datei wählen",
+      "noFile": "Keine Datei gewählt",
+      "description": "Wähle eine Backup-Datei. Du prüfst sie, bevor sich etwas ändert.",
+      "review": "Import prüfen",
+      "merged": "Backup zusammengeführt",
+      "replaced": "Backup hat deine Daten ersetzt",
+      "undo": "Rückgängig"
+    },
+    "reset": {
+      "title": "Alle Daten zurücksetzen",
+      "warning": "Löscht alle Spielstände und Einstellungen in diesem Browser.",
+      "button": "Alle Daten zurücksetzen",
+      "confirmTitle": "Alles löschen?",
+      "confirmBody": "Das entfernt {names}. Du kannst es zehn Sekunden lang rückgängig machen.",
+      "cancel": "Abbrechen",
+      "confirm": "Alles löschen",
+      "done": "Alle Daten gelöscht",
+      "doneMessage": "{amount} {count, plural, one {Spielstand} other {Spielstände}} entfernt.",
+      "doneMessageDisconnected": "{amount} {count, plural, one {Spielstand} other {Spielstände}} entfernt. Der Sync ist in diesem Browser getrennt.",
+      "syncedCopy": "Auch die synchronisierte Kopie in {provider} löschen",
+      "syncedOn": "Der Sync bleibt an. Deine anderen Geräte verlieren diese Spielstände beim nächsten Sync. Exportiere vorher ein Backup, wenn du unsicher bist.",
+      "syncedOff": "Ohne diese Option wird der Sync in diesem Browser getrennt, damit der nächste Sync die Spielstände nicht zurückbringt.",
+      "undo": "Rückgängig"
+    },
+    "playthroughs": {
+      "title": "Spielstände",
+      "description": "Spielstände erstellen, bearbeiten, wechseln und löschen.",
+      "manage": "Spielstände verwalten"
+    },
+    "playthroughCount": "{amount} {count, plural, one {Spielstand} other {Spielstände}}"
+  },
+  "importDialog": {
+    "title": "Import prüfen",
+    "fileInfo": "{name}, {size}",
+    "bytes": "{count} B",
+    "kilobytes": "{count} KB",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "merge": "In dieses Gerät zusammenführen",
+    "replace": "Dieses Gerät ersetzen",
+    "failedTitle": "Diese Datei kann nicht importiert werden.",
+    "errors": {
+      "notJson": "Diese Datei ist kein gültiges JSON.",
+      "playthroughsMissing": "Diese Datei ist kein Backup dieses Trackers. Sie enthält keine Spielstandliste."
+    },
+    "checksTitle": "Prüfungen bestanden.",
+    "checks": "Die Datei listet {read} Spielstände auf, {kept} davon sind lesbar.",
+    "skipped": "{amount} {count, plural, one {Eintrag wurde} other {Einträge wurden}} übersprungen.",
+    "howToApply": "So wird angewendet",
+    "modeLabel": "Importmodus",
+    "modes": {
+      "merge": "Zusammenführen",
+      "replace": "Ersetzen"
+    },
+    "modeNotes": {
+      "merge": "Fügt neue Spielstände hinzu und behält die neuere Kopie eines Spielstands, der in beiden vorkommt. Deine Einstellungen und der aktive Spielstand bleiben.",
+      "replace": "Verwendet nur, was in der Datei steht. Spielstände, die nicht in der Datei sind, werden entfernt."
+    },
+    "whatChanges": "Was sich ändert",
+    "columns": {
+      "playthrough": "Spielstand",
+      "inFile": "In Datei",
+      "onDevice": "Auf Gerät",
+      "result": "Ergebnis"
+    },
+    "notThere": "Nicht vorhanden",
+    "results": {
+      "added": "Hinzugefügt",
+      "updated": "Aus Datei aktualisiert",
+      "kept": "Behalten",
+      "replaced": "Ersetzt",
+      "removed": "Entfernt"
+    },
+    "summary": {
+      "added": "{count} hinzugefügt",
+      "updated": "{count} aktualisiert",
+      "kept": "{count} behalten",
+      "replaced": "{count} ersetzt",
+      "removed": "{count} entfernt"
+    },
+    "noPlaythroughs": "Die Datei enthält keine Spielstände.",
+    "undoNote": "Du kannst den Import zehn Sekunden lang rückgängig machen."
+  },
+  "about": {
+    "version": "Version {version}",
+    "summary": "Ein kostenloser Fortschrittstracker für Game Name. Verfolge deinen Fortschritt über mehrere Spielstände.",
+    "officialGame": "Offizielle Spielseite",
+    "disclaimer": "Dieses Projekt steht in keiner Verbindung zum Publisher oder zu den Entwicklern von Game Name und wird von ihnen weder unterstützt noch gefördert."
+  },
+  "region": {
+    "title": "Sprache und Region",
+    "description": "Wie die App Text, Zahlen und Datumsangaben auf diesem Gerät anzeigt. Diese Auswahl wird nicht mit deinen Spielständen gespeichert, nicht exportiert und nicht synchronisiert.",
+    "language": {
+      "label": "Sprache",
+      "hint": "Die Sprache der App. Namen aus dem Spiel bleiben auf Englisch."
+    },
+    "numberFormat": {
+      "label": "Zahlenformat",
+      "hint": "Beispiel: {example}",
+      "options": {
+        "auto": "Automatisch (folgt der Sprache)",
+        "us": "1,234,567.89 (US)",
+        "european": "1.234.567,89 (europäisch)",
+        "french": "1 234 567,89 (französisch)",
+        "swiss": "1’234’567.89 (Schweiz)",
+        "indian": "12,34,567.89 (indisch)"
+      }
+    },
+    "dateFormat": {
+      "label": "Datumsformat",
+      "hint": "Beispiel: {example}",
+      "options": {
+        "auto": "Automatisch (folgt der Sprache)",
+        "mdy": "Monat/Tag/Jahr",
+        "dmy": "Tag/Monat/Jahr",
+        "ymd": "Jahr-Monat-Tag"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "アイテム",
+  "subline": "{done}/{total}件が最大レベル",
+  "levelLabel": "{name}のレベル",
+  "levelOf": "レベル {level}/{max}",
+  "hideDone": "最大レベルのアイテムを隠す",
+  "topLevel": "最大レベル",
+  "empty": {
+    "title": "表示するものがありません",
+    "description": "すべてのアイテムが最大レベルです。フィルターをオフにすると、また表示されます。"
+  }
+}

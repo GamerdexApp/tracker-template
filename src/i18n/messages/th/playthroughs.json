@@ -1,0 +1,70 @@
+{
+  "title": "รอบการเล่นของฉัน",
+  "subline": "{count, plural, other {{amount} รอบการเล่น}}",
+  "sublineActive": "{count, plural, other {{amount} รอบการเล่น}}, {name} ใช้งานอยู่",
+  "newPlaythrough": "รอบการเล่นใหม่",
+  "empty": {
+    "title": "ยังไม่มีรอบการเล่น",
+    "deletedTitle": "ไม่เหลือรอบการเล่น",
+    "description": "สร้างรอบการเล่นเพื่อเริ่มติดตามความคืบหน้า",
+    "restore": "กู้คืนจากข้อมูลสำรอง"
+  },
+  "filters": {
+    "search": "ค้นหารอบการเล่น",
+    "sortLabel": "เรียงตาม",
+    "sort": {
+      "lastModified": "แก้ไขล่าสุด",
+      "createdAt": "วันที่สร้าง",
+      "name": "ชื่อ"
+    },
+    "showing": "แสดง {shown} จาก {total}",
+    "clear": "ล้างการค้นหา"
+  },
+  "noMatch": {
+    "title": "ไม่มีรอบการเล่นที่ตรงกับ \"{query}\"",
+    "description": "ตรวจสอบการสะกด หรือล้างการค้นหา"
+  },
+  "card": {
+    "active": "ใช้งานอยู่",
+    "openOverview": "เปิดภาพรวม",
+    "setActive": "ตั้งเป็นที่ใช้งาน",
+    "edit": "แก้ไข",
+    "delete": "ลบ",
+    "created": "สร้างเมื่อ {date}",
+    "lastModified": "แก้ไขเมื่อ {date}",
+    "switched": "{name} ใช้งานอยู่แล้ว",
+    "progress": "{done} จาก {total} รายการอยู่เลเวลสูงสุด"
+  },
+  "fields": {
+    "name": "ชื่อรอบการเล่น",
+    "namePlaceholder": "รอบการเล่นแรกของฉัน",
+    "nameRequired": "ใส่ชื่อของรอบการเล่น",
+    "description": "คำอธิบาย",
+    "descriptionPlaceholder": "เพิ่มคำอธิบายของรอบการเล่นนี้",
+    "cancel": "ยกเลิก"
+  },
+  "create": {
+    "title": "รอบการเล่นใหม่",
+    "submit": "สร้างรอบการเล่น",
+    "makeActive": "ตั้งเป็นรอบการเล่นที่ใช้งานอยู่",
+    "done": "สร้าง {name} แล้ว"
+  },
+  "edit": {
+    "title": "แก้ไขรอบการเล่น",
+    "submit": "บันทึก",
+    "done": "บันทึก {name} แล้ว"
+  },
+  "delete": {
+    "title": "ลบรอบการเล่น",
+    "description": "การทำนี้จะลบรอบการเล่นออกจากเบราว์เซอร์นี้",
+    "question": "ลบ {name} หรือไม่ ความคืบหน้าของรอบนี้จะถูกลบ",
+    "activeNext": "{next} จะกลายเป็นรอบการเล่นที่ใช้งานอยู่",
+    "activeLast": "จะไม่มีรอบการเล่นที่ใช้งานอยู่",
+    "exportFirst": "ส่งออกข้อมูลสำรองก่อน",
+    "cancel": "ยกเลิก",
+    "confirm": "ลบรอบการเล่น",
+    "done": "ลบ {name} แล้ว",
+    "doneMessage": "คุณเลิกทำได้ภายในสิบวินาที",
+    "undo": "เลิกทำ"
+  }
+}

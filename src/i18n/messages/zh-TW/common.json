@@ -1,0 +1,9 @@
+{
+  "gate": {
+    "title": "沒有使用中的存檔",
+    "description": "選擇一個存檔或新增一個，才能查看此頁面。",
+    "newPlaythrough": "新增存檔",
+    "choosePlaythrough": "選擇存檔"
+  },
+  "progressLabel": "{name}進度"
+}

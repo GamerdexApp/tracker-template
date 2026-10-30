@@ -1,0 +1,70 @@
+{
+  "title": "Lượt chơi của tôi",
+  "subline": "{amount} {count, plural, other {lượt chơi}}",
+  "sublineActive": "{amount} {count, plural, other {lượt chơi}}, đang dùng: {name}",
+  "newPlaythrough": "Lượt chơi mới",
+  "empty": {
+    "title": "Chưa có lượt chơi",
+    "deletedTitle": "Không còn lượt chơi nào",
+    "description": "Hãy tạo một lượt chơi để bắt đầu theo dõi tiến độ.",
+    "restore": "Khôi phục từ bản sao lưu"
+  },
+  "filters": {
+    "search": "Tìm lượt chơi",
+    "sortLabel": "Sắp xếp theo",
+    "sort": {
+      "lastModified": "Sửa gần nhất",
+      "createdAt": "Ngày tạo",
+      "name": "Tên"
+    },
+    "showing": "Hiện {shown} trên {total}",
+    "clear": "Xóa tìm kiếm"
+  },
+  "noMatch": {
+    "title": "Không có lượt chơi nào khớp \"{query}\"",
+    "description": "Kiểm tra chính tả hoặc xóa tìm kiếm."
+  },
+  "card": {
+    "active": "Đang dùng",
+    "openOverview": "Mở tổng quan",
+    "setActive": "Đặt làm đang dùng",
+    "edit": "Sửa",
+    "delete": "Xóa",
+    "created": "Tạo {date}",
+    "lastModified": "Sửa {date}",
+    "switched": "{name} đang được dùng",
+    "progress": "{done} trên {total} vật phẩm ở cấp cao nhất"
+  },
+  "fields": {
+    "name": "Tên lượt chơi",
+    "namePlaceholder": "Lượt chơi đầu tiên của tôi",
+    "nameRequired": "Nhập tên cho lượt chơi.",
+    "description": "Mô tả",
+    "descriptionPlaceholder": "Thêm mô tả cho lượt chơi này",
+    "cancel": "Hủy"
+  },
+  "create": {
+    "title": "Lượt chơi mới",
+    "submit": "Tạo lượt chơi",
+    "makeActive": "Đặt làm lượt chơi đang dùng",
+    "done": "Đã tạo {name}"
+  },
+  "edit": {
+    "title": "Sửa lượt chơi",
+    "submit": "Lưu",
+    "done": "Đã lưu {name}"
+  },
+  "delete": {
+    "title": "Xóa lượt chơi",
+    "description": "Thao tác này gỡ lượt chơi khỏi trình duyệt này.",
+    "question": "Xóa {name}? Tiến độ của nó sẽ bị xóa.",
+    "activeNext": "{next} sẽ thành lượt chơi đang dùng.",
+    "activeLast": "Sẽ không có lượt chơi nào đang dùng.",
+    "exportFirst": "Hãy xuất bản sao lưu trước",
+    "cancel": "Hủy",
+    "confirm": "Xóa lượt chơi",
+    "done": "Đã xóa {name}",
+    "doneMessage": "Bạn có thể hoàn tác trong mười giây.",
+    "undo": "Hoàn tác"
+  }
+}

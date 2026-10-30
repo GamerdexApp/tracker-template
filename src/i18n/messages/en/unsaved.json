@@ -1,0 +1,10 @@
+{
+  "chip": "Unsaved changes",
+  "leave": {
+    "title": "{count, plural, one {You have 1 unsaved change} other {You have {amount} unsaved changes}}",
+    "body": "Save them before you leave, or discard them.",
+    "save": "Save and leave",
+    "discard": "Discard and leave",
+    "keep": "Keep editing"
+  }
+}

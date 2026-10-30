@@ -1,0 +1,9 @@
+{
+  "gate": {
+    "title": "Tiada permainan aktif",
+    "description": "Pilih permainan atau cipta satu untuk melihat halaman ini.",
+    "newPlaythrough": "Permainan baharu",
+    "choosePlaythrough": "Pilih permainan"
+  },
+  "progressLabel": "Kemajuan {name}"
+}

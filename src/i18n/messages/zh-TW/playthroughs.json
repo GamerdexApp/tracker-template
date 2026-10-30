@@ -1,0 +1,70 @@
+{
+  "title": "我的存檔",
+  "subline": "{count, plural, other {{amount} 個存檔}}",
+  "sublineActive": "{count, plural, other {{amount} 個存檔}}，目前為 {name}",
+  "newPlaythrough": "新增存檔",
+  "empty": {
+    "title": "還沒有存檔",
+    "deletedTitle": "沒有剩餘存檔",
+    "description": "建立一個存檔，開始追蹤你的進度。",
+    "restore": "從備份還原"
+  },
+  "filters": {
+    "search": "搜尋存檔",
+    "sortLabel": "排序方式",
+    "sort": {
+      "lastModified": "最後修改",
+      "createdAt": "建立日期",
+      "name": "名稱"
+    },
+    "showing": "顯示 {shown} / {total}",
+    "clear": "清除搜尋"
+  },
+  "noMatch": {
+    "title": "沒有符合「{query}」的存檔",
+    "description": "請檢查拼字，或清除搜尋。"
+  },
+  "card": {
+    "active": "使用中",
+    "openOverview": "開啟總覽",
+    "setActive": "設為使用中",
+    "edit": "編輯",
+    "delete": "刪除",
+    "created": "建立於 {date}",
+    "lastModified": "修改於 {date}",
+    "switched": "{name}現在是使用中的存檔",
+    "progress": "{total} 項中有 {done} 項已達最高等級"
+  },
+  "fields": {
+    "name": "存檔名稱",
+    "namePlaceholder": "我的第一個存檔",
+    "nameRequired": "請輸入存檔名稱。",
+    "description": "說明",
+    "descriptionPlaceholder": "為此存檔新增說明",
+    "cancel": "取消"
+  },
+  "create": {
+    "title": "新增存檔",
+    "submit": "建立存檔",
+    "makeActive": "設為使用中的存檔",
+    "done": "已建立{name}"
+  },
+  "edit": {
+    "title": "編輯存檔",
+    "submit": "儲存",
+    "done": "已儲存{name}"
+  },
+  "delete": {
+    "title": "刪除存檔",
+    "description": "這會從此瀏覽器中移除該存檔。",
+    "question": "要刪除 {name} 嗎？它的進度會被移除。",
+    "activeNext": "{next} 將成為使用中的存檔。",
+    "activeLast": "將沒有使用中的存檔。",
+    "exportFirst": "請先匯出備份",
+    "cancel": "取消",
+    "confirm": "刪除存檔",
+    "done": "已刪除{name}",
+    "doneMessage": "你有十秒鐘可以復原。",
+    "undo": "復原"
+  }
+}

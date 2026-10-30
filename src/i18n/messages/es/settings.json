@@ -1,0 +1,156 @@
+{
+  "title": "Ajustes",
+  "subline": "Preferencias, copias de seguridad y tus datos",
+  "tabsLabel": "Secciones de ajustes",
+  "tabs": {
+    "sync": "Sincronización en la nube",
+    "preferences": "Preferencias",
+    "data": "Copia y datos",
+    "about": "Acerca de"
+  },
+  "appearance": {
+    "title": "Apariencia",
+    "description": "Elige cómo se ve la app.",
+    "themeLabel": "Tema",
+    "themes": {
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Sistema"
+    },
+    "themeNote": "Sistema sigue tu dispositivo. Ahora es {mode}."
+  },
+  "data": {
+    "title": "Gestión de datos",
+    "storageNote": {
+      "title": "Guardado en este navegador.",
+      "body": "Si borras los datos del navegador, pierdes tus partidas. Exporta una copia de vez en cuando."
+    },
+    "export": {
+      "title": "Exportar",
+      "description": "Descarga todas las partidas y tus ajustes en un solo archivo.",
+      "button": "Exportar todas las partidas",
+      "done": "Copia descargada"
+    },
+    "import": {
+      "title": "Importar",
+      "fileLabel": "Archivo de copia",
+      "chooseFile": "Elegir archivo",
+      "noFile": "Ningún archivo elegido",
+      "description": "Elige un archivo de copia. Lo revisas antes de que cambie nada.",
+      "review": "Revisar importación",
+      "merged": "Copia combinada",
+      "replaced": "La copia ha reemplazado tus datos",
+      "undo": "Deshacer"
+    },
+    "reset": {
+      "title": "Restablecer todos los datos",
+      "warning": "Elimina todas las partidas y ajustes de este navegador.",
+      "button": "Restablecer todos los datos",
+      "confirmTitle": "¿Eliminar todo?",
+      "confirmBody": "Esto elimina {names}. Puedes deshacerlo durante diez segundos.",
+      "cancel": "Cancelar",
+      "confirm": "Eliminar todo",
+      "done": "Todos los datos eliminados",
+      "doneMessage": "{amount} {count, plural, one {partida eliminada} other {partidas eliminadas}}.",
+      "doneMessageDisconnected": "{amount} {count, plural, one {partida eliminada} other {partidas eliminadas}}. La sincronización está desconectada en este navegador.",
+      "syncedCopy": "Eliminar también la copia sincronizada en {provider}",
+      "syncedOn": "La sincronización sigue activa. Tus otros dispositivos perderán estas partidas en su próxima sincronización. Exporta una copia antes si no estás seguro.",
+      "syncedOff": "Sin esto, la sincronización se desconecta en este navegador para que la próxima no recupere las partidas.",
+      "undo": "Deshacer"
+    },
+    "playthroughs": {
+      "title": "Partidas",
+      "description": "Crea, edita, cambia y elimina partidas.",
+      "manage": "Gestionar partidas"
+    },
+    "playthroughCount": "{amount} {count, plural, one {partida} other {partidas}}"
+  },
+  "importDialog": {
+    "title": "Revisar importación",
+    "fileInfo": "{name}, {size}",
+    "bytes": "{count} B",
+    "kilobytes": "{count} KB",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "merge": "Combinar con este dispositivo",
+    "replace": "Reemplazar este dispositivo",
+    "failedTitle": "No se puede importar este archivo.",
+    "errors": {
+      "notJson": "Este archivo no es un JSON válido.",
+      "playthroughsMissing": "Este archivo no es una copia de este tracker. No tiene lista de partidas."
+    },
+    "checksTitle": "Comprobaciones superadas.",
+    "checks": "El archivo lista {read} partidas y se pueden leer {kept}.",
+    "skipped": "{amount} {count, plural, one {entrada omitida} other {entradas omitidas}}.",
+    "howToApply": "Cómo aplicar",
+    "modeLabel": "Modo de importación",
+    "modes": {
+      "merge": "Combinar",
+      "replace": "Reemplazar"
+    },
+    "modeNotes": {
+      "merge": "Añade las partidas nuevas y conserva la copia más reciente de una partida que existe en ambos sitios. Tus ajustes y la partida activa se mantienen.",
+      "replace": "Usa solo lo que hay en el archivo. Las partidas que no están en el archivo se eliminan."
+    },
+    "whatChanges": "Qué cambia",
+    "columns": {
+      "playthrough": "Partida",
+      "inFile": "En el archivo",
+      "onDevice": "En el dispositivo",
+      "result": "Resultado"
+    },
+    "notThere": "No está",
+    "results": {
+      "added": "Añadida",
+      "updated": "Actualizada desde el archivo",
+      "kept": "Conservada",
+      "replaced": "Reemplazada",
+      "removed": "Eliminada"
+    },
+    "summary": {
+      "added": "{count} añadidas",
+      "updated": "{count} actualizadas",
+      "kept": "{count} conservadas",
+      "replaced": "{count} reemplazadas",
+      "removed": "{count} eliminadas"
+    },
+    "noPlaythroughs": "El archivo no tiene partidas.",
+    "undoNote": "Puedes deshacer la importación durante diez segundos."
+  },
+  "about": {
+    "version": "Versión {version}",
+    "summary": "Un seguimiento de progreso gratuito para Game Name. Sigue tu progreso en varias partidas.",
+    "officialGame": "Sitio oficial del juego",
+    "disclaimer": "Este proyecto no está afiliado, respaldado ni conectado con la editora ni con los desarrolladores de Game Name."
+  },
+  "region": {
+    "title": "Idioma y región",
+    "description": "Cómo muestra la app los textos, números y fechas en este dispositivo. Estas opciones no se guardan con tus partidas, no se exportan ni se sincronizan.",
+    "language": {
+      "label": "Idioma",
+      "hint": "El idioma de la app. Los nombres del juego se quedan en inglés."
+    },
+    "numberFormat": {
+      "label": "Formato de número",
+      "hint": "Ejemplo: {example}",
+      "options": {
+        "auto": "Automático (sigue el idioma)",
+        "us": "1,234,567.89 (EE. UU.)",
+        "european": "1.234.567,89 (europeo)",
+        "french": "1 234 567,89 (francés)",
+        "swiss": "1’234’567.89 (suizo)",
+        "indian": "12,34,567.89 (indio)"
+      }
+    },
+    "dateFormat": {
+      "label": "Formato de fecha",
+      "hint": "Ejemplo: {example}",
+      "options": {
+        "auto": "Automático (sigue el idioma)",
+        "mdy": "Mes/Día/Año",
+        "dmy": "Día/Mes/Año",
+        "ymd": "Año-Mes-Día"
+      }
+    }
+  }
+}

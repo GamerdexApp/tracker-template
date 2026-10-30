@@ -1,0 +1,156 @@
+{
+  "title": "Tetapan",
+  "subline": "Keutamaan, sandaran dan data anda",
+  "tabsLabel": "Bahagian tetapan",
+  "tabs": {
+    "sync": "Segerak awan",
+    "preferences": "Keutamaan",
+    "data": "Sandaran dan data",
+    "about": "Perihal"
+  },
+  "appearance": {
+    "title": "Penampilan",
+    "description": "Pilih rupa aplikasi.",
+    "themeLabel": "Tema",
+    "themes": {
+      "light": "Cerah",
+      "dark": "Gelap",
+      "system": "Sistem"
+    },
+    "themeNote": "Sistem mengikut peranti anda. Sekarang: {mode}."
+  },
+  "data": {
+    "title": "Pengurusan data",
+    "storageNote": {
+      "title": "Disimpan dalam pelayar ini.",
+      "body": "Memadam data pelayar akan membuang permainan anda. Eksport sandaran dari semasa ke semasa."
+    },
+    "export": {
+      "title": "Eksport",
+      "description": "Muat turun semua permainan dan tetapan anda sebagai satu fail.",
+      "button": "Eksport semua permainan",
+      "done": "Sandaran dimuat turun"
+    },
+    "import": {
+      "title": "Import",
+      "fileLabel": "Fail sandaran",
+      "chooseFile": "Pilih fail",
+      "noFile": "Tiada fail dipilih",
+      "description": "Pilih fail sandaran. Anda menyemaknya sebelum apa-apa berubah.",
+      "review": "Semak import",
+      "merged": "Sandaran digabungkan",
+      "replaced": "Sandaran menggantikan data anda",
+      "undo": "Buat asal"
+    },
+    "reset": {
+      "title": "Set semula semua data",
+      "warning": "Memadam setiap permainan dan tetapan dalam pelayar ini.",
+      "button": "Set semula semua data",
+      "confirmTitle": "Padam semuanya?",
+      "confirmBody": "Ini membuang {names}. Anda boleh membuat asal dalam masa sepuluh saat.",
+      "cancel": "Batal",
+      "confirm": "Padam semuanya",
+      "done": "Semua data dipadam",
+      "doneMessage": "{amount} {count, plural, other {permainan}} dibuang.",
+      "doneMessageDisconnected": "{amount} {count, plural, other {permainan}} dibuang. Segerak diputuskan pada pelayar ini.",
+      "syncedCopy": "Padam juga salinan yang disegerakkan dalam {provider}",
+      "syncedOn": "Segerak kekal hidup. Peranti anda yang lain kehilangan permainan ini pada segerak seterusnya. Eksport sandaran dahulu jika anda tidak pasti.",
+      "syncedOff": "Tanpa ini, segerak diputuskan pada pelayar ini supaya segerak seterusnya tidak dapat membawa permainan kembali.",
+      "undo": "Buat asal"
+    },
+    "playthroughs": {
+      "title": "Permainan",
+      "description": "Cipta, sunting, tukar dan padam permainan.",
+      "manage": "Urus permainan"
+    },
+    "playthroughCount": "{amount} {count, plural, other {permainan}}"
+  },
+  "importDialog": {
+    "title": "Semak import",
+    "fileInfo": "{name}, {size}",
+    "bytes": "{count} B",
+    "kilobytes": "{count} KB",
+    "cancel": "Batal",
+    "close": "Tutup",
+    "merge": "Gabung ke peranti ini",
+    "replace": "Ganti peranti ini",
+    "failedTitle": "Fail ini tidak dapat diimport.",
+    "errors": {
+      "notJson": "Fail ini bukan JSON yang sah.",
+      "playthroughsMissing": "Fail ini bukan sandaran daripada penjejak ini. Ia tiada senarai permainan."
+    },
+    "checksTitle": "Semakan lulus.",
+    "checks": "Fail ini menyenaraikan {read} permainan dan {kept} boleh dibaca.",
+    "skipped": "{amount} {count, plural, other {entri}} dilangkau.",
+    "howToApply": "Cara melaksanakan",
+    "modeLabel": "Mod import",
+    "modes": {
+      "merge": "Gabung",
+      "replace": "Ganti"
+    },
+    "modeNotes": {
+      "merge": "Menambah permainan yang baharu dan mengekalkan salinan yang lebih baharu bagi permainan yang wujud dalam kedua-duanya. Tetapan dan permainan aktif anda kekal.",
+      "replace": "Hanya menggunakan apa yang ada dalam fail. Permainan yang tiada dalam fail dibuang."
+    },
+    "whatChanges": "Apa yang berubah",
+    "columns": {
+      "playthrough": "Permainan",
+      "inFile": "Dalam fail",
+      "onDevice": "Pada peranti",
+      "result": "Hasil"
+    },
+    "notThere": "Tiada",
+    "results": {
+      "added": "Ditambah",
+      "updated": "Dikemas kini daripada fail",
+      "kept": "Dikekalkan",
+      "replaced": "Diganti",
+      "removed": "Dibuang"
+    },
+    "summary": {
+      "added": "{count} ditambah",
+      "updated": "{count} dikemas kini",
+      "kept": "{count} dikekalkan",
+      "replaced": "{count} diganti",
+      "removed": "{count} dibuang"
+    },
+    "noPlaythroughs": "Fail ini tiada permainan.",
+    "undoNote": "Anda boleh membuat asal import dalam masa sepuluh saat."
+  },
+  "about": {
+    "version": "Versi {version}",
+    "summary": "Penjejak kemajuan percuma untuk Game Name. Jejak kemajuan anda merentas beberapa permainan.",
+    "officialGame": "Laman rasmi permainan",
+    "disclaimer": "Projek ini tidak berkaitan dengan, disokong oleh, atau dihubungkan dengan penerbit atau pembangun Game Name."
+  },
+  "region": {
+    "title": "Bahasa dan rantau",
+    "description": "Cara aplikasi memaparkan teks, nombor dan tarikh pada peranti ini. Pilihan ini tidak disimpan bersama permainan anda, tidak dieksport dan tidak disegerakkan.",
+    "language": {
+      "label": "Bahasa",
+      "hint": "Bahasa aplikasi. Nama daripada permainan kekal dalam bahasa Inggeris."
+    },
+    "numberFormat": {
+      "label": "Format nombor",
+      "hint": "Contoh: {example}",
+      "options": {
+        "auto": "Automatik (ikut bahasa)",
+        "us": "1,234,567.89 (AS)",
+        "european": "1.234.567,89 (Eropah)",
+        "french": "1 234 567,89 (Perancis)",
+        "swiss": "1’234’567.89 (Switzerland)",
+        "indian": "12,34,567.89 (India)"
+      }
+    },
+    "dateFormat": {
+      "label": "Format tarikh",
+      "hint": "Contoh: {example}",
+      "options": {
+        "auto": "Automatik (ikut bahasa)",
+        "mdy": "Bulan/Hari/Tahun",
+        "dmy": "Hari/Bulan/Tahun",
+        "ymd": "Tahun-Bulan-Hari"
+      }
+    }
+  }
+}

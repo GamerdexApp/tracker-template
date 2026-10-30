@@ -1,0 +1,70 @@
+{
+  "title": "مسارات اللعب الخاصة بي",
+  "subline": "{count, plural, zero {{amount} مسارات لعب} one {مسار لعب واحد} two {مساران للعب} few {{amount} مسارات لعب} many {{amount} مسار لعب} other {{amount} مسار لعب}}",
+  "sublineActive": "{count, plural, zero {{amount} مسارات لعب، والنشط هو {name}} one {مسار لعب واحد، والنشط هو {name}} two {مساران للعب، والنشط هو {name}} few {{amount} مسارات لعب، والنشط هو {name}} many {{amount} مسار لعب، والنشط هو {name}} other {{amount} مسار لعب، والنشط هو {name}}}",
+  "newPlaythrough": "مسار لعب جديد",
+  "empty": {
+    "title": "لا توجد مسارات لعب بعد",
+    "deletedTitle": "لم يتبق أي مسار لعب",
+    "description": "أنشئ مسار لعب لبدء تتبع تقدمك.",
+    "restore": "استعادة من نسخة احتياطية"
+  },
+  "filters": {
+    "search": "البحث في مسارات اللعب",
+    "sortLabel": "ترتيب حسب",
+    "sort": {
+      "lastModified": "آخر تعديل",
+      "createdAt": "تاريخ الإنشاء",
+      "name": "الاسم"
+    },
+    "showing": "عرض {shown} من {total}",
+    "clear": "مسح البحث"
+  },
+  "noMatch": {
+    "title": "لا توجد مسارات لعب تطابق \"{query}\"",
+    "description": "تحقق من الإملاء أو امسح البحث."
+  },
+  "card": {
+    "active": "نشطة",
+    "openOverview": "فتح نظرة عامة",
+    "setActive": "تعيين كنشطة",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "created": "أُنشئت {date}",
+    "lastModified": "عُدّلت {date}",
+    "switched": "{name} نشطة الآن",
+    "progress": "{done} من {total} عناصر في أعلى مستوى"
+  },
+  "fields": {
+    "name": "اسم مسار اللعب",
+    "namePlaceholder": "مسار لعبي الأول",
+    "nameRequired": "أدخل اسمًا لمسار اللعب.",
+    "description": "الوصف",
+    "descriptionPlaceholder": "أضف وصفًا لمسار اللعب هذا",
+    "cancel": "إلغاء"
+  },
+  "create": {
+    "title": "مسار لعب جديد",
+    "submit": "إنشاء مسار لعب",
+    "makeActive": "جعله مسار اللعب النشط",
+    "done": "تم إنشاء {name}"
+  },
+  "edit": {
+    "title": "تعديل مسار اللعب",
+    "submit": "حفظ",
+    "done": "تم حفظ {name}"
+  },
+  "delete": {
+    "title": "حذف مسار اللعب",
+    "description": "يزيل هذا مسار اللعب من هذا المتصفح.",
+    "question": "حذف {name}؟ سيُزال تقدمه.",
+    "activeNext": "يصبح {next} مسار اللعب النشط.",
+    "activeLast": "لن يكون هناك مسار لعب نشط.",
+    "exportFirst": "صدّر نسخة احتياطية أولًا",
+    "cancel": "إلغاء",
+    "confirm": "حذف مسار اللعب",
+    "done": "تم حذف {name}",
+    "doneMessage": "يمكنك التراجع خلال عشر ثوانٍ.",
+    "undo": "تراجع"
+  }
+}

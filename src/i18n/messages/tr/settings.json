@@ -1,0 +1,156 @@
+{
+  "title": "Ayarlar",
+  "subline": "Tercihler, yedekler ve verilerin",
+  "tabsLabel": "Ayar bölümleri",
+  "tabs": {
+    "sync": "Bulut senkronu",
+    "preferences": "Tercihler",
+    "data": "Yedek ve veri",
+    "about": "Hakkında"
+  },
+  "appearance": {
+    "title": "Görünüm",
+    "description": "Uygulamanın nasıl görüneceğini seç.",
+    "themeLabel": "Tema",
+    "themes": {
+      "light": "Açık",
+      "dark": "Koyu",
+      "system": "Sistem"
+    },
+    "themeNote": "Sistem, cihazını izler. Şu an: {mode}."
+  },
+  "data": {
+    "title": "Veri yönetimi",
+    "storageNote": {
+      "title": "Bu tarayıcıda saklanır.",
+      "body": "Tarayıcı verilerini temizlemek oynanışlarını siler. Ara sıra yedek dışa aktar."
+    },
+    "export": {
+      "title": "Dışa aktar",
+      "description": "Tüm oynanışlarını ve ayarlarını tek dosya olarak indir.",
+      "button": "Tüm oynanışları dışa aktar",
+      "done": "Yedek indirildi"
+    },
+    "import": {
+      "title": "İçe aktar",
+      "fileLabel": "Yedek dosyası",
+      "chooseFile": "Dosya seç",
+      "noFile": "Dosya seçilmedi",
+      "description": "Bir yedek dosyası seç. Bir şey değişmeden önce gözden geçirirsin.",
+      "review": "İçe aktarmayı incele",
+      "merged": "Yedek birleştirildi",
+      "replaced": "Yedek verilerinin yerine geçti",
+      "undo": "Geri al"
+    },
+    "reset": {
+      "title": "Tüm verileri sıfırla",
+      "warning": "Bu tarayıcıdaki tüm oynanışları ve ayarları siler.",
+      "button": "Tüm verileri sıfırla",
+      "confirmTitle": "Her şey silinsin mi?",
+      "confirmBody": "Bu işlem {names} öğesini kaldırır. On saniye boyunca geri alabilirsin.",
+      "cancel": "İptal",
+      "confirm": "Her şeyi sil",
+      "done": "Tüm veriler silindi",
+      "doneMessage": "{amount} {count, plural, one {oynanış} other {oynanış}} kaldırıldı.",
+      "doneMessageDisconnected": "{amount} {count, plural, one {oynanış} other {oynanış}} kaldırıldı. Bu tarayıcıda senkronizasyon bağlantısı kesildi.",
+      "syncedCopy": "{provider} içindeki senkronlanmış kopyayı da sil",
+      "syncedOn": "Senkronizasyon açık kalır. Diğer cihazların bu oynanışları bir sonraki senkronizasyonda kaybeder. Emin değilsen önce yedek dışa aktar.",
+      "syncedOff": "Bunu yapmazsan bu tarayıcıda senkronizasyon bağlantısı kesilir, böylece bir sonraki senkronizasyon oynanışları geri getiremez.",
+      "undo": "Geri al"
+    },
+    "playthroughs": {
+      "title": "Oynanışlar",
+      "description": "Oynanışları oluştur, düzenle, değiştir ve sil.",
+      "manage": "Oynanışları yönet"
+    },
+    "playthroughCount": "{amount} {count, plural, one {oynanış} other {oynanış}}"
+  },
+  "importDialog": {
+    "title": "İçe aktarmayı incele",
+    "fileInfo": "{name}, {size}",
+    "bytes": "{count} B",
+    "kilobytes": "{count} KB",
+    "cancel": "İptal",
+    "close": "Kapat",
+    "merge": "Bu cihaza birleştir",
+    "replace": "Bu cihazın yerine koy",
+    "failedTitle": "Bu dosya içe aktarılamıyor.",
+    "errors": {
+      "notJson": "Bu dosya geçerli bir JSON değil.",
+      "playthroughsMissing": "Bu dosya bu takipçiden alınmış bir yedek değil. İçinde oynanış listesi yok."
+    },
+    "checksTitle": "Kontroller geçti.",
+    "checks": "Dosyada {read} oynanış var ve {kept} tanesi okunabiliyor.",
+    "skipped": "{amount} {count, plural, one {kayıt} other {kayıt}} atlandı.",
+    "howToApply": "Nasıl uygulanacak",
+    "modeLabel": "İçe aktarma modu",
+    "modes": {
+      "merge": "Birleştir",
+      "replace": "Değiştir"
+    },
+    "modeNotes": {
+      "merge": "Yeni oynanışları ekler, her iki yerde de olan oynanışın daha yeni kopyasını tutar. Ayarların ve etkin oynanışın korunur.",
+      "replace": "Yalnızca dosyadakileri kullanır. Dosyada olmayan oynanışlar kaldırılır."
+    },
+    "whatChanges": "Neler değişiyor",
+    "columns": {
+      "playthrough": "Oynanış",
+      "inFile": "Dosyada",
+      "onDevice": "Cihazda",
+      "result": "Sonuç"
+    },
+    "notThere": "Yok",
+    "results": {
+      "added": "Eklendi",
+      "updated": "Dosyadan güncellendi",
+      "kept": "Korundu",
+      "replaced": "Değiştirildi",
+      "removed": "Kaldırıldı"
+    },
+    "summary": {
+      "added": "{count} eklendi",
+      "updated": "{count} güncellendi",
+      "kept": "{count} korundu",
+      "replaced": "{count} değiştirildi",
+      "removed": "{count} kaldırıldı"
+    },
+    "noPlaythroughs": "Dosyada oynanış yok.",
+    "undoNote": "İçe aktarmayı on saniye boyunca geri alabilirsin."
+  },
+  "about": {
+    "version": "Sürüm {version}",
+    "summary": "Game Name için ücretsiz bir ilerleme takipçisi. Birden fazla oynanıştaki ilerlemeni takip et.",
+    "officialGame": "Resmi oyun sitesi",
+    "disclaimer": "Bu proje Game Name'in yayıncısı veya geliştiricileriyle bağlantılı değildir, onlar tarafından onaylanmamıştır."
+  },
+  "region": {
+    "title": "Dil ve bölge",
+    "description": "Uygulamanın bu cihazda metni, sayıları ve tarihleri nasıl gösterdiği. Bu seçimler oynanışlarınla kaydedilmez, dışa aktarılmaz ve senkronize edilmez.",
+    "language": {
+      "label": "Dil",
+      "hint": "Uygulamanın dili. Oyundaki adlar İngilizce kalır."
+    },
+    "numberFormat": {
+      "label": "Sayı biçimi",
+      "hint": "Örnek: {example}",
+      "options": {
+        "auto": "Otomatik (dili izler)",
+        "us": "1,234,567.89 (ABD)",
+        "european": "1.234.567,89 (Avrupa)",
+        "french": "1 234 567,89 (Fransız)",
+        "swiss": "1’234’567.89 (İsviçre)",
+        "indian": "12,34,567.89 (Hint)"
+      }
+    },
+    "dateFormat": {
+      "label": "Tarih biçimi",
+      "hint": "Örnek: {example}",
+      "options": {
+        "auto": "Otomatik (dili izler)",
+        "mdy": "Ay/Gün/Yıl",
+        "dmy": "Gün/Ay/Yıl",
+        "ymd": "Yıl-Ay-Gün"
+      }
+    }
+  }
+}

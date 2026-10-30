@@ -1,0 +1,70 @@
+{
+  "title": "As Minhas Partidas",
+  "subline": "{amount} {count, plural, one {partida} other {partidas}}",
+  "sublineActive": "{amount} {count, plural, one {partida} other {partidas}}, {name} está ativa",
+  "newPlaythrough": "Nova partida",
+  "empty": {
+    "title": "Ainda sem partidas",
+    "deletedTitle": "Já não há partidas",
+    "description": "Cria uma partida para começar a acompanhar o progresso.",
+    "restore": "Restaurar a partir de uma cópia de segurança"
+  },
+  "filters": {
+    "search": "Pesquisar partidas",
+    "sortLabel": "Ordenar por",
+    "sort": {
+      "lastModified": "Última modificação",
+      "createdAt": "Data de criação",
+      "name": "Nome"
+    },
+    "showing": "A mostrar {shown} de {total}",
+    "clear": "Limpar pesquisa"
+  },
+  "noMatch": {
+    "title": "Nenhuma partida corresponde a \"{query}\"",
+    "description": "Verifica a ortografia ou limpa a pesquisa."
+  },
+  "card": {
+    "active": "Ativa",
+    "openOverview": "Abrir resumo",
+    "setActive": "Tornar ativa",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "created": "Criada em {date}",
+    "lastModified": "Modificada em {date}",
+    "switched": "{name} é agora a partida ativa",
+    "progress": "{done} de {total} itens no nível máximo"
+  },
+  "fields": {
+    "name": "Nome da partida",
+    "namePlaceholder": "A minha primeira partida",
+    "nameRequired": "Introduz um nome para a partida.",
+    "description": "Descrição",
+    "descriptionPlaceholder": "Adiciona uma descrição para esta partida",
+    "cancel": "Cancelar"
+  },
+  "create": {
+    "title": "Nova partida",
+    "submit": "Criar partida",
+    "makeActive": "Tornar esta a partida ativa",
+    "done": "{name} criada"
+  },
+  "edit": {
+    "title": "Editar partida",
+    "submit": "Guardar",
+    "done": "{name} guardada"
+  },
+  "delete": {
+    "title": "Eliminar partida",
+    "description": "Isto remove a partida deste navegador.",
+    "question": "Eliminar {name}? O progresso é removido.",
+    "activeNext": "{next} passa a ser a partida ativa.",
+    "activeLast": "Nenhuma partida ficará ativa.",
+    "exportFirst": "Exportar antes uma cópia de segurança",
+    "cancel": "Cancelar",
+    "confirm": "Eliminar partida",
+    "done": "{name} eliminada",
+    "doneMessage": "Podes anular durante dez segundos.",
+    "undo": "Anular"
+  }
+}

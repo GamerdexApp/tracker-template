@@ -1,0 +1,156 @@
+{
+  "title": "Impostazioni",
+  "subline": "Preferenze, backup e dati",
+  "tabsLabel": "Sezioni delle impostazioni",
+  "tabs": {
+    "sync": "Sincronizzazione cloud",
+    "preferences": "Preferenze",
+    "data": "Backup e dati",
+    "about": "Info"
+  },
+  "appearance": {
+    "title": "Aspetto",
+    "description": "Scegli l'aspetto dell'app.",
+    "themeLabel": "Tema",
+    "themes": {
+      "light": "Chiaro",
+      "dark": "Scuro",
+      "system": "Sistema"
+    },
+    "themeNote": "Sistema segue il tuo dispositivo. Ora è {mode}."
+  },
+  "data": {
+    "title": "Gestione dati",
+    "storageNote": {
+      "title": "Salvato in questo browser.",
+      "body": "Cancellare i dati del browser elimina le tue partite. Esporta ogni tanto un backup."
+    },
+    "export": {
+      "title": "Esporta",
+      "description": "Scarica tutte le partite e le tue impostazioni in un unico file.",
+      "button": "Esporta tutte le partite",
+      "done": "Backup scaricato"
+    },
+    "import": {
+      "title": "Importa",
+      "fileLabel": "File di backup",
+      "chooseFile": "Scegli file",
+      "noFile": "Nessun file scelto",
+      "description": "Scegli un file di backup. Lo controlli prima che cambi qualcosa.",
+      "review": "Controlla importazione",
+      "merged": "Backup unito",
+      "replaced": "Il backup ha sostituito i tuoi dati",
+      "undo": "Annulla"
+    },
+    "reset": {
+      "title": "Reimposta tutti i dati",
+      "warning": "Elimina ogni partita e impostazione in questo browser.",
+      "button": "Reimposta tutti i dati",
+      "confirmTitle": "Eliminare tutto?",
+      "confirmBody": "Questo rimuove {names}. Puoi annullare per dieci secondi.",
+      "cancel": "Annulla",
+      "confirm": "Elimina tutto",
+      "done": "Tutti i dati eliminati",
+      "doneMessage": "{amount} {count, plural, one {partita rimossa} other {partite rimosse}}.",
+      "doneMessageDisconnected": "{amount} {count, plural, one {partita rimossa} other {partite rimosse}}. La sincronizzazione è disconnessa su questo browser.",
+      "syncedCopy": "Elimina anche la copia sincronizzata su {provider}",
+      "syncedOn": "La sincronizzazione resta attiva. Gli altri tuoi dispositivi perdono queste partite alla prossima sincronizzazione. Se non sei sicuro, esporta prima un backup.",
+      "syncedOff": "Senza questa opzione, la sincronizzazione viene disconnessa su questo browser, così la prossima sincronizzazione non può riportare indietro le partite.",
+      "undo": "Annulla"
+    },
+    "playthroughs": {
+      "title": "Partite",
+      "description": "Crea, modifica, cambia ed elimina le partite.",
+      "manage": "Gestisci le partite"
+    },
+    "playthroughCount": "{amount} {count, plural, one {partita} other {partite}}"
+  },
+  "importDialog": {
+    "title": "Controlla importazione",
+    "fileInfo": "{name}, {size}",
+    "bytes": "{count} B",
+    "kilobytes": "{count} KB",
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "merge": "Unisci a questo dispositivo",
+    "replace": "Sostituisci questo dispositivo",
+    "failedTitle": "Questo file non può essere importato.",
+    "errors": {
+      "notJson": "Questo file non è un JSON valido.",
+      "playthroughsMissing": "Questo file non è un backup di questo tracker. Non contiene l'elenco delle partite."
+    },
+    "checksTitle": "Controlli superati.",
+    "checks": "Il file elenca {read} partite e {kept} possono essere lette.",
+    "skipped": "{amount} {count, plural, one {voce saltata} other {voci saltate}}.",
+    "howToApply": "Come applicare",
+    "modeLabel": "Modalità di importazione",
+    "modes": {
+      "merge": "Unisci",
+      "replace": "Sostituisci"
+    },
+    "modeNotes": {
+      "merge": "Aggiunge le partite nuove e mantiene la copia più recente di una partita presente in entrambi. Le tue impostazioni e la partita attiva restano.",
+      "replace": "Usa solo ciò che è nel file. Le partite che non sono nel file vengono rimosse."
+    },
+    "whatChanges": "Cosa cambia",
+    "columns": {
+      "playthrough": "Partita",
+      "inFile": "Nel file",
+      "onDevice": "Sul dispositivo",
+      "result": "Risultato"
+    },
+    "notThere": "Assente",
+    "results": {
+      "added": "Aggiunto",
+      "updated": "Aggiornato dal file",
+      "kept": "Mantenuto",
+      "replaced": "Sostituito",
+      "removed": "Rimosso"
+    },
+    "summary": {
+      "added": "{count} aggiunti",
+      "updated": "{count} aggiornati",
+      "kept": "{count} mantenuti",
+      "replaced": "{count} sostituiti",
+      "removed": "{count} rimossi"
+    },
+    "noPlaythroughs": "Il file non contiene partite.",
+    "undoNote": "Puoi annullare l'importazione per dieci secondi."
+  },
+  "about": {
+    "version": "Versione {version}",
+    "summary": "Un tracker gratuito dei progressi per Game Name. Segui i tuoi progressi in più partite.",
+    "officialGame": "Sito ufficiale del gioco",
+    "disclaimer": "Questo progetto non è affiliato, approvato o collegato all'editore o agli sviluppatori di Game Name."
+  },
+  "region": {
+    "title": "Lingua e regione",
+    "description": "Come l'app mostra testo, numeri e date su questo dispositivo. Queste scelte non vengono salvate con le tue partite, né esportate né sincronizzate.",
+    "language": {
+      "label": "Lingua",
+      "hint": "La lingua dell'app. I nomi del gioco restano in inglese."
+    },
+    "numberFormat": {
+      "label": "Formato numeri",
+      "hint": "Esempio: {example}",
+      "options": {
+        "auto": "Automatico (segue la lingua)",
+        "us": "1,234,567.89 (USA)",
+        "european": "1.234.567,89 (europeo)",
+        "french": "1 234 567,89 (francese)",
+        "swiss": "1’234’567.89 (svizzero)",
+        "indian": "12,34,567.89 (indiano)"
+      }
+    },
+    "dateFormat": {
+      "label": "Formato data",
+      "hint": "Esempio: {example}",
+      "options": {
+        "auto": "Automatico (segue la lingua)",
+        "mdy": "Mese/Giorno/Anno",
+        "dmy": "Giorno/Mese/Anno",
+        "ymd": "Anno-Mese-Giorno"
+      }
+    }
+  }
+}

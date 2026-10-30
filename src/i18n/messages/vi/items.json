@@ -1,0 +1,12 @@
+{
+  "title": "Vật phẩm",
+  "subline": "{done} trên {total} vật phẩm ở cấp cao nhất",
+  "levelLabel": "Cấp của {name}",
+  "levelOf": "Cấp {level} trên {max}",
+  "hideDone": "Ẩn vật phẩm ở cấp cao nhất",
+  "topLevel": "Cấp cao nhất",
+  "empty": {
+    "title": "Không có gì để hiển thị",
+    "description": "Mọi vật phẩm đều ở cấp cao nhất. Hãy tắt bộ lọc để xem lại chúng."
+  }
+}

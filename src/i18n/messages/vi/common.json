@@ -1,0 +1,9 @@
+{
+  "gate": {
+    "title": "Chưa có lượt chơi đang dùng",
+    "description": "Hãy chọn một lượt chơi hoặc tạo mới để xem trang này.",
+    "newPlaythrough": "Lượt chơi mới",
+    "choosePlaythrough": "Chọn lượt chơi"
+  },
+  "progressLabel": "Tiến độ {name}"
+}

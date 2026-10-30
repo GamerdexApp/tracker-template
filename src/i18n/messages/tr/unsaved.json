@@ -1,0 +1,10 @@
+{
+  "chip": "Kaydedilmemiş değişiklikler",
+  "leave": {
+    "title": "{count, plural, one {1 kaydedilmemiş değişikliğin var} other {{amount} kaydedilmemiş değişikliğin var}}",
+    "body": "Ayrılmadan önce kaydet veya vazgeç.",
+    "save": "Kaydet ve ayrıl",
+    "discard": "Vazgeç ve ayrıl",
+    "keep": "Düzenlemeye devam et"
+  }
+}

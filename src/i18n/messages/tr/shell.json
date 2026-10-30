@@ -1,0 +1,58 @@
+{
+  "skipToContent": "İçeriğe geç",
+  "closeMenu": "Menüyü kapat",
+  "openMenu": "Menüyü aç",
+  "menuLabel": "Site menüsü",
+  "mainNav": "Ana",
+  "brandTitle": "Game Name",
+  "brandSubtitle": "Tracker",
+  "switcher": {
+    "sectionLabel": "Oynanış",
+    "loading": "Yükleniyor",
+    "none": "Oynanış yok",
+    "noneDetail": "Başlamak için bir tane oluştur",
+    "switch": "Oynanışı değiştir",
+    "playthroughs": "Oynanışlar",
+    "active": "Etkin",
+    "all": "Tüm oynanışlar",
+    "create": "Yeni oynanış"
+  },
+  "footer": {
+    "tagline": "Game Name için ücretsiz bir ilerleme takipçisi. Verilerin tarayıcında kalır, senkronizasyonu açarsan kendi bulut depolamanda tutulur.",
+    "support": "Destek",
+    "about": "Hakkında",
+    "settings": "Ayarlar",
+    "discord": "Discord",
+    "github": "GitHub",
+    "game": "Resmî oyun sitesi",
+    "privacy": "Gizlilik politikası",
+    "terms": "Hizmet şartları",
+    "disclaimerTitle": "Sorumluluk reddi",
+    "disclaimer": "Bu proje Game Name'in yayıncısı veya geliştiricileriyle bağlantılı değildir, onlar tarafından onaylanmamıştır.",
+    "framework": "Ücretsiz oyun ilerleme takipçileri için ortak bir temel olan Gamerdex çatısıyla geliştirildi.",
+    "visitGamerdex": "Gamerdex'i ziyaret et"
+  },
+  "notFound": {
+    "title": "Bu sayfa yok",
+    "body": "Bağlantı eski olabilir ya da yanlış yazılmış olabilir. Oynanışların güvende, hiçbir şey değişmedi.",
+    "toOverview": "Genel Bakışa git",
+    "toPlaythroughs": "Oynanışlara git",
+    "toHome": "Ana sayfaya dön",
+    "didYouMean": "Şunu mu demek istedin",
+    "noPlaythrough": "Seçili oynanış yok, bu yüzden Genel Bakış'ta gösterilecek bir şey yok. Oynanışlar sayfasında birini seç.",
+    "jumpTo": "Veya şuraya git"
+  },
+  "error": {
+    "title": "Bir şeyler ters gitti",
+    "body": "Uygulama bir hatayla karşılaştı. Kayıtlı verilerin değişmedi.",
+    "digest": "özet {digest}",
+    "tryAgain": "Tekrar dene",
+    "download": "Ham veriyi indir",
+    "clear": "Verileri temizle ve yeniden başlat",
+    "confirmTitle": "Tüm kayıtlı veriler temizlensin mi?",
+    "confirmBody": "Bu işlem uygulamanın bu tarayıcıda sakladığı her şeyi siler. Sonradan onarılabilmesi için önce ham verilerin bir kopyası indirilir. Bulut hesabıyla senkronize edilen oynanışlar orada kalır.",
+    "cancel": "İptal",
+    "confirm": "İndir ve temizle",
+    "noData": "Bu tarayıcıda kayıtlı veri yok."
+  }
+}
